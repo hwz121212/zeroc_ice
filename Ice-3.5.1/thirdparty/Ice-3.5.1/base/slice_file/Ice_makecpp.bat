@@ -1,0 +1,1 @@
+FOR %%i IN (.\Ice\*.ice) DO "../../../../tool/slice2cpp.exe" -I. -I../IceInternal/  --output-dir ../slice_generate/Ice --include-dir Ice  --underscore %%i --ice

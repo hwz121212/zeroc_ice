@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\IceInternal\Freeze\BackgroundSaveEvictorI.cpp" />
+    <ClCompile Include="..\IceInternal\Freeze\ConnectionI.cpp" />
+    <ClCompile Include="..\IceInternal\Freeze\EvictorI.cpp" />
+    <ClCompile Include="..\IceInternal\Freeze\EvictorIteratorI.cpp" />
+    <ClCompile Include="..\IceInternal\Freeze\Index.cpp" />
+    <ClCompile Include="..\IceInternal\Freeze\IndexI.cpp" />
+    <ClCompile Include="..\IceInternal\Freeze\MapDb.cpp" />
+    <ClCompile Include="..\IceInternal\Freeze\MapI.cpp" />
+    <ClCompile Include="..\IceInternal\Freeze\ObjectStore.cpp" />
+    <ClCompile Include="..\IceInternal\Freeze\SharedDbEnv.cpp" />
+    <ClCompile Include="..\IceInternal\Freeze\TransactionalEvictorContext.cpp" />
+    <ClCompile Include="..\IceInternal\Freeze\TransactionalEvictorI.cpp" />
+    <ClCompile Include="..\IceInternal\Freeze\TransactionHolder.cpp" />
+    <ClCompile Include="..\IceInternal\Freeze\TransactionI.cpp" />
+    <ClCompile Include="..\IceInternal\Freeze\Util.cpp" />
+    <ClCompile Include="..\slice_generate\Freeze\BackgroundSaveEvictor.cpp" />
+    <ClCompile Include="..\slice_generate\Freeze\Catalog.cpp" />
+    <ClCompile Include="..\slice_generate\Freeze\CatalogData.cpp" />
+    <ClCompile Include="..\slice_generate\Freeze\CatalogIndexList.cpp" />
+    <ClCompile Include="..\slice_generate\Freeze\Connection.cpp" />
+    <ClCompile Include="..\slice_generate\Freeze\ConnectionF.cpp" />
+    <ClCompile Include="..\slice_generate\Freeze\DB.cpp" />
+    <ClCompile Include="..\slice_generate\Freeze\Evictor.cpp" />
+    <ClCompile Include="..\slice_generate\Freeze\EvictorF.cpp" />
+    <ClCompile Include="..\slice_generate\Freeze\EvictorStorage.cpp" />
+    <ClCompile Include="..\slice_generate\Freeze\Exception.cpp" />
+    <ClCompile Include="..\slice_generate\Freeze\PingObject.cpp" />
+    <ClCompile Include="..\slice_generate\Freeze\Transaction.cpp" />
+    <ClCompile Include="..\slice_generate\Freeze\TransactionalEvictor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\IceInternal\Freeze\BackgroundSaveEvictorI.h" />
+    <ClInclude Include="..\IceInternal\Freeze\ConnectionI.h" />
+    <ClInclude Include="..\IceInternal\Freeze\EvictorI.h" />
+    <ClInclude Include="..\IceInternal\Freeze\EvictorIteratorI.h" />
+    <ClInclude Include="..\IceInternal\Freeze\Freeze.h" />
+    <ClInclude Include="..\IceInternal\Freeze\Index.h" />
+    <ClInclude Include="..\IceInternal\Freeze\IndexI.h" />
+    <ClInclude Include="..\IceInternal\Freeze\Initialize.h" />
+    <ClInclude Include="..\IceInternal\Freeze\Map.h" />
+    <ClInclude Include="..\IceInternal\Freeze\MapDb.h" />
+    <ClInclude Include="..\IceInternal\Freeze\MapI.h" />
+    <ClInclude Include="..\IceInternal\Freeze\ObjectStore.h" />
+    <ClInclude Include="..\IceInternal\Freeze\SharedDbEnv.h" />
+    <ClInclude Include="..\IceInternal\Freeze\TransactionalEvictorContext.h" />
+    <ClInclude Include="..\IceInternal\Freeze\TransactionalEvictorI.h" />
+    <ClInclude Include="..\IceInternal\Freeze\TransactionHolder.h" />
+    <ClInclude Include="..\IceInternal\Freeze\TransactionI.h" />
+    <ClInclude Include="..\IceInternal\Freeze\Util.h" />
+    <ClInclude Include="..\slice_generate\Freeze\BackgroundSaveEvictor.h" />
+    <ClInclude Include="..\slice_generate\Freeze\Catalog.h" />
+    <ClInclude Include="..\slice_generate\Freeze\CatalogData.h" />
+    <ClInclude Include="..\slice_generate\Freeze\CatalogIndexList.h" />
+    <ClInclude Include="..\slice_generate\Freeze\Connection.h" />
+    <ClInclude Include="..\slice_generate\Freeze\ConnectionF.h" />
+    <ClInclude Include="..\slice_generate\Freeze\DB.h" />
+    <ClInclude Include="..\slice_generate\Freeze\Evictor.h" />
+    <ClInclude Include="..\slice_generate\Freeze\EvictorF.h" />
+    <ClInclude Include="..\slice_generate\Freeze\EvictorStorage.h" />
+    <ClInclude Include="..\slice_generate\Freeze\Exception.h" />
+    <ClInclude Include="..\slice_generate\Freeze\PingObject.h" />
+    <ClInclude Include="..\slice_generate\Freeze\Transaction.h" />
+    <ClInclude Include="..\slice_generate\Freeze\TransactionalEvictor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\slice_file\Freeze\BackgroundSaveEvictor.ice" />
+    <None Include="..\slice_file\Freeze\CatalogData.ice" />
+    <None Include="..\slice_file\Freeze\Connection.ice" />
+    <None Include="..\slice_file\Freeze\ConnectionF.ice" />
+    <None Include="..\slice_file\Freeze\DB.ice" />
+    <None Include="..\slice_file\Freeze\Evictor.ice" />
+    <None Include="..\slice_file\Freeze\EvictorF.ice" />
+    <None Include="..\slice_file\Freeze\EvictorStorage.ice" />
+    <None Include="..\slice_file\Freeze\Exception.ice" />
+    <None Include="..\slice_file\Freeze\PingObject.ice" />
+    <None Include="..\slice_file\Freeze\Transaction.ice" />
+    <None Include="..\slice_file\Freeze\TransactionalEvictor.ice" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CC970519-3621-40E1-B6D2-DF3F7331F394}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>freeze</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;WIN32_LEAN_AND_MEAN;_DEBUG;_LIB;</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\Ice-3.5.1\base\slice_generate;$(SolutionDir)thirdparty\Ice-3.5.1\base\IceInternal;$(SolutionDir)thirdparty\bzip2-1.0.8\include;$(SolutionDir)thirdparty\berkeleydb-5.3.28\include;$(SolutionDir)thirdparty\expat-R_2_4_8\include;$(SolutionDir)thirdparty\openssl-1.1.1q\include;$(SolutionDir)thirdparty\mcpp-2.7.2\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(SolutionDir)\lib\$(Configuration)\</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;WIN32_LEAN_AND_MEAN;NDEBUG;_LIB;</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\Ice-3.5.1\base\slice_generate;$(SolutionDir)thirdparty\Ice-3.5.1\base\IceInternal;$(SolutionDir)thirdparty\bzip2-1.0.8\include;$(SolutionDir)thirdparty\berkeleydb-5.3.28\include;$(SolutionDir)thirdparty\expat-R_2_4_8\include;$(SolutionDir)thirdparty\openssl-1.1.1q\include;$(SolutionDir)thirdparty\mcpp-2.7.2\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(SolutionDir)\lib\$(Configuration)\</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

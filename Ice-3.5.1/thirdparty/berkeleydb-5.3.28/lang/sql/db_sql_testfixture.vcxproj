@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" ToolsVersion="15.0">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{645ACDDF-B4DA-49E1-A93C-505A88899CA2}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup>
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temp\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temp\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>generated;adapter;sqlite/src;sqlite/ext/fts3;sqlite/ext/rtree;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_CONSOL;STATIC_BUILD;SQLITE_TEST;TCLSH;SQLITE_NO_SYNC;SQLITE_CRASH_TEST;SQLITE_SERVER;SQLITE_PRIVATE;SQLITE_CORE;SQLITE_THREADSAFE=1;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE_UNICODE;UNICODE;SQLITE_MEMDEBUG;;</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>db.lib;db_sql.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>generated;adapter;sqlite/src;sqlite/ext/fts3;sqlite/ext/rtree;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_CONSOL;STATIC_BUILD;SQLITE_TEST;TCLSH;SQLITE_NO_SYNC;SQLITE_CRASH_TEST;SQLITE_SERVER;SQLITE_PRIVATE;SQLITE_CORE;SQLITE_THREADSAFE=1;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE_UNICODE;UNICODE;</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>db.lib;db_sql.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="sqlite\src\alter.c" />
+    <ClCompile Include="sqlite\src\analyze.c" />
+    <ClCompile Include="sqlite\src\attach.c" />
+    <ClCompile Include="sqlite\src\auth.c" />
+    <ClCompile Include="adapter\backup.c" />
+    <ClCompile Include="sqlite\src\bitvec.c" />
+    <ClCompile Include="adapter\btmutex.c" />
+    <ClCompile Include="adapter\btree.c" />
+    <ClCompile Include="sqlite\src\build.c" />
+    <ClCompile Include="sqlite\src\callback.c" />
+    <ClCompile Include="sqlite\src\ctime.c" />
+    <ClCompile Include="sqlite\src\complete.c" />
+    <ClCompile Include="sqlite\src\date.c" />
+    <ClCompile Include="adapter\db_pragma.c" />
+    <ClCompile Include="adapter\db_sequence.c" />
+    <ClCompile Include="sqlite\src\delete.c" />
+    <ClCompile Include="adapter\db_encrypt.c" />
+    <ClCompile Include="sqlite\src\expr.c" />
+    <ClCompile Include="sqlite\src\fault.c" />
+    <ClCompile Include="sqlite\src\fkey.c" />
+    <ClCompile Include="sqlite\ext\fts3\fts3.c" />
+    <ClCompile Include="sqlite\ext\fts3\fts3_aux.c" />
+    <ClCompile Include="sqlite\ext\fts3\fts3_expr.c" />
+    <ClCompile Include="sqlite\ext\fts3\fts3_hash.c" />
+    <ClCompile Include="sqlite\ext\fts3\fts3_icu.c" />
+    <ClCompile Include="sqlite\ext\fts3\fts3_porter.c" />
+    <ClCompile Include="sqlite\ext\fts3\fts3_snippet.c" />
+    <ClCompile Include="sqlite\ext\fts3\fts3_tokenizer1.c" />
+    <ClCompile Include="sqlite\ext\fts3\fts3_tokenizer.c" />
+    <ClCompile Include="sqlite\ext\fts3\fts3_write.c" />
+    <ClCompile Include="sqlite\src\func.c" />
+    <ClCompile Include="sqlite\src\global.c" />
+    <ClCompile Include="sqlite\src\hash.c" />
+    <ClCompile Include="sqlite\src\insert.c" />
+    <ClCompile Include="sqlite\src\journal.c" />
+    <ClCompile Include="sqlite\src\legacy.c" />
+    <ClCompile Include="sqlite\src\loadext.c" />
+    <ClCompile Include="sqlite\src\main.c" />
+    <ClCompile Include="sqlite\src\malloc.c" />
+    <ClCompile Include="sqlite\src\mem0.c" />
+    <ClCompile Include="sqlite\src\mem1.c" />
+    <ClCompile Include="sqlite\src\mem2.c" />
+    <ClCompile Include="sqlite\src\mem3.c" />
+    <ClCompile Include="sqlite\src\mem5.c" />
+    <ClCompile Include="sqlite\src\memjournal.c" />
+    <ClCompile Include="sqlite\src\mutex.c" />
+    <ClCompile Include="sqlite\src\mutex_noop.c" />
+    <ClCompile Include="sqlite\src\mutex_w32.c" />
+    <ClCompile Include="sqlite\src\notify.c" />
+    <ClCompile Include="generated\opcodes.c" />
+    <ClCompile Include="sqlite\src\os.c" />
+    <ClCompile Include="sqlite\src\os_win.c" />
+    <ClCompile Include="adapter\pager.c" />
+    <ClCompile Include="generated\parse.c" />
+    <ClCompile Include="adapter\pcache.c" />
+    <ClCompile Include="adapter\pcache1.c" />
+    <ClCompile Include="sqlite\src\pragma.c" />
+    <ClCompile Include="sqlite\src\prepare.c" />
+    <ClCompile Include="sqlite\src\printf.c" />
+    <ClCompile Include="sqlite\src\random.c" />
+    <ClCompile Include="sqlite\src\resolve.c" />
+    <ClCompile Include="sqlite\src\rowset.c" />
+    <ClCompile Include="sqlite\ext\rtree\rtree.c" />
+    <ClCompile Include="sqlite\src\select.c" />
+    <ClCompile Include="sqlite\src\status.c" />
+    <ClCompile Include="sqlite\src\table.c" />
+    <ClCompile Include="sqlite\src\tokenize.c" />
+    <ClCompile Include="sqlite\src\trigger.c" />
+    <ClCompile Include="sqlite\src\update.c" />
+    <ClCompile Include="sqlite\src\utf.c" />
+    <ClCompile Include="sqlite\src\util.c" />
+    <ClCompile Include="adapter\vacuum.c" />
+    <ClCompile Include="sqlite\src\vdbe.c" />
+    <ClCompile Include="sqlite\src\vdbeapi.c" />
+    <ClCompile Include="sqlite\src\vdbeaux.c" />
+    <ClCompile Include="sqlite\src\vdbeblob.c" />
+    <ClCompile Include="sqlite\src\vdbemem.c" />
+    <ClCompile Include="sqlite\src\vdbetrace.c" />
+    <ClCompile Include="sqlite\src\vtab.c" />
+    <ClCompile Include="adapter\wal.c" />
+    <ClCompile Include="sqlite\src\walker.c" />
+    <ClCompile Include="sqlite\src\where.c" />
+    <ClCompile Include="sqlite\src\tclsqlite.c" />
+    <ClCompile Include="sqlite\src\test_init.c" />
+    <ClCompile Include="sqlite\src\test1.c" />
+    <ClCompile Include="sqlite\src\test2.c" />
+    <ClCompile Include="sqlite\src\test3.c" />
+    <ClCompile Include="sqlite\src\test4.c" />
+    <ClCompile Include="sqlite\src\test5.c" />
+    <ClCompile Include="sqlite\src\test6.c" />
+    <ClCompile Include="sqlite\src\test7.c" />
+    <ClCompile Include="sqlite\src\test8.c" />
+    <ClCompile Include="sqlite\src\test9.c" />
+    <ClCompile Include="sqlite\src\test_async.c" />
+    <ClCompile Include="sqlite\src\test_autoext.c" />
+    <ClCompile Include="sqlite\src\test_backup.c" />
+    <ClCompile Include="sqlite\src\test_btree.c" />
+    <ClCompile Include="sqlite\src\test_config.c" />
+    <ClCompile Include="sqlite\src\test_demovfs.c" />
+    <ClCompile Include="sqlite\src\test_devsym.c" />
+    <ClCompile Include="sqlite\src\test_func.c" />
+    <ClCompile Include="sqlite\src\test_fuzzer.c" />
+    <ClCompile Include="sqlite\src\test_hexio.c" />
+    <ClCompile Include="sqlite\src\test_intarray.c" />
+    <ClCompile Include="sqlite\src\test_journal.c" />
+    <ClCompile Include="sqlite\src\test_loadext.c" />
+    <ClCompile Include="sqlite\src\test_malloc.c" />
+    <ClCompile Include="sqlite\src\test_multiplex.c" />
+    <ClCompile Include="sqlite\src\test_mutex.c" />
+    <ClCompile Include="sqlite\src\test_onefile.c" />
+    <ClCompile Include="sqlite\src\test_osinst.c" />
+    <ClCompile Include="sqlite\src\test_pcache.c" />
+    <ClCompile Include="sqlite\src\test_quota.c" />
+    <ClCompile Include="sqlite\src\test_rtree.c" />
+    <ClCompile Include="sqlite\src\test_schema.c" />
+    <ClCompile Include="sqlite\src\test_server.c" />
+    <ClCompile Include="sqlite\src\test_syscall.c" />
+    <ClCompile Include="sqlite\src\test_superlock.c" />
+    <ClCompile Include="sqlite\src\test_stat.c" />
+    <ClCompile Include="sqlite\src\test_tclvar.c" />
+    <ClCompile Include="sqlite\src\test_thread.c" />
+    <ClCompile Include="sqlite\src\test_vfs.c" />
+    <ClCompile Include="sqlite\src\test_vfstrace.c" />
+    <ClCompile Include="sqlite\src\test_wholenumber.c" />
+    <ClCompile Include="sqlite\src\test_wsd.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

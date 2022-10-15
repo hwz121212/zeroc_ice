@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="IceInternal">
+      <UniqueIdentifier>{bae24f6e-14bc-4b18-ba9c-50ff41bbaa2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IceInternal\IceUtilInternal">
+      <UniqueIdentifier>{e723bdf2-da64-4d0b-83e6-f2de989cf94f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IceInternal\IceUtil">
+      <UniqueIdentifier>{b2e7e0ef-90d7-4dc8-bae5-9559a5a1a1fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\IceInternal\IceUtil\Config.h">
+      <Filter>IceInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\DisableWarnings.h">
+      <Filter>IceInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\IceUtil.h">
+      <Filter>IceInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\ScannerConfig.h">
+      <Filter>IceInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\AbstractMutex.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\ArgVector.h">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\Cache.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\Cond.h">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\ConvertUTF.h">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\CountDownLatch.h">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\CtrlCHandler.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\Exception.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\FileUtil.h">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\Functional.h">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\Handle.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\InputUtil.h">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\Iterator.h">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\Lock.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\Monitor.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\Mutex.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\MutexProtocol.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\MutexPtrLock.h">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\MutexPtrTryLock.h">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\Optional.h">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\Options.h">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\OutputUtil.h">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\Random.h">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\RecMutex.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\ScopedArray.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\Shared.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\StopWatch.h">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\StringUtil.h">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\Thread.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\ThreadException.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\Time.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\Timer.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\Unicode.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\UniquePtr.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IceUtil\UUID.h">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\IceInternal\IceUtil\ArgVector.cpp">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\Cond.cpp">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\ConvertUTF.cpp">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\CountDownLatch.cpp">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\CtrlCHandler.cpp">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\Exception.cpp">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\FileUtil.cpp">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\InputUtil.cpp">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\MutexProtocol.cpp">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\Options.cpp">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\OutputUtil.cpp">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\Random.cpp">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\RecMutex.cpp">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\Shared.cpp">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\StringUtil.cpp">
+      <Filter>IceInternal\IceUtilInternal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\Thread.cpp">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\ThreadException.cpp">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\Time.cpp">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\Timer.cpp">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\Unicode.cpp">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IceUtil\UUID.cpp">
+      <Filter>IceInternal\IceUtil</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

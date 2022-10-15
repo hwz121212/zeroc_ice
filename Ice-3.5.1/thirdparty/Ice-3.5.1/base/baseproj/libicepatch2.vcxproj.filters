@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="IceInternal">
+      <UniqueIdentifier>{0861719d-f577-45cd-9b46-5597268ad780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="slice_file">
+      <UniqueIdentifier>{05f71952-c6fe-4455-bf95-d40350440e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="slice_generate">
+      <UniqueIdentifier>{94370748-167f-4bbe-957f-7acb7f4d413f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\slice_generate\IcePatch2\FileInfo.cpp">
+      <Filter>slice_generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\slice_generate\IcePatch2\FileServer.cpp">
+      <Filter>slice_generate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IcePatch2\ClientUtil.cpp">
+      <Filter>IceInternal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IceInternal\IcePatch2\Util.cpp">
+      <Filter>IceInternal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\slice_generate\IcePatch2\FileInfo.h">
+      <Filter>slice_generate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\slice_generate\IcePatch2\FileServer.h">
+      <Filter>slice_generate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IcePatch2\ClientUtil.h">
+      <Filter>IceInternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IceInternal\IcePatch2\Util.h">
+      <Filter>IceInternal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\slice_file\IcePatch2\FileInfo.ice">
+      <Filter>slice_file</Filter>
+    </None>
+    <None Include="..\slice_file\IcePatch2\FileServer.ice">
+      <Filter>slice_file</Filter>
+    </None>
+  </ItemGroup>
+</Project>
