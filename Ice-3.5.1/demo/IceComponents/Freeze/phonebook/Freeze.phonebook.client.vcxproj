@@ -70,10 +70,7 @@
       <TreatWarningAsError>false</TreatWarningAsError>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <Culture>0x0409</Culture>
-    </ResourceCompile>
+    
     <Link>
       <AdditionalOptions>/FIXED:NO %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>gdi32.lib;User32.lib;Advapi32.lib;ws2_32.lib;Iphlpapi.lib;Rpcrt4.lib;libbzip2.lib;libberkeleydb.lib;libexpat.lib;libiconv.lib;libeay32.lib;libmcpp.lib;libssleay32.lib;libfreeze.lib;libglacier2.lib;libice.lib;libicebox.lib;libicegrid.lib;libicepatch2.lib;libiceutil.lib;libicessl.lib;libicestorm.lib;libicexml.lib;libslice.lib;libicegridfreezedb.lib;libicestormfreezedb.lib;libicedb.lib</AdditionalDependencies>
@@ -99,10 +96,7 @@
       <WarningLevel>Level3</WarningLevel>
       <TreatWarningAsError>false</TreatWarningAsError>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <Culture>0x0409</Culture>
-    </ResourceCompile>
+    
     <Link>
       <AdditionalOptions>/FIXED:NO /IGNORE:4089 %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>gdi32.lib;User32.lib;Advapi32.lib;ws2_32.lib;Iphlpapi.lib;Rpcrt4.lib;libbzip2.lib;libberkeleydb.lib;libexpat.lib;libiconv.lib;libeay32.lib;libmcpp.lib;libssleay32.lib;libfreeze.lib;libglacier2.lib;libice.lib;libicebox.lib;libicegrid.lib;libicepatch2.lib;libiceutil.lib;libicessl.lib;libicestorm.lib;libicexml.lib;libslice.lib;libicegridfreezedb.lib;libicestormfreezedb.lib;libicedb.lib</AdditionalDependencies>

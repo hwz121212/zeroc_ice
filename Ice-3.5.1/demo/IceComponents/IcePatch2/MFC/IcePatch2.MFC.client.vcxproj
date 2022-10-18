@@ -62,11 +62,7 @@
     
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <Midl>
-      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <MkTypLibCompatible>true</MkTypLibCompatible>
-      <SuppressStartupBanner>true</SuppressStartupBanner>
-    </Midl>
+    
     <ClCompile>
       <Optimization>Disabled</Optimization>
       <AdditionalIncludeDirectories>.\;$(SolutionDir)thirdparty\Ice-3.5.1\base\slice_generate;$(SolutionDir)thirdparty\Ice-3.5.1\base\IceInternal;$(SolutionDir)thirdparty\Ice-3.5.1\src;$(SolutionDir)thirdparty\bzip2-1.0.8;$(SolutionDir)thirdparty\berkeley_db-5.3.28;$(SolutionDir)thirdparty\expat-R_2_4_8;$(SolutionDir)thirdparty\openssl-1.0.1g\include;$(SolutionDir)thirdparty\mcpp-2.7.2;.\generated\client</AdditionalIncludeDirectories>
@@ -77,10 +73,7 @@
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <Culture>0x0409</Culture>
-    </ResourceCompile>
+    
     <Link>
       <AdditionalOptions>/FIXED:NO %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>gdi32.lib;User32.lib;Advapi32.lib;ws2_32.lib;Iphlpapi.lib;Rpcrt4.lib;libbzip2.lib;libberkeleydb.lib;libexpat.lib;libiconv.lib;libeay32.lib;libmcpp.lib;libssleay32.lib;libfreeze.lib;libglacier2.lib;libice.lib;libicebox.lib;libicegrid.lib;libicepatch2.lib;libiceutil.lib;libicessl.lib;libicestorm.lib;libicexml.lib;libslice.lib;libicegridfreezedb.lib;libicestormfreezedb.lib;libicedb.lib</AdditionalDependencies>
@@ -96,11 +89,7 @@
   </ItemDefinitionGroup>
   
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <Midl>
-      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <MkTypLibCompatible>true</MkTypLibCompatible>
-      <SuppressStartupBanner>true</SuppressStartupBanner>
-    </Midl>
+    
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -111,10 +100,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <Culture>0x0409</Culture>
-    </ResourceCompile>
+    
     <Link>
       <AdditionalOptions>/FIXED:NO /IGNORE:4089 %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>gdi32.lib;User32.lib;Advapi32.lib;ws2_32.lib;Iphlpapi.lib;Rpcrt4.lib;libbzip2.lib;libberkeleydb.lib;libexpat.lib;libiconv.lib;libeay32.lib;libmcpp.lib;libssleay32.lib;libfreeze.lib;libglacier2.lib;libice.lib;libicebox.lib;libicegrid.lib;libicepatch2.lib;libiceutil.lib;libicessl.lib;libicestorm.lib;libicexml.lib;libslice.lib;libicegridfreezedb.lib;libicestormfreezedb.lib;libicedb.lib</AdditionalDependencies>

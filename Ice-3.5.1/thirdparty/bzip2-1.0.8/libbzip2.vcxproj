@@ -62,18 +62,8 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
     </ClCompile>
-    <Midl>
-      <SuppressStartupBanner>true</SuppressStartupBanner>
-      <PreprocessorDefinitions>NDEBUG;</PreprocessorDefinitions>
-      <MkTypLibCompatible>true</MkTypLibCompatible>
-      <RedirectOutputAndErrors>NUL</RedirectOutputAndErrors>
-      <AdditionalIncludeDirectories>.;..;$(SolutionDir)include;$(SolutionDir)thirdparty;</AdditionalIncludeDirectories>
-    </Midl>
-    <ResourceCompile>
-      <Culture>0x0411</Culture>
-      <PreprocessorDefinitions>NDEBUG;</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.;..;$(SolutionDir)include;$(SolutionDir)thirdparty;</AdditionalIncludeDirectories>
-    </ResourceCompile>
+    
+    
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
     </Bscmake>
@@ -99,18 +89,8 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
     </ClCompile>
-    <Midl>
-      <SuppressStartupBanner>true</SuppressStartupBanner>
-      <PreprocessorDefinitions>_DEBUG;</PreprocessorDefinitions>
-      <MkTypLibCompatible>true</MkTypLibCompatible>
-      <RedirectOutputAndErrors>NUL</RedirectOutputAndErrors>
-      <AdditionalIncludeDirectories>.;..;$(SolutionDir)include;$(SolutionDir)thirdparty;</AdditionalIncludeDirectories>
-    </Midl>
-    <ResourceCompile>
-      <Culture>0x0411</Culture>
-      <PreprocessorDefinitions>_DEBUG;</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.;..;$(SolutionDir)include;$(SolutionDir)thirdparty;</AdditionalIncludeDirectories>
-    </ResourceCompile>
+    
+    
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
     </Bscmake>
