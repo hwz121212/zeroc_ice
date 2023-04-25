@@ -6,40 +6,79 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "icepatch2calc", "thirdparty\Ice-3.5.1\src\IcePatch2\icepatch2calc.vcxproj", "{9791B648-445A-4CB6-AE00-1E70B55BD680}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "icepatch2client", "thirdparty\Ice-3.5.1\src\IcePatch2\icepatch2client.vcxproj", "{827454DF-4A15-4CF9-87AA-2D5FB691B1F0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC970519-3621-40E1-B6D2-DF3F7331F394} = {CC970519-3621-40E1-B6D2-DF3F7331F394}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "icepatch2server", "thirdparty\Ice-3.5.1\src\IcePatch2\icepatch2server.vcxproj", "{E28EF994-763D-4DCC-9CE0-FB61A92DFEEC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC970519-3621-40E1-B6D2-DF3F7331F394} = {CC970519-3621-40E1-B6D2-DF3F7331F394}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icepatch2", "icepatch2", "{32821130-AC0E-42AA-B444-515DFED60571}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icebox", "icebox", "{6AC66605-841D-4104-B2A6-38ADF4A2E862}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "icebox", "thirdparty\Ice-3.5.1\src\IceBox\icebox.vcxproj", "{4D7E72B9-421A-4404-AA3E-C5681072B064}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC970519-3621-40E1-B6D2-DF3F7331F394} = {CC970519-3621-40E1-B6D2-DF3F7331F394}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iceboxadmin", "thirdparty\Ice-3.5.1\src\IceBox\iceboxadmin.vcxproj", "{DDE2ABAA-BA0C-4033-BC27-7D34FC24447F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC970519-3621-40E1-B6D2-DF3F7331F394} = {CC970519-3621-40E1-B6D2-DF3F7331F394}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iceserviceinstall", "thirdparty\Ice-3.5.1\src\iceserviceinstall\iceserviceinstall.vcxproj", "{56A8FD20-2C4E-4424-83D8-32D5D1B7151C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC970519-3621-40E1-B6D2-DF3F7331F394} = {CC970519-3621-40E1-B6D2-DF3F7331F394}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iceserviceinstall", "iceserviceinstall", "{F83D8155-9B15-490E-9026-61175FBBA420}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "slice2cpp", "thirdparty\Ice-3.5.1\src\slice2cpp\slice2cpp.vcxproj", "{A07B46D8-C1FB-4BEC-A885-57168567DBF3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC970519-3621-40E1-B6D2-DF3F7331F394} = {CC970519-3621-40E1-B6D2-DF3F7331F394}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "slice2", "slice2", "{0988D423-A752-4575-B33B-20D171834641}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "slice2cs", "thirdparty\Ice-3.5.1\src\slice2cs\slice2cs.vcxproj", "{0A766B39-5402-41CA-8BE1-25B3B4B18FF5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC970519-3621-40E1-B6D2-DF3F7331F394} = {CC970519-3621-40E1-B6D2-DF3F7331F394}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "slice2freeze", "thirdparty\Ice-3.5.1\src\slice2freeze\slice2freeze.vcxproj", "{315B9353-2A97-46F8-9A9C-D187926F7FFD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC970519-3621-40E1-B6D2-DF3F7331F394} = {CC970519-3621-40E1-B6D2-DF3F7331F394}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "slice2freezej", "thirdparty\Ice-3.5.1\src\slice2freezej\slice2freezej.vcxproj", "{C7D3E5F7-ECB5-4783-ABE1-7DE3158CCFF1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC970519-3621-40E1-B6D2-DF3F7331F394} = {CC970519-3621-40E1-B6D2-DF3F7331F394}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "slice2html", "thirdparty\Ice-3.5.1\src\slice2html\slice2html.vcxproj", "{8D798FC2-8213-4D92-9993-FA37E3D0C987}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC970519-3621-40E1-B6D2-DF3F7331F394} = {CC970519-3621-40E1-B6D2-DF3F7331F394}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "slice2java", "thirdparty\Ice-3.5.1\src\slice2java\slice2java.vcxproj", "{596F6BA7-44C3-46D4-8F54-C5D48523AF8E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "slice2php", "thirdparty\Ice-3.5.1\src\slice2php\slice2php.vcxproj", "{FF244D63-13EF-4E79-8181-D02B12208E8C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC970519-3621-40E1-B6D2-DF3F7331F394} = {CC970519-3621-40E1-B6D2-DF3F7331F394}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "slice2py", "thirdparty\Ice-3.5.1\src\slice2py\slice2py.vcxproj", "{2D04CF4B-EF13-4118-B348-23926DF18633}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC970519-3621-40E1-B6D2-DF3F7331F394} = {CC970519-3621-40E1-B6D2-DF3F7331F394}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "slice2rb", "thirdparty\Ice-3.5.1\src\slice2rb\slice2rb.vcxproj", "{2DC5BC5C-F5CE-4F79-A2E3-139D3C62B8BE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC970519-3621-40E1-B6D2-DF3F7331F394} = {CC970519-3621-40E1-B6D2-DF3F7331F394}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icestorm", "icestorm", "{94CDEC2E-C6B7-41EF-88FD-06DC91F590DF}"
 EndProject
@@ -50,6 +89,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glacier2router", "thirdparty\Ice-3.5.1\src\Glacier2\glacier2router.vcxproj", "{8C68C3C1-4EBA-4F03-9ABB-EE7F41252A85}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "icestormadmin", "thirdparty\Ice-3.5.1\src\IceStorm\icestormadmin.vcxproj", "{DB8EE430-96A9-4A24-9554-6DF4BF545994}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC970519-3621-40E1-B6D2-DF3F7331F394} = {CC970519-3621-40E1-B6D2-DF3F7331F394}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "transformdb", "thirdparty\Ice-3.5.1\src\FreezeScript\transformdb.vcxproj", "{CAD45EC0-1107-4A33-BF39-01E9C9D5872E}"
 EndProject
@@ -60,6 +102,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "icegridregistry", "thirdparty\Ice-3.5.1\src\IceGrid\icegridregistry.vcxproj", "{9AC57C1B-5880-41E6-A45C-8652F47A00D8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "icegridnode", "thirdparty\Ice-3.5.1\src\IceGrid\icegridnode.vcxproj", "{BB724F30-4EDF-4BFA-A27E-F2933EB1B69F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC970519-3621-40E1-B6D2-DF3F7331F394} = {CC970519-3621-40E1-B6D2-DF3F7331F394}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "icegridadmin", "thirdparty\Ice-3.5.1\src\IceGrid\icegridadmin.vcxproj", "{5A22ADA1-8C55-43B5-B3C8-56CBF6454F3C}"
 EndProject
