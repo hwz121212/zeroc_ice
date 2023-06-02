@@ -62,7 +62,7 @@
     
     <Link>
       <AdditionalOptions>/FIXED:NO /IGNORE:4089 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>gdi32.lib;User32.lib;Advapi32.lib;ws2_32.lib;Iphlpapi.lib;Rpcrt4.lib;libbzip2.lib;libberkeleydb.lib;libexpat.lib;libiconv.lib;libeay32.lib;libmcpp.lib;libssleay32.lib;libfreeze.lib;libglacier2.lib;libice.lib;libicebox.lib;libicegrid.lib;libicepatch2.lib;libiceutil.lib;libicessl.lib;libicestorm.lib;libicexml.lib;libslice.lib;libicegridfreezedb.lib;libicestormfreezedb.lib;libicedb.lib</AdditionalDependencies>
+      <AdditionalDependencies>gdi32.lib;User32.lib;Advapi32.lib;ws2_32.lib;Iphlpapi.lib;Rpcrt4.lib;libberkeleydb.lib;libbzip2.lib;libexpat.lib;libiconv.lib;libmcpp.lib;libopenssl.lib;libice.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <SubSystem>Console</SubSystem>
       <RandomizedBaseAddress>true</RandomizedBaseAddress>
@@ -86,7 +86,7 @@
     
     <Link>
       <AdditionalOptions>/FIXED:NO %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>gdi32.lib;User32.lib;Advapi32.lib;ws2_32.lib;Iphlpapi.lib;Rpcrt4.lib;libbzip2.lib;libberkeleydb.lib;libexpat.lib;libiconv.lib;libeay32.lib;libmcpp.lib;libssleay32.lib;libfreeze.lib;libglacier2.lib;libice.lib;libicebox.lib;libicegrid.lib;libicepatch2.lib;libiceutil.lib;libicessl.lib;libicestorm.lib;libicexml.lib;libslice.lib;libicegridfreezedb.lib;libicestormfreezedb.lib;libicedb.lib</AdditionalDependencies>
+      <AdditionalDependencies>gdi32.lib;User32.lib;Advapi32.lib;ws2_32.lib;Iphlpapi.lib;Rpcrt4.lib;libberkeleydb.lib;libbzip2.lib;libexpat.lib;libiconv.lib;libmcpp.lib;libopenssl.lib;libice.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>

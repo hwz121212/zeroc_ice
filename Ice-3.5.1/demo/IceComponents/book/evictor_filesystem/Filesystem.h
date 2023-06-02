@@ -18,8 +18,8 @@
 // </auto-generated>
 //
 
-#ifndef __Filesystem_h__
-#define __Filesystem_h__
+#ifndef ____Filesystem_h__
+#define ____Filesystem_h__
 
 #include <Ice/ProxyF.h>
 #include <Ice/ObjectF.h>
