@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\ascii.h" />
+    <ClInclude Include="include\asciitab.h" />
+    <ClInclude Include="include\expat.h" />
+    <ClInclude Include="include\expat_config.h" />
+    <ClInclude Include="include\expat_external.h" />
+    <ClInclude Include="include\iasciitab.h" />
+    <ClInclude Include="include\internal.h" />
+    <ClInclude Include="include\latin1tab.h" />
+    <ClInclude Include="include\nametab.h" />
+    <ClInclude Include="include\siphash.h" />
+    <ClInclude Include="include\utf8tab.h" />
+    <ClInclude Include="include\winconfig.h" />
+    <ClInclude Include="include\xmlrole.h" />
+    <ClInclude Include="include\xmltok.h" />
+    <ClInclude Include="include\xmltok_impl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\xmlparse.c" />
+    <ClCompile Include="src\xmlrole.c" />
+    <ClCompile Include="src\xmltok.c" />
+    <ClCompile Include="src\xmltok_impl.c" />
+    <ClCompile Include="src\xmltok_ns.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{764CCA10-E1FE-48B2-A2CC-E628AACD8823}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>linux_test</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{2238F9CD-F817-4ECC-BD14-2524D2669B35}</LinuxProjectType>
+    <ProjectName>libexpat</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>include;$(RemoteRootDir)/$(ProjectName)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>XML_POOR_ENTROPY;VER_FILEVERSION=2,4,8,0</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>include;$(RemoteRootDir)/$(ProjectName)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>XML_POOR_ENTROPY;VER_FILEVERSION=2,4,8,0</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
