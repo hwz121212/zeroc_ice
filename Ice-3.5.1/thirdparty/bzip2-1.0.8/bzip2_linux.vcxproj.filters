@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{00575da3-f522-440a-9a3a-bcef393d490a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{1253f3d4-1315-4330-b433-7d0619a9131b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\bzlib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bzlib_private.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\blocksort.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bzlib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\compress.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crctable.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\decompress.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\huffman.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\randtable.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
