@@ -15,7 +15,9 @@
 #include <openssl/crypto.h>
 #include "internal/cryptlib.h"
 
+#if defined(OPENSSL_CPUID_OBJ) && (defined(__arm__) || defined(__arm) || defined(__aarch64__))
 #include "arm_arch.h"
+
 
 unsigned int OPENSSL_armcap_P = 0;
 
@@ -246,4 +248,6 @@ void OPENSSL_cpuid_setup(void)
     sigaction(SIGILL, &ill_oact, NULL);
     sigprocmask(SIG_SETMASK, &oset, NULL);
 }
+#endif
+
 #endif

@@ -11,6 +11,7 @@
 
 #ifndef OSSL_CRYPTO_DSO_CONF_H
 # define OSSL_CRYPTO_DSO_CONF_H
-# define DSO_WIN32
-# define DSO_EXTENSION ".dll"
+//hanwenzhi - 2023.04.14 ×¢ÊÍ
+//# define DSO_WIN32
+//# define DSO_EXTENSION ".dll"
 #endif
