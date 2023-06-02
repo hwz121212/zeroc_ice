@@ -247,7 +247,14 @@ Slice::Gen::generate(const UnitPtr& p)
     if(_impl)
     {
         string fileImplH = _base + "I." + _implHeaderExtension;
-        string fileImplC = _base + "I." + _sourceExtension;
+		//string fileImplC = _base + "I." + _sourceExtension;
+		string fileImplC = _base + "I";
+		if (_include.size())
+		{
+			fileImplC += "_" + _include;
+		}
+		fileImplC += "." + _sourceExtension;
+
         if(!_dir.empty())
         {
             fileImplH = _dir + '/' + fileImplH;
@@ -298,7 +305,14 @@ Slice::Gen::generate(const UnitPtr& p)
     }
 
     string fileH = _base + "." + _headerExtension;
-    string fileC = _base + "." + _sourceExtension;
+    //string fileC = _base + "." + _sourceExtension;
+	string fileC = _base;
+	if (_include.size())
+	{
+		fileC += "_" + _include;
+	}
+	fileC += "." + _sourceExtension;
+	
     if(!_dir.empty())
     {
         fileH = _dir + '/' + fileH;

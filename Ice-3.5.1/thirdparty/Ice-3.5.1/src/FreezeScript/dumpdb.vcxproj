@@ -56,16 +56,18 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;WIN32_LEAN_AND_MEAN;XML_STATIC;_DEBUG;_CONSOLE;</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;WIN32_LEAN_AND_MEAN;_DEBUG;_CONSOLE</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;$(SolutionDir)thirdparty\Ice-3.5.1\base\slice_generate;$(SolutionDir)thirdparty\Ice-3.5.1\base\IceInternal;$(SolutionDir)thirdparty\Ice-3.5.1\src;$(SolutionDir)thirdparty\bzip2-1.0.8\include;$(SolutionDir)thirdparty\berkeleydb-5.3.28\include;$(SolutionDir)thirdparty\expat-R_2_4_8\include;$(SolutionDir)thirdparty\openssl-1.1.1q\include;$(SolutionDir)thirdparty\mcpp-2.7.2\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
-      
-      <AdditionalDependencies>gdi32.lib;User32.lib;Advapi32.lib;ws2_32.lib;Iphlpapi.lib;Rpcrt4.lib;libbzip2.lib;libberkeleydb.lib;libexpat.lib;libiconv.lib;libeay32.lib;libmcpp.lib;libssleay32.lib;libfreeze.lib;libglacier2.lib;libice.lib;libicebox.lib;libicegrid.lib;libicepatch2.lib;libiceutil.lib;libicessl.lib;libicestorm.lib;libicexml.lib;libslice.lib;libicegridfreezedb.lib;libicestormfreezedb.lib;libicedb.lib</AdditionalDependencies>
+      <AdditionalDependencies>gdi32.lib;User32.lib;Advapi32.lib;ws2_32.lib;Iphlpapi.lib;Rpcrt4.lib;libberkeleydb.lib;libbzip2.lib;libexpat.lib;libiconv.lib;libmcpp.lib;libopenssl.lib;libice.lib</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>copy  $(TargetPath) $(SolutionDir)tool\$(TargetFileName) /Y</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -75,7 +77,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;WIN32_LEAN_AND_MEAN;XML_STATIC;NDEBUG;_CONSOLE;</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;WIN32_LEAN_AND_MEAN;NDEBUG;_CONSOLE</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;$(SolutionDir)thirdparty\Ice-3.5.1\base\slice_generate;$(SolutionDir)thirdparty\Ice-3.5.1\base\IceInternal;$(SolutionDir)thirdparty\Ice-3.5.1\src;$(SolutionDir)thirdparty\bzip2-1.0.8\include;$(SolutionDir)thirdparty\berkeleydb-5.3.28\include;$(SolutionDir)thirdparty\expat-R_2_4_8\include;$(SolutionDir)thirdparty\openssl-1.1.1q\include;$(SolutionDir)thirdparty\mcpp-2.7.2\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -84,9 +86,11 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
-      
-      <AdditionalDependencies>gdi32.lib;User32.lib;Advapi32.lib;ws2_32.lib;Iphlpapi.lib;Rpcrt4.lib;libbzip2.lib;libberkeleydb.lib;libexpat.lib;libiconv.lib;libeay32.lib;libmcpp.lib;libssleay32.lib;libfreeze.lib;libglacier2.lib;libice.lib;libicebox.lib;libicegrid.lib;libicepatch2.lib;libiceutil.lib;libicessl.lib;libicestorm.lib;libicexml.lib;libslice.lib;libicegridfreezedb.lib;libicestormfreezedb.lib;libicedb.lib</AdditionalDependencies>
+      <AdditionalDependencies>gdi32.lib;User32.lib;Advapi32.lib;ws2_32.lib;Iphlpapi.lib;Rpcrt4.lib;libberkeleydb.lib;libbzip2.lib;libexpat.lib;libiconv.lib;libmcpp.lib;libopenssl.lib;libice.lib</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>copy  $(TargetPath) $(SolutionDir)tool\$(TargetFileName) /Y</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AssignVisitor.h" />

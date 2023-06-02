@@ -18,7 +18,7 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>icessl</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-	<PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -68,8 +68,11 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <ImportLibrary>$(SolutionDir)lib\$(Configuration)\$(TargetName).lib</ImportLibrary>
-      <AdditionalDependencies>gdi32.lib;User32.lib;Advapi32.lib;ws2_32.lib;Iphlpapi.lib;Rpcrt4.lib;libbzip2.lib;libberkeleydb.lib;libexpat.lib;libiconv.lib;libeay32.lib;libmcpp.lib;libssleay32.lib;libfreeze.lib;libglacier2.lib;libice.lib;libicebox.lib;libicegrid.lib;libicepatch2.lib;libiceutil.lib;libicessl.lib;libicestorm.lib;libicexml.lib;libslice.lib;libicegridfreezedb.lib;libicestormfreezedb.lib;libicedb.lib</AdditionalDependencies>
+      <AdditionalDependencies>gdi32.lib;User32.lib;Advapi32.lib;ws2_32.lib;Iphlpapi.lib;Rpcrt4.lib;libbzip2.lib;libberkeleydb.lib;libexpat.lib;libiconv.lib;libmcpp.lib;libopenssl.lib;libice.lib</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>copy  $(TargetPath) $(SolutionDir)tool\$(TargetFileName) /Y</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -89,8 +92,11 @@
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <ImportLibrary>$(SolutionDir)lib\$(Configuration)\$(TargetName).lib</ImportLibrary>
-      <AdditionalDependencies>gdi32.lib;User32.lib;Advapi32.lib;ws2_32.lib;Iphlpapi.lib;Rpcrt4.lib;libbzip2.lib;libberkeleydb.lib;libexpat.lib;libiconv.lib;libeay32.lib;libmcpp.lib;libssleay32.lib;libfreeze.lib;libglacier2.lib;libice.lib;libicebox.lib;libicegrid.lib;libicepatch2.lib;libiceutil.lib;libicessl.lib;libicestorm.lib;libicexml.lib;libslice.lib;libicegridfreezedb.lib;libicestormfreezedb.lib;libicedb.lib</AdditionalDependencies>
+      <AdditionalDependencies>gdi32.lib;User32.lib;Advapi32.lib;ws2_32.lib;Iphlpapi.lib;Rpcrt4.lib;libbzip2.lib;libberkeleydb.lib;libexpat.lib;libiconv.lib;libmcpp.lib;libopenssl.lib;libice.lib</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>copy  $(TargetPath) $(SolutionDir)tool\$(TargetFileName) /Y</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

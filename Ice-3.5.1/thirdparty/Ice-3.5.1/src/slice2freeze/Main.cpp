@@ -1374,7 +1374,12 @@ gen(const string& name, const UnitPtr& u, const vector<string>& includePaths, co
     fileH += "." + headerExtension;
     string includeH = fileH;
     string fileC = args[0];
-    fileC += "." + sourceExtension;
+    //fileC += "." + sourceExtension;
+	if (include.size())
+	{
+		fileC += "_" + include;
+	}
+	fileC += "." + sourceExtension;
 
     if(!output.empty())
     {
