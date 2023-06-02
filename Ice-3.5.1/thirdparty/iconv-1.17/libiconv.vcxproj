@@ -141,8 +141,8 @@
     </CustomBuildStep>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\libcharset\localcharset.c" />
     <ClCompile Include="src\iconv.c" />
+    <ClCompile Include="src\localcharset.c" />
     <ClCompile Include="src\relocatable.c" />
   </ItemGroup>
   <ItemGroup>
