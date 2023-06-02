@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{e880d2d9-8e07-4c01-968f-98f7873d53f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{9ed2c2c0-8593-4d3f-92a4-d3bacc335026}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\configed.H">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\internal.H">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mcpp_lib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mcpp_out.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\system.H">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\directive.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eval.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\expand.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mbchar.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\support.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
