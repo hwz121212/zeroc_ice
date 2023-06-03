@@ -1,0 +1,2489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{2a1fda01-126e-458f-aec1-b1ed5b203daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\IceInternal">
+      <UniqueIdentifier>{442e5923-64e2-4fd3-b33f-063d5b78cbd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\IceInternal\IceUtil">
+      <UniqueIdentifier>{eea192ca-5e3e-4954-ae0b-9e3c4c15d5d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\IceInternal\Slice">
+      <UniqueIdentifier>{415d5e6c-bbf2-4371-bf6e-fe7ea9f82ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\IceInternal\IceXML">
+      <UniqueIdentifier>{0a57d58a-7e3b-4a77-82b1-f419622bccef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_file">
+      <UniqueIdentifier>{d05aa975-fce1-4c3f-906d-209a4cbad306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_generate">
+      <UniqueIdentifier>{994724b4-5772-4d9c-aa19-ac5bd394ccef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\IceInternal\Ice">
+      <UniqueIdentifier>{5a122b27-dfa4-4c58-8b2b-9e3f38fedbe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_generate\Ice">
+      <UniqueIdentifier>{257579b1-5adb-443d-9d6e-a956c9867cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_file\Ice">
+      <UniqueIdentifier>{65d3d660-598f-4700-97ee-73b01221ac10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\IceInternal\IceBox">
+      <UniqueIdentifier>{8a87a711-8e23-4b61-aa2f-0f9533792b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_generate\IceBox">
+      <UniqueIdentifier>{ff5415f6-9283-49ab-bcb2-fb9f129fb1cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_file\IceBox">
+      <UniqueIdentifier>{86650840-b563-48b9-a754-37fbad069c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\IceInternal\IcePatch2">
+      <UniqueIdentifier>{f1103e7e-bfe9-4343-9a06-7741ab565519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_generate\IcePatch2">
+      <UniqueIdentifier>{24b715bc-8685-44ab-b3f2-29baad15d384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_file\IcePatch2">
+      <UniqueIdentifier>{766f82cf-bae6-4369-ae4f-e0c90278a826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\IceInternal\IceSSL">
+      <UniqueIdentifier>{2eb0e224-84d4-4076-982d-eaae64220275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_generate\IceSSL">
+      <UniqueIdentifier>{6c60c2f8-91bc-4eb4-9f7f-a0440041551d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_file\IceSSL">
+      <UniqueIdentifier>{7b1a862d-4fc5-444a-aa5d-efed87073abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\IceInternal\Freeze">
+      <UniqueIdentifier>{e950678d-ba53-428f-902b-381bd7bfb383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_generate\Freeze">
+      <UniqueIdentifier>{23ddd9de-998f-4a90-b273-b02f94a6d84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_file\Freeze">
+      <UniqueIdentifier>{2b570649-6963-479b-8863-5977e7b446a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\IceInternal\Glacier2">
+      <UniqueIdentifier>{7d49bf4d-9b83-425f-bac8-409bb8861215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_file\Glacier2">
+      <UniqueIdentifier>{704b0e87-97db-4729-877c-8d97b48f1700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_generate\Glacier2">
+      <UniqueIdentifier>{20a947ac-7399-4e35-b2ed-afe67f8350d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\IceInternal\IceDB">
+      <UniqueIdentifier>{d0ad6939-77f8-4ace-be6e-cba1c82cd0ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\IceInternal\IceGrid">
+      <UniqueIdentifier>{c4bce552-a13a-4698-9034-e2d3305e8f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_file\IceGrid">
+      <UniqueIdentifier>{b0870271-4b4e-4fdc-8d76-b0af49514cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_generate\IceGrid">
+      <UniqueIdentifier>{ae105f01-d775-4ba6-8640-c2147c7065c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\IceInternal\IceStorm">
+      <UniqueIdentifier>{a4121c6e-23a3-49cc-94c6-7d5119b5178d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_generate\IceStorm">
+      <UniqueIdentifier>{fa56c016-2a3b-40b8-9337-b6b95f5aa9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_file\IceStorm">
+      <UniqueIdentifier>{bb9529a8-7e37-4cf7-a3dc-608f45d360ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_generate\IceGridFreezeDB">
+      <UniqueIdentifier>{75356990-a0b1-4726-8356-5b3380ac88c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_generate\IceStormFreezeDB">
+      <UniqueIdentifier>{a15b4c15-0dac-4fac-a1e6-882e6531fd63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\IceInternal\IceGridSqlDB">
+      <UniqueIdentifier>{b85cd610-f211-4841-a4dd-881a8fa0905b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base\IceInternal\IceUtil\ArgVector.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\Cond.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\ConvertUTF.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\CountDownLatch.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\CtrlCHandler.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\Exception.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\FileUtil.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\InputUtil.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\MutexProtocol.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\Options.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\OutputUtil.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\Random.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\RecMutex.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\Shared.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\StringUtil.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\Thread.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\ThreadException.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\Time.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\Timer.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\Unicode.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceUtil\UUID.cpp">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Slice\Checksum_Slice.cpp">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Slice\CPlusPlusUtil_Slice.cpp">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Slice\CsUtil_Slice.cpp">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Slice\DotNetNames_Slice.cpp">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Slice\FileTracker_Slice.cpp">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Slice\Grammar_Slice.cpp">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Slice\JavaUtil_Slice.cpp">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Slice\MD5_Slice.cpp">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Slice\MD5I_Slice.cpp">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Slice\Parser_Slice.cpp">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Slice\PHPUtil_Slice.cpp">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Slice\Preprocessor_Slice.cpp">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Slice\PythonUtil_Slice.cpp">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Slice\RubyUtil_Slice.cpp">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Slice\Scanner_Slice.cpp">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Slice\Util_Slice.cpp">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceXML\Parser.cpp">
+      <Filter>base\IceInternal\IceXML</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Acceptor_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Application_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Base64_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\BasicStream_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Buffer_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\CommunicatorI_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\ConnectionFactory_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\ConnectionI_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\ConnectionMonitor_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\ConnectionRequestHandler_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Connector_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\ConnectRequestHandler_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\DefaultsAndOverrides_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Direct_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\DispatchInterceptor_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\DynamicLibrary_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\EndpointFactory_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\EndpointFactoryManager_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\EndpointI_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\EventHandler_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Exception_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\FactoryTable_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\FactoryTableInit_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\GC_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\ImplicitContextI_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Incoming_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\IncomingAsync_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Initialize_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Instance_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\InstrumentationI_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\LocalObject_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\LocatorInfo_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\LoggerI_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\LoggerUtil_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\MetricsAdminI_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\MetricsObserverI_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Network_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Object_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\ObjectAdapterFactory_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\ObjectAdapterI_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\ObjectFactoryManager_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\ObserverHelper_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\OpaqueEndpointI_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Outgoing_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\OutgoingAsync_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\PluginManagerI_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\PropertiesAdminI_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\PropertiesI_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\PropertyNames_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Protocol_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\ProtocolPluginFacade_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Proxy_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\ProxyFactory_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Reference_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\ReferenceFactory_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\RequestHandler_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\RetryQueue_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\RouterInfo_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Selector_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\ServantManager_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Service_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\SliceChecksums_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\SlicedData_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Stream_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\StreamI_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\StringConverter_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\SysLoggerI.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\TcpAcceptor_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\TcpConnector_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\TcpEndpointI_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\TcpTransceiver_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\ThreadPool_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\TraceLevels_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\TraceUtil_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\Transceiver_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\UdpConnector_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\UdpEndpointI_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Ice\UdpTransceiver_Ice.cpp">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\BuiltinSequences_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\Communicator_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\CommunicatorF_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\Connection_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\ConnectionF_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\Current_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\Endpoint_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\EndpointF_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\EndpointTypes_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\FacetMap_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\Identity_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\ImplicitContext_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\ImplicitContextF_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\Instrumentation_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\InstrumentationF_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\LocalException_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\Locator_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\LocatorF_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\Logger_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\LoggerF_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\Metrics_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\ObjectAdapter_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\ObjectAdapterF_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\ObjectFactory_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\ObjectFactoryF_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\Plugin_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\PluginF_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\Process_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\ProcessF_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\Properties_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\PropertiesAdmin_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\PropertiesF_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\Router_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\RouterF_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\ServantLocator_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\ServantLocatorF_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\SliceChecksumDict_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\Stats_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\StatsF_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Ice\Version_Ice.cpp">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceBox\Exception_IceBox.cpp">
+      <Filter>base\IceInternal\IceBox</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceBox\IceBox_IceBox.cpp">
+      <Filter>base\slice_generate\IceBox</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IcePatch2\ClientUtil_IcePatch2.cpp">
+      <Filter>base\IceInternal\IcePatch2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IcePatch2\Util_IcePatch2.cpp">
+      <Filter>base\IceInternal\IcePatch2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IcePatch2\FileInfo_IcePatch2.cpp">
+      <Filter>base\slice_generate\IcePatch2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IcePatch2\FileServer_IcePatch2.cpp">
+      <Filter>base\slice_generate\IcePatch2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceSSL\AcceptorI_IceSSL.cpp">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceSSL\Certificate_IceSSL.cpp">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceSSL\ConnectorI_IceSSL.cpp">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceSSL\EndpointI_IceSSL.cpp">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceSSL\Instance_IceSSL.cpp">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceSSL\PluginI_IceSSL.cpp">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceSSL\RFC2253_IceSSL.cpp">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceSSL\TransceiverI_IceSSL.cpp">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceSSL\TrustManager_IceSSL.cpp">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceSSL\Util_IceSSL.cpp">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceSSL\ConnectionInfo_IceSSL.cpp">
+      <Filter>base\slice_generate\IceSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceSSL\EndpointInfo_IceSSL.cpp">
+      <Filter>base\slice_generate\IceSSL</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Freeze\BackgroundSaveEvictorI_Freeze.cpp">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Freeze\ConnectionI_Freeze.cpp">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Freeze\EvictorI_Freeze.cpp">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Freeze\EvictorIteratorI_Freeze.cpp">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Freeze\Index_Freeze.cpp">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Freeze\IndexI_Freeze.cpp">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Freeze\MapDb_Freeze.cpp">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Freeze\MapI_Freeze.cpp">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Freeze\ObjectStore_Freeze.cpp">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Freeze\SharedDbEnv_Freeze.cpp">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Freeze\TransactionalEvictorContext_Freeze.cpp">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Freeze\TransactionalEvictorI_Freeze.cpp">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Freeze\TransactionHolder_Freeze.cpp">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Freeze\TransactionI_Freeze.cpp">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Freeze\Util_Freeze.cpp">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Freeze\BackgroundSaveEvictor_Freeze.cpp">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Freeze\Catalog_Freeze.cpp">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Freeze\CatalogData_Freeze.cpp">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Freeze\CatalogIndexList_Freeze.cpp">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Freeze\Connection_Freeze.cpp">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Freeze\ConnectionF_Freeze.cpp">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Freeze\DB_Freeze.cpp">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Freeze\Evictor_Freeze.cpp">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Freeze\EvictorF_Freeze.cpp">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Freeze\EvictorStorage_Freeze.cpp">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Freeze\Exception_Freeze.cpp">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Freeze\PingObject_Freeze.cpp">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Freeze\Transaction_Freeze.cpp">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Freeze\TransactionalEvictor_Freeze.cpp">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Glacier2\Application_Glacier2.cpp">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Glacier2\SessionHelper_Glacier2.cpp">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Glacier2\Metrics_Glacier2.cpp">
+      <Filter>base\slice_generate\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Glacier2\PermissionsVerifier_Glacier2.cpp">
+      <Filter>base\slice_generate\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Glacier2\PermissionsVerifierF_Glacier2.cpp">
+      <Filter>base\slice_generate\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Glacier2\Router_Glacier2.cpp">
+      <Filter>base\slice_generate\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Glacier2\RouterF_Glacier2.cpp">
+      <Filter>base\slice_generate\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Glacier2\Session_Glacier2.cpp">
+      <Filter>base\slice_generate\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\Glacier2\SSLInfo_Glacier2.cpp">
+      <Filter>base\slice_generate\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceDB\FreezeTypes_IceDB.cpp">
+      <Filter>base\IceInternal\IceDB</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceDB\IceDB_IceDB.cpp">
+      <Filter>base\IceInternal\IceDB</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceDB\SqlTypes.cpp">
+      <Filter>base\IceInternal\IceDB</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\Activator_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\AdapterCache_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\AdminCallbackRouter_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\AdminI_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\AdminSessionI_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\Allocatable_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\AllocatableObjectCache_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\Database_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\DescriptorBuilder_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\DescriptorHelper_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\DescriptorParser_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\FileCache_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\FileParserI_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\FileUserAccountMapperI_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\Grammar_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\InternalRegistryI_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\LocatorI_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\LocatorRegistryI_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\NodeCache_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\NodeI_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\NodeServerAdminRouter_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\NodeSessionI_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\NodeSessionManager_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\ObjectCache_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\Parser_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\PlatformInfo_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\QueryI_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\ReapThread_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\RegistryI_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\RegistryServerAdminRouter_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\ReplicaCache_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\ReplicaSessionI_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\ReplicaSessionManager_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\Scanner_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\ServerAdapterI_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\ServerCache_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\ServerI_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\SessionI_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\SessionManager_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\SessionServantManager_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\Topics_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\TraceLevels_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\Util_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\WaitQueue_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGrid\WellKnownObjectsManager_IceGrid.cpp">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceGrid\Admin_IceGrid.cpp">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceGrid\Descriptor_IceGrid.cpp">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceGrid\Exception_IceGrid.cpp">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceGrid\FileParser_IceGrid.cpp">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceGrid\Internal_IceGrid.cpp">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceGrid\Locator_IceGrid.cpp">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceGrid\Observer_IceGrid.cpp">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceGrid\Query_IceGrid.cpp">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceGrid\Registry_IceGrid.cpp">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceGrid\Session_IceGrid.cpp">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceGrid\UserAccountMapper_IceGrid.cpp">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceStorm\Grammar_IceStorm.cpp">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceStorm\Instance_IceStorm.cpp">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceStorm\InstrumentationI_IceStorm.cpp">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceStorm\NodeI_IceStorm.cpp">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceStorm\Observers_IceStorm.cpp">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceStorm\Parser_IceStorm.cpp">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceStorm\Scanner_IceStorm.cpp">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceStorm\Service_IceStorm.cpp">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceStorm\Subscriber_IceStorm.cpp">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceStorm\TopicI_IceStorm.cpp">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceStorm\TopicManagerI_IceStorm.cpp">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceStorm\TraceLevels_IceStorm.cpp">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceStorm\TransientTopicI_IceStorm.cpp">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceStorm\TransientTopicManagerI_IceStorm.cpp">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceStorm\Util_IceStorm.cpp">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceStorm\dummy_IceStorm.cpp">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceStorm\dummy2_IceStorm.cpp">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceStorm\Election_IceStorm.cpp">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceStorm\IceStorm_IceStorm.cpp">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceStorm\IceStormInternal_IceStorm.cpp">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceStorm\Instrumentation_IceStorm.cpp">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceStorm\LinkRecord_IceStorm.cpp">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceStorm\LLURecord_IceStorm.cpp">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceStorm\Metrics_IceStorm.cpp">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceStorm\SubscriberRecord_IceStorm.cpp">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceStorm\V31Format_IceStorm.cpp">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceStorm\V32Format_IceStorm.cpp">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceGridFreezeDB\IdentityObjectInfoDict_IceGridFreezeDB.cpp">
+      <Filter>base\slice_generate\IceGridFreezeDB</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceGridFreezeDB\SerialsDict_IceGridFreezeDB.cpp">
+      <Filter>base\slice_generate\IceGridFreezeDB</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceGridFreezeDB\StringAdapterInfoDict_IceGridFreezeDB.cpp">
+      <Filter>base\slice_generate\IceGridFreezeDB</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceGridFreezeDB\StringApplicationInfoDict_IceGridFreezeDB.cpp">
+      <Filter>base\slice_generate\IceGridFreezeDB</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceStormFreezeDB\LLUMap_IceStormFreezeDB.cpp">
+      <Filter>base\slice_generate\IceStormFreezeDB</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceStormFreezeDB\SubscriberMap_IceStormFreezeDB.cpp">
+      <Filter>base\slice_generate\IceStormFreezeDB</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceStormFreezeDB\V31FormatDB_IceStormFreezeDB.cpp">
+      <Filter>base\slice_generate\IceStormFreezeDB</Filter>
+    </ClCompile>
+    <ClCompile Include="base\slice_generate\IceStormFreezeDB\V32FormatDB_IceStormFreezeDB.cpp">
+      <Filter>base\slice_generate\IceStormFreezeDB</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGridSqlDB\SqlDB.cpp">
+      <Filter>base\IceInternal\IceGridSqlDB</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGridSqlDB\SqlIdentityObjectInfoDict.cpp">
+      <Filter>base\IceInternal\IceGridSqlDB</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGridSqlDB\SqlStringAdapterInfoDict.cpp">
+      <Filter>base\IceInternal\IceGridSqlDB</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGridSqlDB\SqlStringApplicationInfoDict.cpp">
+      <Filter>base\IceInternal\IceGridSqlDB</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base\IceInternal\IceUtil\AbstractMutex.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\ArgVector.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Cache.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Cond.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Config.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\ConvertUTF.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\CountDownLatch.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\CtrlCHandler.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\DisableWarnings.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Exception.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\FileUtil.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Functional.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Handle.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\IceUtil.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\InputUtil.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Iterator.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Lock.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Monitor.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Mutex.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\MutexProtocol.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\MutexPtrLock.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\MutexPtrTryLock.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Optional.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Options.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\OutputUtil.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Random.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\RecMutex.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\ScannerConfig.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\ScopedArray.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Shared.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\StopWatch.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\StringUtil.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Thread.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\ThreadException.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Time.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Timer.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\Unicode.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\UniquePtr.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceUtil\UUID.h">
+      <Filter>base\IceInternal\IceUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Slice\Checksum.h">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Slice\CPlusPlusUtil.h">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Slice\CsUtil.h">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Slice\DotNetNames.h">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Slice\FileTracker.h">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Slice\Grammar.h">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Slice\GrammarUtil.h">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Slice\JavaUtil.h">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Slice\MD5.h">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Slice\MD5I.h">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Slice\Parser.h">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Slice\PHPUtil.h">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Slice\Preprocessor.h">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Slice\PythonUtil.h">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Slice\RubyUtil.h">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Slice\Util.h">
+      <Filter>base\IceInternal\Slice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceXML\Parser.h">
+      <Filter>base\IceInternal\IceXML</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Acceptor.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\AcceptorF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Application.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Base64.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\BasicStream.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Buffer.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\CommunicatorAsync.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\CommunicatorI.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Config.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ConnectionAsync.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ConnectionFactory.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ConnectionFactoryF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ConnectionI.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ConnectionIF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ConnectionMonitor.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ConnectionMonitorF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ConnectionRequestHandler.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Connector.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ConnectorF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ConnectRequestHandler.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\DefaultsAndOverrides.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\DefaultsAndOverridesF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Direct.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Dispatcher.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\DispatchInterceptor.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\DynamicLibrary.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\DynamicLibraryF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\EndpointFactory.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\EndpointFactoryF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\EndpointFactoryManager.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\EndpointFactoryManagerF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\EndpointI.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\EndpointIF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\EventHandler.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\EventHandlerF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\EventLoggerMsg.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Exception.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\FactoryTable.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\FactoryTableInit.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Format.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Functional.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\GC.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\GCCountMap.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\GCShared.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Handle.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\HashUtil.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Ice.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\IconvStringConverter.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ImplicitContextI.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Incoming.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\IncomingAsync.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\IncomingAsyncF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\IncomingRequest.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Initialize.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Instance.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\InstanceF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\InstrumentationI.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\LocalObject.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\LocalObjectF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\LocatorInfo.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\LocatorInfoF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\LoggerI.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\LoggerUtil.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\MetricsAdminI.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\MetricsFunctional.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\MetricsObserverI.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\NativePropertiesAdmin.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Network.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\NetworkF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Object.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ObjectAdapterFactory.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ObjectAdapterFactoryF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ObjectAdapterI.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ObjectF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ObjectFactoryManager.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ObjectFactoryManagerF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ObserverHelper.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\OpaqueEndpointI.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Outgoing.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\OutgoingAsync.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\OutgoingAsyncF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\PluginManagerI.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\PropertiesAdminI.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\PropertiesI.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\PropertyNames.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Protocol.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ProtocolPluginFacade.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ProtocolPluginFacadeF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Proxy.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ProxyF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ProxyFactory.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ProxyFactoryF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ProxyHandle.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Reference.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ReferenceF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ReferenceFactory.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ReferenceFactoryF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ReplyStatus.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\RequestHandler.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\RequestHandlerF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\RetryQueue.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\RetryQueueF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\RouterInfo.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\RouterInfoF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Selector.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ServantManager.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ServantManagerF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Service.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\SharedContext.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\SliceChecksums.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\SlicedData.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\SlicedDataF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Stream.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\StreamF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\StreamHelpers.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\StreamI.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\StringConverter.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\SysLoggerI.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\TcpAcceptor.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\TcpConnector.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\TcpEndpointI.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\TcpTransceiver.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ThreadPool.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\ThreadPoolF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\TraceLevels.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\TraceLevelsF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\TraceUtil.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\Transceiver.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\TransceiverF.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\UdpConnector.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\UdpEndpointI.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\UdpTransceiver.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\UndefSysMacros.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Ice\UserExceptionFactory.h">
+      <Filter>base\IceInternal\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\BuiltinSequences.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\Communicator.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\CommunicatorF.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\Connection.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\ConnectionF.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\Current.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\Endpoint.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\EndpointF.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\EndpointTypes.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\FacetMap.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\Identity.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\ImplicitContext.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\ImplicitContextF.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\Instrumentation.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\InstrumentationF.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\LocalException.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\Locator.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\LocatorF.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\Logger.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\LoggerF.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\Metrics.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\ObjectAdapter.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\ObjectAdapterF.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\ObjectFactory.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\ObjectFactoryF.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\Plugin.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\PluginF.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\Process.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\ProcessF.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\Properties.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\PropertiesAdmin.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\PropertiesF.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\Router.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\RouterF.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\ServantLocator.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\ServantLocatorF.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\SliceChecksumDict.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\Stats.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\StatsF.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Ice\Version.h">
+      <Filter>base\slice_file\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceBox\IceBox.h">
+      <Filter>base\slice_generate\IceBox</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IcePatch2\ClientUtil.h">
+      <Filter>base\IceInternal\IcePatch2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IcePatch2\Util.h">
+      <Filter>base\IceInternal\IcePatch2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IcePatch2\FileInfo.h">
+      <Filter>base\slice_generate\IcePatch2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IcePatch2\FileServer.h">
+      <Filter>base\slice_generate\IcePatch2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceSSL\AcceptorI.h">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceSSL\ConnectorI.h">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceSSL\EndpointI.h">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceSSL\IceSSL.h">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceSSL\Instance.h">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceSSL\InstanceF.h">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceSSL\Plugin.h">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceSSL\PluginI.h">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceSSL\RFC2253.h">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceSSL\TransceiverI.h">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceSSL\TrustManager.h">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceSSL\TrustManagerF.h">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceSSL\Util.h">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceSSL\UtilF.h">
+      <Filter>base\IceInternal\IceSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceSSL\ConnectionInfo.h">
+      <Filter>base\slice_generate\IceSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceSSL\EndpointInfo.h">
+      <Filter>base\slice_generate\IceSSL</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\BackgroundSaveEvictorI.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\ConnectionI.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\EvictorI.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\EvictorIteratorI.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\Freeze.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\Index.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\IndexI.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\Initialize.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\Map.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\MapDb.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\MapI.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\ObjectStore.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\SharedDbEnv.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\TransactionalEvictorContext.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\TransactionalEvictorI.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\TransactionHolder.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\TransactionI.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Freeze\Util.h">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Freeze\BackgroundSaveEvictor.h">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Freeze\Catalog.h">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Freeze\CatalogData.h">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Freeze\CatalogIndexList.h">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Freeze\Connection.h">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Freeze\ConnectionF.h">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Freeze\DB.h">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Freeze\Evictor.h">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Freeze\EvictorF.h">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Freeze\EvictorStorage.h">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Freeze\Exception.h">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Freeze\PingObject.h">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Freeze\Transaction.h">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Freeze\TransactionalEvictor.h">
+      <Filter>base\slice_generate\Freeze</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Glacier2\Application.h">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Glacier2\Glacier2.h">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Glacier2\SessionHelper.h">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Glacier2\Metrics.h">
+      <Filter>base\slice_generate\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Glacier2\PermissionsVerifier.h">
+      <Filter>base\slice_generate\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Glacier2\PermissionsVerifierF.h">
+      <Filter>base\slice_generate\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Glacier2\Router.h">
+      <Filter>base\slice_generate\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Glacier2\RouterF.h">
+      <Filter>base\slice_generate\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Glacier2\Session.h">
+      <Filter>base\slice_generate\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\Glacier2\SSLInfo.h">
+      <Filter>base\slice_generate\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceDB\FreezeTypes.h">
+      <Filter>base\IceInternal\IceDB</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceDB\IceDB.h">
+      <Filter>base\IceInternal\IceDB</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceDB\SqlTypes.h">
+      <Filter>base\IceInternal\IceDB</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\Activator.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\AdapterCache.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\AdminCallbackRouter.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\AdminI.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\AdminSessionI.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\Allocatable.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\AllocatableObjectCache.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\Cache.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\Database.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\DB.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\DescriptorBuilder.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\DescriptorHelper.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\DescriptorParser.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\FileCache.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\FileParserI.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\FileUserAccountMapperI.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\Grammar.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\IceGrid.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\InternalRegistryI.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\LocatorI.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\LocatorRegistryI.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\NodeCache.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\NodeI.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\NodeServerAdminRouter.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\NodeSessionI.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\NodeSessionManager.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\ObjectCache.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\Parser.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\PlatformInfo.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\QueryI.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\ReapThread.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\RegistryI.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\RegistryServerAdminRouter.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\ReplicaCache.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\ReplicaSessionI.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\ReplicaSessionManager.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\ServerAdapterI.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\ServerCache.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\ServerI.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\SessionI.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\SessionManager.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\SessionServantManager.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\Topics.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\TraceLevels.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\Util.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\WaitQueue.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\WellKnownObjectsManager.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceGrid\Admin.h">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceGrid\Descriptor.h">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceGrid\Exception.h">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceGrid\FileParser.h">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceGrid\Internal.h">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceGrid\Locator.h">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceGrid\Observer.h">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceGrid\Query.h">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceGrid\Registry.h">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceGrid\Session.h">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceGrid\UserAccountMapper.h">
+      <Filter>base\slice_generate\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\DB.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\Grammar.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\Instance.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\InstrumentationI.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\NodeI.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\Observers.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\Parser.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\Replica.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\Service.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\Subscriber.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\TopicI.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\TopicManagerI.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\TraceLevels.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\TransientTopicI.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\TransientTopicManagerI.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\Util.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceStorm\dummy.h">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceStorm\dummy2.h">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceStorm\Election.h">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceStorm\IceStorm.h">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceStorm\IceStormInternal.h">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceStorm\Instrumentation.h">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceStorm\LinkRecord.h">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceStorm\LLURecord.h">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceStorm\Metrics.h">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceStorm\SubscriberRecord.h">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceStorm\V31Format.h">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceStorm\V32Format.h">
+      <Filter>base\slice_generate\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceGridFreezeDB\IdentityObjectInfoDict.h">
+      <Filter>base\slice_generate\IceGridFreezeDB</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceGridFreezeDB\SerialsDict.h">
+      <Filter>base\slice_generate\IceGridFreezeDB</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceGridFreezeDB\StringAdapterInfoDict.h">
+      <Filter>base\slice_generate\IceGridFreezeDB</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceGridFreezeDB\StringApplicationInfoDict.h">
+      <Filter>base\slice_generate\IceGridFreezeDB</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceStormFreezeDB\LLUMap.h">
+      <Filter>base\slice_generate\IceStormFreezeDB</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceStormFreezeDB\SubscriberMap.h">
+      <Filter>base\slice_generate\IceStormFreezeDB</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceStormFreezeDB\V31FormatDB.h">
+      <Filter>base\slice_generate\IceStormFreezeDB</Filter>
+    </ClInclude>
+    <ClInclude Include="base\slice_generate\IceStormFreezeDB\V32FormatDB.h">
+      <Filter>base\slice_generate\IceStormFreezeDB</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGridSqlDB\SqlDB.h">
+      <Filter>base\IceInternal\IceGridSqlDB</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGridSqlDB\SqlIdentityObjectInfoDict.h">
+      <Filter>base\IceInternal\IceGridSqlDB</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGridSqlDB\SqlStringAdapterInfoDict.h">
+      <Filter>base\IceInternal\IceGridSqlDB</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGridSqlDB\SqlStringApplicationInfoDict.h">
+      <Filter>base\IceInternal\IceGridSqlDB</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="base\slice_file\Ice\BuiltinSequences.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\Communicator.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\CommunicatorF.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\Connection.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\ConnectionF.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\Current.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\Endpoint.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\EndpointF.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\EndpointTypes.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\FacetMap.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\Identity.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\ImplicitContext.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\ImplicitContextF.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\Instrumentation.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\InstrumentationF.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\LocalException.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\Locator.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\LocatorF.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\Logger.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\LoggerF.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\Metrics.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\ObjectAdapter.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\ObjectAdapterF.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\ObjectFactory.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\ObjectFactoryF.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\Plugin.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\PluginF.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\Process.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\ProcessF.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\Properties.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\PropertiesAdmin.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\PropertiesF.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\Router.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\RouterF.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\ServantLocator.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\ServantLocatorF.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\SliceChecksumDict.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\Stats.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\StatsF.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\Ice\Version.ice">
+      <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\slice_file\IceBox\IceBox.ice">
+      <Filter>base\slice_file\IceBox</Filter>
+    </None>
+    <None Include="base\slice_file\IcePatch2\FileInfo.ice">
+      <Filter>base\slice_file\IcePatch2</Filter>
+    </None>
+    <None Include="base\slice_file\IcePatch2\FileServer.ice">
+      <Filter>base\slice_file\IcePatch2</Filter>
+    </None>
+    <None Include="base\slice_file\IceSSL\ConnectionInfo.ice">
+      <Filter>base\slice_file\IceSSL</Filter>
+    </None>
+    <None Include="base\slice_file\IceSSL\EndpointInfo.ice">
+      <Filter>base\slice_file\IceSSL</Filter>
+    </None>
+    <None Include="base\slice_file\Freeze\BackgroundSaveEvictor.ice">
+      <Filter>base\slice_file\Freeze</Filter>
+    </None>
+    <None Include="base\slice_file\Freeze\CatalogData.ice">
+      <Filter>base\slice_file\Freeze</Filter>
+    </None>
+    <None Include="base\slice_file\Freeze\Connection.ice">
+      <Filter>base\slice_file\Freeze</Filter>
+    </None>
+    <None Include="base\slice_file\Freeze\ConnectionF.ice">
+      <Filter>base\slice_file\Freeze</Filter>
+    </None>
+    <None Include="base\slice_file\Freeze\DB.ice">
+      <Filter>base\slice_file\Freeze</Filter>
+    </None>
+    <None Include="base\slice_file\Freeze\Evictor.ice">
+      <Filter>base\slice_file\Freeze</Filter>
+    </None>
+    <None Include="base\slice_file\Freeze\EvictorF.ice">
+      <Filter>base\slice_file\Freeze</Filter>
+    </None>
+    <None Include="base\slice_file\Freeze\EvictorStorage.ice">
+      <Filter>base\slice_file\Freeze</Filter>
+    </None>
+    <None Include="base\slice_file\Freeze\Exception.ice">
+      <Filter>base\slice_file\Freeze</Filter>
+    </None>
+    <None Include="base\slice_file\Freeze\PingObject.ice">
+      <Filter>base\slice_file\Freeze</Filter>
+    </None>
+    <None Include="base\slice_file\Freeze\Transaction.ice">
+      <Filter>base\slice_file\Freeze</Filter>
+    </None>
+    <None Include="base\slice_file\Freeze\TransactionalEvictor.ice">
+      <Filter>base\slice_file\Freeze</Filter>
+    </None>
+    <None Include="base\slice_file\Glacier2\Metrics.ice">
+      <Filter>base\slice_file\Glacier2</Filter>
+    </None>
+    <None Include="base\slice_file\Glacier2\PermissionsVerifier.ice">
+      <Filter>base\slice_file\Glacier2</Filter>
+    </None>
+    <None Include="base\slice_file\Glacier2\PermissionsVerifierF.ice">
+      <Filter>base\slice_file\Glacier2</Filter>
+    </None>
+    <None Include="base\slice_file\Glacier2\Router.ice">
+      <Filter>base\slice_file\Glacier2</Filter>
+    </None>
+    <None Include="base\slice_file\Glacier2\RouterF.ice">
+      <Filter>base\slice_file\Glacier2</Filter>
+    </None>
+    <None Include="base\slice_file\Glacier2\Session.ice">
+      <Filter>base\slice_file\Glacier2</Filter>
+    </None>
+    <None Include="base\slice_file\Glacier2\SSLInfo.ice">
+      <Filter>base\slice_file\Glacier2</Filter>
+    </None>
+    <None Include="base\slice_file\IceGrid\Admin.ice">
+      <Filter>base\slice_file\IceGrid</Filter>
+    </None>
+    <None Include="base\slice_file\IceGrid\Descriptor.ice">
+      <Filter>base\slice_file\IceGrid</Filter>
+    </None>
+    <None Include="base\slice_file\IceGrid\Exception.ice">
+      <Filter>base\slice_file\IceGrid</Filter>
+    </None>
+    <None Include="base\slice_file\IceGrid\FileParser.ice">
+      <Filter>base\slice_file\IceGrid</Filter>
+    </None>
+    <None Include="base\slice_file\IceGrid\Internal.ice">
+      <Filter>base\slice_file\IceGrid</Filter>
+    </None>
+    <None Include="base\slice_file\IceGrid\Locator.ice">
+      <Filter>base\slice_file\IceGrid</Filter>
+    </None>
+    <None Include="base\slice_file\IceGrid\Observer.ice">
+      <Filter>base\slice_file\IceGrid</Filter>
+    </None>
+    <None Include="base\slice_file\IceGrid\Query.ice">
+      <Filter>base\slice_file\IceGrid</Filter>
+    </None>
+    <None Include="base\slice_file\IceGrid\Registry.ice">
+      <Filter>base\slice_file\IceGrid</Filter>
+    </None>
+    <None Include="base\slice_file\IceGrid\Session.ice">
+      <Filter>base\slice_file\IceGrid</Filter>
+    </None>
+    <None Include="base\slice_file\IceGrid\UserAccountMapper.ice">
+      <Filter>base\slice_file\IceGrid</Filter>
+    </None>
+    <None Include="base\slice_file\IceStorm\dummy.ice">
+      <Filter>base\slice_file\IceStorm</Filter>
+    </None>
+    <None Include="base\slice_file\IceStorm\dummy2.ice">
+      <Filter>base\slice_file\IceStorm</Filter>
+    </None>
+    <None Include="base\slice_file\IceStorm\Election.ice">
+      <Filter>base\slice_file\IceStorm</Filter>
+    </None>
+    <None Include="base\slice_file\IceStorm\IceStorm.ice">
+      <Filter>base\slice_file\IceStorm</Filter>
+    </None>
+    <None Include="base\slice_file\IceStorm\IceStormInternal.ice">
+      <Filter>base\slice_file\IceStorm</Filter>
+    </None>
+    <None Include="base\slice_file\IceStorm\Instrumentation.ice">
+      <Filter>base\slice_file\IceStorm</Filter>
+    </None>
+    <None Include="base\slice_file\IceStorm\LinkRecord.ice">
+      <Filter>base\slice_file\IceStorm</Filter>
+    </None>
+    <None Include="base\slice_file\IceStorm\LLURecord.ice">
+      <Filter>base\slice_file\IceStorm</Filter>
+    </None>
+    <None Include="base\slice_file\IceStorm\Metrics.ice">
+      <Filter>base\slice_file\IceStorm</Filter>
+    </None>
+    <None Include="base\slice_file\IceStorm\SubscriberRecord.ice">
+      <Filter>base\slice_file\IceStorm</Filter>
+    </None>
+    <None Include="base\slice_file\IceStorm\V31Format.ice">
+      <Filter>base\slice_file\IceStorm</Filter>
+    </None>
+    <None Include="base\slice_file\IceStorm\V32Format.ice">
+      <Filter>base\slice_file\IceStorm</Filter>
+    </None>
+  </ItemGroup>
+</Project>
