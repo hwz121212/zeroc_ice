@@ -28,7 +28,7 @@
     <ClCompile Include="src\system.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{791642ed-9e59-4f42-927b-3562f869d9c1}</ProjectGuid>
+    <ProjectGuid>{98B58DD1-45F1-4788-8B79-102885DFBA5B}</ProjectGuid>
     <Keyword>Linux</Keyword>
     <RootNamespace>linux_test</RootNamespace>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
@@ -64,14 +64,14 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;/root/projects/libmpp/include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>
       </PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;/root/projects/libmpp/include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>
       </PreprocessorDefinitions>
     </ClCompile>
