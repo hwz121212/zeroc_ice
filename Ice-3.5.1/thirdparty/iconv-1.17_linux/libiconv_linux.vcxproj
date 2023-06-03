@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h" />
+    <ClInclude Include="include\aliases.h" />
+    <ClInclude Include="include\aliases2.h" />
+    <ClInclude Include="include\aliases_aix.h" />
+    <ClInclude Include="include\aliases_aix_sysaix.h" />
+    <ClInclude Include="include\aliases_dos.h" />
+    <ClInclude Include="include\aliases_extra.h" />
+    <ClInclude Include="include\aliases_osf1.h" />
+    <ClInclude Include="include\aliases_osf1_sysosf1.h" />
+    <ClInclude Include="include\aliases_sysaix.h" />
+    <ClInclude Include="include\aliases_syshpux.h" />
+    <ClInclude Include="include\aliases_sysosf1.h" />
+    <ClInclude Include="include\aliases_syssolaris.h" />
+    <ClInclude Include="include\aliases_zos.h" />
+    <ClInclude Include="include\alloca.h" />
+    <ClInclude Include="include\alloca.in.h" />
+    <ClInclude Include="include\allocator.h" />
+    <ClInclude Include="include\areadlink.h" />
+    <ClInclude Include="include\arg-nonnull.h" />
+    <ClInclude Include="include\armscii_8.h" />
+    <ClInclude Include="include\ascii.h" />
+    <ClInclude Include="include\atarist.h" />
+    <ClInclude Include="include\basename-lgpl.h" />
+    <ClInclude Include="include\big5.h" />
+    <ClInclude Include="include\big5hkscs1999.h" />
+    <ClInclude Include="include\big5hkscs2001.h" />
+    <ClInclude Include="include\big5hkscs2004.h" />
+    <ClInclude Include="include\big5hkscs2008.h" />
+    <ClInclude Include="include\big5_2003.h" />
+    <ClInclude Include="include\binary-io.h" />
+    <ClInclude Include="include\c++defs.h" />
+    <ClInclude Include="include\c-ctype.h" />
+    <ClInclude Include="include\c99.h" />
+    <ClInclude Include="include\canonical.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\canonical_aix.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\canonical_aix_sysaix.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\canonical_dos.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\canonical_extra.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\canonical_local.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\canonical_local_sysaix.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\canonical_local_syshpux.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\canonical_local_sysosf1.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\canonical_local_syssolaris.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\canonical_osf1.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\canonical_osf1_sysosf1.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\canonical_sysaix.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\canonical_syshpux.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\canonical_sysosf1.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\canonical_syssolaris.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\canonical_zos.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\careadlinkat.h" />
+    <ClInclude Include="include\cdefs.h" />
+    <ClInclude Include="include\ces_big5.h" />
+    <ClInclude Include="include\ces_gbk.h" />
+    <ClInclude Include="include\cjk_variants.h" />
+    <ClInclude Include="include\cloexec.h" />
+    <ClInclude Include="include\cns11643.h" />
+    <ClInclude Include="include\cns11643_1.h" />
+    <ClInclude Include="include\cns11643_15.h" />
+    <ClInclude Include="include\cns11643_2.h" />
+    <ClInclude Include="include\cns11643_3.h" />
+    <ClInclude Include="include\cns11643_4.h" />
+    <ClInclude Include="include\cns11643_4a.h" />
+    <ClInclude Include="include\cns11643_4b.h" />
+    <ClInclude Include="include\cns11643_5.h" />
+    <ClInclude Include="include\cns11643_6.h" />
+    <ClInclude Include="include\cns11643_7.h" />
+    <ClInclude Include="include\cns11643_inv.h" />
+    <ClInclude Include="include\config.h" />
+    <ClInclude Include="include\converters.h" />
+    <ClInclude Include="include\cp1046.h" />
+    <ClInclude Include="include\cp1124.h" />
+    <ClInclude Include="include\cp1125.h" />
+    <ClInclude Include="include\cp1129.h" />
+    <ClInclude Include="include\cp1131.h" />
+    <ClInclude Include="include\cp1133.h" />
+    <ClInclude Include="include\cp1161.h" />
+    <ClInclude Include="include\cp1162.h" />
+    <ClInclude Include="include\cp1163.h" />
+    <ClInclude Include="include\cp1250.h" />
+    <ClInclude Include="include\cp1251.h" />
+    <ClInclude Include="include\cp1252.h" />
+    <ClInclude Include="include\cp1253.h" />
+    <ClInclude Include="include\cp1254.h" />
+    <ClInclude Include="include\cp1255.h" />
+    <ClInclude Include="include\cp1256.h" />
+    <ClInclude Include="include\cp1257.h" />
+    <ClInclude Include="include\cp1258.h" />
+    <ClInclude Include="include\cp437.h" />
+    <ClInclude Include="include\cp50221_0208_ext.h" />
+    <ClInclude Include="include\cp50221_0212_ext.h" />
+    <ClInclude Include="include\cp737.h" />
+    <ClInclude Include="include\cp775.h" />
+    <ClInclude Include="include\cp850.h" />
+    <ClInclude Include="include\cp852.h" />
+    <ClInclude Include="include\cp853.h" />
+    <ClInclude Include="include\cp855.h" />
+    <ClInclude Include="include\cp856.h" />
+    <ClInclude Include="include\cp857.h" />
+    <ClInclude Include="include\cp858.h" />
+    <ClInclude Include="include\cp860.h" />
+    <ClInclude Include="include\cp861.h" />
+    <ClInclude Include="include\cp862.h" />
+    <ClInclude Include="include\cp863.h" />
+    <ClInclude Include="include\cp864.h" />
+    <ClInclude Include="include\cp865.h" />
+    <ClInclude Include="include\cp866.h" />
+    <ClInclude Include="include\cp869.h" />
+    <ClInclude Include="include\cp874.h" />
+    <ClInclude Include="include\cp922.h" />
+    <ClInclude Include="include\cp932.h" />
+    <ClInclude Include="include\cp932ext.h" />
+    <ClInclude Include="include\cp936.h" />
+    <ClInclude Include="include\cp936ext.h" />
+    <ClInclude Include="include\cp943.h" />
+    <ClInclude Include="include\cp949.h" />
+    <ClInclude Include="include\cp950.h" />
+    <ClInclude Include="include\cp950ext.h" />
+    <ClInclude Include="include\dec_hanyu.h" />
+    <ClInclude Include="include\dec_kanji.h" />
+    <ClInclude Include="include\ebcdic037.h" />
+    <ClInclude Include="include\ebcdic1025.h" />
+    <ClInclude Include="include\ebcdic1026.h" />
+    <ClInclude Include="include\ebcdic1047.h" />
+    <ClInclude Include="include\ebcdic1097.h" />
+    <ClInclude Include="include\ebcdic1112.h" />
+    <ClInclude Include="include\ebcdic1122.h" />
+    <ClInclude Include="include\ebcdic1123.h" />
+    <ClInclude Include="include\ebcdic1130.h" />
+    <ClInclude Include="include\ebcdic1132.h" />
+    <ClInclude Include="include\ebcdic1137.h" />
+    <ClInclude Include="include\ebcdic1140.h" />
+    <ClInclude Include="include\ebcdic1141.h" />
+    <ClInclude Include="include\ebcdic1142.h" />
+    <ClInclude Include="include\ebcdic1143.h" />
+    <ClInclude Include="include\ebcdic1144.h" />
+    <ClInclude Include="include\ebcdic1145.h" />
+    <ClInclude Include="include\ebcdic1146.h" />
+    <ClInclude Include="include\ebcdic1147.h" />
+    <ClInclude Include="include\ebcdic1148.h" />
+    <ClInclude Include="include\ebcdic1149.h" />
+    <ClInclude Include="include\ebcdic1153.h" />
+    <ClInclude Include="include\ebcdic1154.h" />
+    <ClInclude Include="include\ebcdic1155.h" />
+    <ClInclude Include="include\ebcdic1156.h" />
+    <ClInclude Include="include\ebcdic1157.h" />
+    <ClInclude Include="include\ebcdic1158.h" />
+    <ClInclude Include="include\ebcdic1160.h" />
+    <ClInclude Include="include\ebcdic1164.h" />
+    <ClInclude Include="include\ebcdic1165.h" />
+    <ClInclude Include="include\ebcdic1166.h" />
+    <ClInclude Include="include\ebcdic12712.h" />
+    <ClInclude Include="include\ebcdic16804.h" />
+    <ClInclude Include="include\ebcdic273.h" />
+    <ClInclude Include="include\ebcdic277.h" />
+    <ClInclude Include="include\ebcdic278.h" />
+    <ClInclude Include="include\ebcdic280.h" />
+    <ClInclude Include="include\ebcdic282.h" />
+    <ClInclude Include="include\ebcdic284.h" />
+    <ClInclude Include="include\ebcdic285.h" />
+    <ClInclude Include="include\ebcdic297.h" />
+    <ClInclude Include="include\ebcdic423.h" />
+    <ClInclude Include="include\ebcdic424.h" />
+    <ClInclude Include="include\ebcdic425.h" />
+    <ClInclude Include="include\ebcdic4971.h" />
+    <ClInclude Include="include\ebcdic500.h" />
+    <ClInclude Include="include\ebcdic838.h" />
+    <ClInclude Include="include\ebcdic870.h" />
+    <ClInclude Include="include\ebcdic871.h" />
+    <ClInclude Include="include\ebcdic875.h" />
+    <ClInclude Include="include\ebcdic880.h" />
+    <ClInclude Include="include\ebcdic905.h" />
+    <ClInclude Include="include\ebcdic924.h" />
+    <ClInclude Include="include\eloop-threshold.h" />
+    <ClInclude Include="include\errno.in.h" />
+    <ClInclude Include="include\error.h" />
+    <ClInclude Include="include\euc_cn.h" />
+    <ClInclude Include="include\euc_jisx0213.h" />
+    <ClInclude Include="include\euc_jp.h" />
+    <ClInclude Include="include\euc_kr.h" />
+    <ClInclude Include="include\euc_tw.h" />
+    <ClInclude Include="include\export.h" />
+    <ClInclude Include="include\fcntl.h" />
+    <ClInclude Include="include\fcntl.in.h" />
+    <ClInclude Include="include\fd-hook.h" />
+    <ClInclude Include="include\filename.h" />
+    <ClInclude Include="include\flags.h" />
+    <ClInclude Include="include\flushwc.h" />
+    <ClInclude Include="include\gb12345.h" />
+    <ClInclude Include="include\gb12345ext.h" />
+    <ClInclude Include="include\gb18030.h" />
+    <ClInclude Include="include\gb18030ext.h" />
+    <ClInclude Include="include\gb18030uni.h" />
+    <ClInclude Include="include\gb2312.h" />
+    <ClInclude Include="include\gbk.h" />
+    <ClInclude Include="include\gbkext1.h" />
+    <ClInclude Include="include\gbkext2.h" />
+    <ClInclude Include="include\gbkext_inv.h" />
+    <ClInclude Include="include\georgian_academy.h" />
+    <ClInclude Include="include\georgian_ps.h" />
+    <ClInclude Include="include\getprogname.h" />
+    <ClInclude Include="include\gettext.h" />
+    <ClInclude Include="include\hkscs1999.h" />
+    <ClInclude Include="include\hkscs2001.h" />
+    <ClInclude Include="include\hkscs2004.h" />
+    <ClInclude Include="include\hkscs2008.h" />
+    <ClInclude Include="include\hp_roman8.h" />
+    <ClInclude Include="include\hz.h" />
+    <ClInclude Include="include\iconv.h" />
+    <ClInclude Include="include\iconv_open1.h" />
+    <ClInclude Include="include\iconv_open2.h" />
+    <ClInclude Include="include\idx.h" />
+    <ClInclude Include="include\intprops.h" />
+    <ClInclude Include="include\inttypes.h" />
+    <ClInclude Include="include\inttypes.in.h" />
+    <ClInclude Include="include\iso2022_cn.h" />
+    <ClInclude Include="include\iso2022_cnext.h" />
+    <ClInclude Include="include\iso2022_jp.h" />
+    <ClInclude Include="include\iso2022_jp1.h" />
+    <ClInclude Include="include\iso2022_jp2.h" />
+    <ClInclude Include="include\iso2022_jp3.h" />
+    <ClInclude Include="include\iso2022_jpms.h" />
+    <ClInclude Include="include\iso2022_kr.h" />
+    <ClInclude Include="include\iso646_cn.h" />
+    <ClInclude Include="include\iso646_jp.h" />
+    <ClInclude Include="include\iso8859_1.h" />
+    <ClInclude Include="include\iso8859_10.h" />
+    <ClInclude Include="include\iso8859_11.h" />
+    <ClInclude Include="include\iso8859_13.h" />
+    <ClInclude Include="include\iso8859_14.h" />
+    <ClInclude Include="include\iso8859_15.h" />
+    <ClInclude Include="include\iso8859_16.h" />
+    <ClInclude Include="include\iso8859_2.h" />
+    <ClInclude Include="include\iso8859_3.h" />
+    <ClInclude Include="include\iso8859_4.h" />
+    <ClInclude Include="include\iso8859_5.h" />
+    <ClInclude Include="include\iso8859_6.h" />
+    <ClInclude Include="include\iso8859_7.h" />
+    <ClInclude Include="include\iso8859_8.h" />
+    <ClInclude Include="include\iso8859_9.h" />
+    <ClInclude Include="include\isoir165.h" />
+    <ClInclude Include="include\isoir165ext.h" />
+    <ClInclude Include="include\java.h" />
+    <ClInclude Include="include\jisx0201.h" />
+    <ClInclude Include="include\jisx0208.h" />
+    <ClInclude Include="include\jisx0212.h" />
+    <ClInclude Include="include\jisx0213.h" />
+    <ClInclude Include="include\johab.h" />
+    <ClInclude Include="include\johab_hangul.h" />
+    <ClInclude Include="include\koi8_r.h" />
+    <ClInclude Include="include\koi8_ru.h" />
+    <ClInclude Include="include\koi8_t.h" />
+    <ClInclude Include="include\koi8_u.h" />
+    <ClInclude Include="include\ksc5601.h" />
+    <ClInclude Include="include\libc-config.h" />
+    <ClInclude Include="include\limits.h" />
+    <ClInclude Include="include\limits.in.h" />
+    <ClInclude Include="include\localcharset.h" />
+    <ClInclude Include="include\loops.h" />
+    <ClInclude Include="include\loop_unicode.h" />
+    <ClInclude Include="include\loop_wchar.h" />
+    <ClInclude Include="include\mac_arabic.h" />
+    <ClInclude Include="include\mac_centraleurope.h" />
+    <ClInclude Include="include\mac_croatian.h" />
+    <ClInclude Include="include\mac_cyrillic.h" />
+    <ClInclude Include="include\mac_greek.h" />
+    <ClInclude Include="include\mac_hebrew.h" />
+    <ClInclude Include="include\mac_iceland.h" />
+    <ClInclude Include="include\mac_roman.h" />
+    <ClInclude Include="include\mac_romania.h" />
+    <ClInclude Include="include\mac_thai.h" />
+    <ClInclude Include="include\mac_turkish.h" />
+    <ClInclude Include="include\mac_ukraine.h" />
+    <ClInclude Include="include\malloca.h" />
+    <ClInclude Include="include\malloc\scratch_buffer.gl.h" />
+    <ClInclude Include="include\malloc\scratch_buffer.h" />
+    <ClInclude Include="include\minmax.h" />
+    <ClInclude Include="include\msvc-inval.h" />
+    <ClInclude Include="include\msvc-nothrow.h" />
+    <ClInclude Include="include\mulelao.h" />
+    <ClInclude Include="include\nextstep.h" />
+    <ClInclude Include="include\pathmax.h" />
+    <ClInclude Include="include\progname.h" />
+    <ClInclude Include="include\pt154.h" />
+    <ClInclude Include="include\relocatable.h" />
+    <ClInclude Include="include\riscos1.h" />
+    <ClInclude Include="include\rk1048.h" />
+    <ClInclude Include="include\safe-read.h" />
+    <ClInclude Include="include\scratch_buffer.h" />
+    <ClInclude Include="include\shift_jisx0213.h" />
+    <ClInclude Include="include\signal.h" />
+    <ClInclude Include="include\signal.in.h" />
+    <ClInclude Include="include\sjis.h" />
+    <ClInclude Include="include\stat-time.h" />
+    <ClInclude Include="include\stat-w32.h" />
+    <ClInclude Include="include\stdalign.in.h" />
+    <ClInclude Include="include\stdbool.in.h" />
+    <ClInclude Include="include\stddef.in.h" />
+    <ClInclude Include="include\stdint.h" />
+    <ClInclude Include="include\stdint.in.h" />
+    <ClInclude Include="include\stdio.h" />
+    <ClInclude Include="include\stdio.in.h" />
+    <ClInclude Include="include\stdlib.h" />
+    <ClInclude Include="include\stdlib.in.h" />
+    <ClInclude Include="include\streq.h" />
+    <ClInclude Include="include\strerror-override.h" />
+    <ClInclude Include="include\string.h" />
+    <ClInclude Include="include\string.in.h" />
+    <ClInclude Include="include\sys-limits.h" />
+    <ClInclude Include="include\sys\stat.h" />
+    <ClInclude Include="include\sys\types.h" />
+    <ClInclude Include="include\sys_stat.in.h" />
+    <ClInclude Include="include\sys_types.in.h" />
+    <ClInclude Include="include\tcvn.h" />
+    <ClInclude Include="include\tds565.h" />
+    <ClInclude Include="include\time.h" />
+    <ClInclude Include="include\time.in.h" />
+    <ClInclude Include="include\tis620.h" />
+    <ClInclude Include="include\translit.h" />
+    <ClInclude Include="include\ucs2.h" />
+    <ClInclude Include="include\ucs2be.h" />
+    <ClInclude Include="include\ucs2internal.h" />
+    <ClInclude Include="include\ucs2le.h" />
+    <ClInclude Include="include\ucs2swapped.h" />
+    <ClInclude Include="include\ucs4.h" />
+    <ClInclude Include="include\ucs4be.h" />
+    <ClInclude Include="include\ucs4internal.h" />
+    <ClInclude Include="include\ucs4le.h" />
+    <ClInclude Include="include\ucs4swapped.h" />
+    <ClInclude Include="include\uhc_1.h" />
+    <ClInclude Include="include\uhc_2.h" />
+    <ClInclude Include="include\unictype\bitmap.h" />
+    <ClInclude Include="include\unistd_iconv.h" />
+    <ClInclude Include="include\unistd.in.h" />
+    <ClInclude Include="include\unitypes.h" />
+    <ClInclude Include="include\unitypes.in.h" />
+    <ClInclude Include="include\uniwidth.h" />
+    <ClInclude Include="include\uniwidth.in.h" />
+    <ClInclude Include="include\uniwidth\cjk.h" />
+    <ClInclude Include="include\uniwidth\width0.h" />
+    <ClInclude Include="include\uniwidth\width2.h" />
+    <ClInclude Include="include\unlocked-io.h" />
+    <ClInclude Include="include\utf16.h" />
+    <ClInclude Include="include\utf16be.h" />
+    <ClInclude Include="include\utf16le.h" />
+    <ClInclude Include="include\utf32.h" />
+    <ClInclude Include="include\utf32be.h" />
+    <ClInclude Include="include\utf32le.h" />
+    <ClInclude Include="include\utf7.h" />
+    <ClInclude Include="include\utf8.h" />
+    <ClInclude Include="include\verify.h" />
+    <ClInclude Include="include\vietcomb.h" />
+    <ClInclude Include="include\viscii.h" />
+    <ClInclude Include="include\warn-on-use.h" />
+    <ClInclude Include="include\wchar.h" />
+    <ClInclude Include="include\wchar.in.h" />
+    <ClInclude Include="include\xalloc-oversized.h" />
+    <ClInclude Include="include\xalloc.h" />
+    <ClInclude Include="include\xreadlink.h" />
+    <ClInclude Include="include\_Noreturn.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\encodings.def" />
+    <None Include="include\encodings_aix.def" />
+    <None Include="include\encodings_dos.def" />
+    <None Include="include\encodings_extra.def" />
+    <None Include="include\encodings_local.def" />
+    <None Include="include\encodings_osf1.def" />
+    <None Include="include\encodings_zos.def" />
+    <None Include="include\translit.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\allocator.c" />
+    <ClCompile Include="src\areadlink.c" />
+    <ClCompile Include="src\basename-lgpl.c" />
+    <ClCompile Include="src\binary-io.c" />
+    <ClCompile Include="src\c-ctype.c" />
+    <ClCompile Include="src\canonicalize-lgpl.c" />
+    <ClCompile Include="src\careadlinkat.c" />
+    <ClCompile Include="src\cloexec.c" />
+    <ClCompile Include="src\close.c" />
+    <ClCompile Include="src\dup2.c" />
+    <ClCompile Include="src\error.c" />
+    <ClCompile Include="src\fcntl.c" />
+    <ClCompile Include="src\fd-hook.c" />
+    <ClCompile Include="src\free.c" />
+    <ClCompile Include="src\fstat.c" />
+    <ClCompile Include="src\getdtablesize.c" />
+    <ClCompile Include="src\getprogname.c" />
+    <ClCompile Include="src\iconv.c" />
+    <ClCompile Include="src\localcharset.c" />
+    <ClCompile Include="src\malloc.c" />
+    <ClCompile Include="src\malloca.c" />
+    <ClCompile Include="src\malloc\scratch_buffer_dupfree.c" />
+    <ClCompile Include="src\malloc\scratch_buffer_grow.c" />
+    <ClCompile Include="src\malloc\scratch_buffer_grow_preserve.c" />
+    <ClCompile Include="src\malloc\scratch_buffer_set_array_size.c" />
+    <ClCompile Include="src\mempcpy.c" />
+    <ClCompile Include="src\msvc-inval.c" />
+    <ClCompile Include="src\msvc-nothrow.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\open.c" />
+    <ClCompile Include="src\progname.c" />
+    <ClCompile Include="src\progreloc.c" />
+    <ClCompile Include="src\raise.c" />
+    <ClCompile Include="src\rawmemchr.c" />
+    <ClCompile Include="src\read.c" />
+    <ClCompile Include="src\readlink.c" />
+    <ClCompile Include="src\realloc.c" />
+    <ClCompile Include="src\relocatable.c" />
+    <ClCompile Include="src\safe-read.c" />
+    <ClCompile Include="src\setenv.c" />
+    <ClCompile Include="src\sigprocmask.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\stat-time.c" />
+    <ClCompile Include="src\stat-w32.c" />
+    <ClCompile Include="src\stat.c" />
+    <ClCompile Include="src\stdio-read.c" />
+    <ClCompile Include="src\stdio-write.c" />
+    <ClCompile Include="src\strerror-override.c" />
+    <ClCompile Include="src\strerror.c" />
+    <ClCompile Include="src\unistd.c" />
+    <ClCompile Include="src\uniwidth\width.c" />
+    <ClCompile Include="src\xmalloc.c" />
+    <ClCompile Include="src\xreadlink.c" />
+    <ClCompile Include="src\xstrdup.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{87E17EFB-3069-4CC8-A6ED-42CFFB16F4E6}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>linux_test</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{2238F9CD-F817-4ECC-BD14-2524D2669B35}</LinuxProjectType>
+    <ProjectName>libiconv</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;include;include\uniwidth;/root/projects/libiconv;/root/projects/libiconv/include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>LIBICONV_PLUG</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;include;include\uniwidth;/root/projects/libiconv;/root/projects/libiconv/include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>LIBICONV_PLUG</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
