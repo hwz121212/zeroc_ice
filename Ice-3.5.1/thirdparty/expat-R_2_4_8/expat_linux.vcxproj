@@ -74,13 +74,13 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>include;$(RemoteRootDir)/$(ProjectName)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;/root/projects/expat/include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>XML_POOR_ENTROPY;VER_FILEVERSION=2,4,8,0</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>include;$(RemoteRootDir)/$(ProjectName)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;/root/projects/expat/include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>XML_POOR_ENTROPY;VER_FILEVERSION=2,4,8,0</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
