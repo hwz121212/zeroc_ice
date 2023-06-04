@@ -2485,5 +2485,20 @@
     <None Include="base\slice_file\IceStorm\V32Format.ice">
       <Filter>base\slice_file\IceStorm</Filter>
     </None>
+    <None Include="base\IceInternal\Freeze\Grammar.y">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </None>
+    <None Include="base\IceInternal\IceStorm\Grammar.y">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </None>
+    <None Include="base\IceInternal\IceGrid\Scanner.l">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </None>
+    <None Include="base\IceInternal\IceGrid\Grammar.y">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </None>
+    <None Include="base\IceInternal\Freeze\Scanner.l">
+      <Filter>base\IceInternal\Freeze</Filter>
+    </None>
   </ItemGroup>
 </Project>
