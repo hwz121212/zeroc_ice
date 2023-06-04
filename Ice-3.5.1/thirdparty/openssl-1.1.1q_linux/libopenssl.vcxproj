@@ -1066,6 +1066,7 @@
     <ClCompile>
       <AdditionalIncludeDirectories>.;include;crypto;crypto\asn1;crypto\des;crypto\evp;crypto\modes;crypto\ec\curve448;crypto\ec\curve448\arch_32;/root/projects;/root/projects/libopenssl/crypto;/root/projects/libopenssl/crypto/asn1;/root/projects/libopenssl/crypto/des;/root/projects/libopenssl/crypto/evp;/root/projects/libopenssl/crypto/modes;/root/projects/libopenssl/crypto/curve448;/root/projects/libopenssl/crypto/curve448/arch_32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>__x86_64__;__BORLANDC__;L_ENDIAN;OPENSSL_NO_ASM;OPENSSL_NO_STATIC_ENGINE;__STDC_NO_ATOMICS__</PreprocessorDefinitions>
+      <AdditionalOptions>-fPIC %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <AdditionalOptions>-ldl %(AdditionalOptions)</AdditionalOptions>
@@ -1077,6 +1078,7 @@
     <ClCompile>
       <AdditionalIncludeDirectories>.;include;crypto;crypto\asn1;crypto\des;crypto\evp;crypto\modes;crypto\ec\curve448;crypto\ec\curve448\arch_32;/root/projects;/root/projects/libopenssl/crypto;/root/projects/libopenssl/crypto/asn1;/root/projects/libopenssl/crypto/des;/root/projects/libopenssl/crypto/evp;/root/projects/libopenssl/crypto/modes;/root/projects/libopenssl/crypto/curve448;/root/projects/libopenssl/crypto/curve448/arch_32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>__x86_64__;__BORLANDC__;L_ENDIAN;OPENSSL_NO_ASM;OPENSSL_NO_STATIC_ENGINE;__STDC_NO_ATOMICS__</PreprocessorDefinitions>
+      <AdditionalOptions>-fPIC %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <AdditionalOptions>-ldl %(AdditionalOptions)</AdditionalOptions>

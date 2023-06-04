@@ -532,12 +532,14 @@
     <ClCompile>
       <AdditionalIncludeDirectories>.;include;include\uniwidth;/root/projects/libiconv;/root/projects/libiconv/include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>LIBICONV_PLUG</PreprocessorDefinitions>
+      <AdditionalOptions>-fPIC %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>.;include;include\uniwidth;/root/projects/libiconv;/root/projects/libiconv/include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>LIBICONV_PLUG</PreprocessorDefinitions>
+      <AdditionalOptions>-fPIC %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -879,14 +879,22 @@
       <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\Ice-3.5.1\base\slice_generate;$(SolutionDir)thirdparty\Ice-3.5.1\base\IceInternal;$(SolutionDir)thirdparty\bzip2-1.0.8\include;$(SolutionDir)thirdparty\berkeleydb-5.3.28\include;$(SolutionDir)thirdparty\expat-R_2_4_8\include;$(SolutionDir)thirdparty\openssl-1.1.1q_linux;$(SolutionDir)thirdparty\openssl-1.1.1q_linux\include;$(SolutionDir)thirdparty\mcpp-2.7.2\include;/root/usr/include;/root/projects/libice;/root/projects/libice/src;/root/projects/libice/IceInternal;/root/projects/libice/slice_generate;/root/projects/libberkeleydb/include;/root/projects/libbzip2/include;/root/projects/libexpat/include;/root/projects/libiconv;/root/projects/libiconv/include;/root/projects/libmpp/include;/root/projects/libopenssl;/root/projects/libopenssl/include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>LIBICONV_PLUG;ICE_CONST_ICONV_INBUF;HAVE_CXX_STDHEADERS;__USE_BSD</PreprocessorDefinitions>
       <UndefinePreprocessorDefinitions>__u_char_defined</UndefinePreprocessorDefinitions>
+      <AdditionalOptions>-fPIC %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <Lib>
+      <AdditionalOptions>-pthread %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\Ice-3.5.1\base\slice_generate;$(SolutionDir)thirdparty\Ice-3.5.1\base\IceInternal;$(SolutionDir)thirdparty\bzip2-1.0.8\include;$(SolutionDir)thirdparty\berkeleydb-5.3.28\include;$(SolutionDir)thirdparty\expat-R_2_4_8\include;$(SolutionDir)thirdparty\openssl-1.1.1q_linux;$(SolutionDir)thirdparty\openssl-1.1.1q_linux\include;$(SolutionDir)thirdparty\mcpp-2.7.2\include;/root/usr/include;/root/projects/libice;/root/projects/libice/src;/root/projects/libice/IceInternal;/root/projects/libice/slice_generate;/root/projects/libberkeleydb/include;/root/projects/libbzip2/include;/root/projects/libexpat/include;/root/projects/libiconv;/root/projects/libiconv/include;/root/projects/libmpp/include;/root/projects/libopenssl;/root/projects/libopenssl/include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>LIBICONV_PLUG;ICE_CONST_ICONV_INBUF;HAVE_CXX_STDHEADERS;__USE_BSD</PreprocessorDefinitions>
       <UndefinePreprocessorDefinitions>__u_char_defined</UndefinePreprocessorDefinitions>
+      <AdditionalOptions>-fPIC %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <Lib>
+      <AdditionalOptions>-pthread %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

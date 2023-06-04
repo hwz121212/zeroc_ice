@@ -412,6 +412,7 @@
       <UndefinePreprocessorDefinitions>__u_char_defined</UndefinePreprocessorDefinitions>
       <CLanguageStandard>gnu99</CLanguageStandard>
       <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <AdditionalOptions>-fPIC %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -421,6 +422,7 @@
       <UndefinePreprocessorDefinitions>__u_char_defined</UndefinePreprocessorDefinitions>
       <CLanguageStandard>gnu99</CLanguageStandard>
       <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <AdditionalOptions>-fPIC %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
