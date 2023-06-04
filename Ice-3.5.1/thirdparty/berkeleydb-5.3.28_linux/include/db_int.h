@@ -9,6 +9,9 @@
 #ifndef _DB_INT_H_
 #define	_DB_INT_H_
 
+
+#include "berkeleydb_define.h"
+
 /*******************************************************
  * Berkeley DB ANSI/POSIX include files.
  *******************************************************/

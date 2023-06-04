@@ -128,21 +128,8 @@ class DbRunRecoveryException;                    // forward
 // use the define DB_USE_DLL.  When the DLL is built, DB_CREATE_DLL
 // must be defined.
 //
-#if defined(_MSC_VER)
 
-#  if defined(DB_CREATE_DLL)
-#    define _exported __declspec(dllexport)      // creator of dll
-#  elif defined(DB_USE_DLL)
-#    define _exported __declspec(dllimport)      // user of dll
-#  else
-#    define _exported                            // static lib creator or user
-#  endif
-
-#else /* _MSC_VER */
-
-#  define _exported
-
-#endif /* _MSC_VER */
+#include "berkeleydb_define.h"
 
 // Some interfaces can be customized by allowing users to define
 // callback functions.  For performance and logistical reasons, some

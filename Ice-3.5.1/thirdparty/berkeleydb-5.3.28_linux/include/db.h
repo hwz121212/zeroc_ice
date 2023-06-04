@@ -20,6 +20,8 @@
 #ifndef _DB_H_
 #define	_DB_H_
 
+#include "berkeleydb_define.h"
+
 #ifndef	__NO_SYSTEM_INCLUDES
 #include <sys/types.h>
 #include <inttypes.h>

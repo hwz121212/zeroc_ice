@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\berkeleydb_define.h" />
     <ClInclude Include="include\clib_port.h" />
     <ClInclude Include="include\crypto\rijndael\rijndael-alg-fst.h" />
     <ClInclude Include="include\crypto\rijndael\rijndael-api-fst.h" />

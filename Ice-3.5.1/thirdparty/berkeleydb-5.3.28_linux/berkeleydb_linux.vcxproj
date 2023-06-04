@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\berkeleydb_define.h" />
     <ClInclude Include="include\clib_port.h" />
     <ClInclude Include="include\crypto\rijndael\rijndael-alg-fst.h" />
     <ClInclude Include="include\crypto\rijndael\rijndael-api-fst.h" />
@@ -408,8 +409,8 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>include;/root/projects/berkeleydb/include</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>HAVE_CXX_STDHEADERS;__USE_BSD</PreprocessorDefinitions>
-      <UndefinePreprocessorDefinitions>__u_char_defined</UndefinePreprocessorDefinitions>
+      <PreprocessorDefinitions>HAVE_CXX_STDHEADERS;__USE_BSD;DB_DLL;DB_DLL_EXPORT</PreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>__u_char_defined;</UndefinePreprocessorDefinitions>
       <CLanguageStandard>gnu99</CLanguageStandard>
       <CppLanguageStandard>gnu++11</CppLanguageStandard>
     </ClCompile>
@@ -420,8 +421,8 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>include;/root/projects/berkeleydb/include</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>HAVE_CXX_STDHEADERS;__USE_BSD</PreprocessorDefinitions>
-      <UndefinePreprocessorDefinitions>__u_char_defined</UndefinePreprocessorDefinitions>
+      <PreprocessorDefinitions>HAVE_CXX_STDHEADERS;__USE_BSD;DB_DLL;DB_DLL_EXPORT</PreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>__u_char_defined;</UndefinePreprocessorDefinitions>
       <CLanguageStandard>gnu99</CLanguageStandard>
       <CppLanguageStandard>gnu++11</CppLanguageStandard>
     </ClCompile>

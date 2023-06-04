@@ -327,6 +327,9 @@
     <ClInclude Include="include\dbinc_auto\xa_ext.h">
       <Filter>include\dbinc_auto</Filter>
     </ClInclude>
+    <ClInclude Include="include\berkeleydb_define.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\os\os_abs.c">
