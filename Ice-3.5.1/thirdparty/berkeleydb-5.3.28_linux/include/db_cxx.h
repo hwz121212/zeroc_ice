@@ -8,6 +8,10 @@
 
 #ifndef _DB_CXX_H_
 #define	_DB_CXX_H_
+
+#include "berkeleydb_define.h"
+
+
 //
 // C++ assumptions:
 //
@@ -129,7 +133,6 @@ class DbRunRecoveryException;                    // forward
 // must be defined.
 //
 
-#include "berkeleydb_define.h"
 
 // Some interfaces can be customized by allowing users to define
 // callback functions.  For performance and logistical reasons, some
