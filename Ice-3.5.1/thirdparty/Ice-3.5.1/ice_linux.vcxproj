@@ -838,7 +838,7 @@
     <None Include="base\slice_file\Ice\Version.ice" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{791642ed-9e59-4f42-927b-3562f869d9c1}</ProjectGuid>
+    <ProjectGuid>{3E409FD3-0FA4-43F4-AD13-138DF1A600D4}</ProjectGuid>
     <Keyword>Linux</Keyword>
     <RootNamespace>linux_test</RootNamespace>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
@@ -846,16 +846,16 @@
     <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
     <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
     <LinuxProjectType>{2238F9CD-F817-4ECC-BD14-2524D2669B35}</LinuxProjectType>
-    <ProjectName>libice</ProjectName>
+    <ProjectName>ice</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <UseDebugLibraries>true</UseDebugLibraries>
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <UseDebugLibraries>false</UseDebugLibraries>
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings" />
@@ -863,46 +863,46 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
     <TargetName>$(ProjectName)</TargetName>
     <RemoteProjectDir>$(RemoteRootDir)/$(ProjectName)</RemoteProjectDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
     <TargetName>$(ProjectName)</TargetName>
     <RemoteProjectDir>$(RemoteRootDir)/$(ProjectName)</RemoteProjectDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\Ice-3.5.1\base\slice_generate;$(SolutionDir)thirdparty\Ice-3.5.1\base\IceInternal;$(SolutionDir)thirdparty\bzip2-1.0.8\include;$(SolutionDir)thirdparty\berkeleydb-5.3.28\include;$(SolutionDir)thirdparty\expat-R_2_4_8\include;$(SolutionDir)thirdparty\openssl-1.1.1q_linux;$(SolutionDir)thirdparty\openssl-1.1.1q_linux\include;$(SolutionDir)thirdparty\mcpp-2.7.2\include;/root/usr/include;/root/projects/libice;/root/projects/libice/src;/root/projects/libice/IceInternal;/root/projects/libice/slice_generate;/root/projects/libberkeleydb/include;/root/projects/libbzip2/include;/root/projects/libexpat/include;/root/projects/libiconv;/root/projects/libiconv/include;/root/projects/libmpp/include;/root/projects/libopenssl;/root/projects/libopenssl/include</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>LIBICONV_PLUG;ICE_CONST_ICONV_INBUF;HAVE_CXX_STDHEADERS;__USE_BSD</PreprocessorDefinitions>
-      <UndefinePreprocessorDefinitions>__u_char_defined</UndefinePreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\Ice-3.5.1\base\slice_generate;$(SolutionDir)thirdparty\Ice-3.5.1\base\IceInternal;$(SolutionDir)thirdparty\bzip2-1.0.8\include;$(SolutionDir)thirdparty\berkeleydb-5.3.28_linux\include;$(SolutionDir)thirdparty\expat-R_2_4_8\include;$(SolutionDir)thirdparty\openssl-1.1.1q_linux;$(SolutionDir)thirdparty\openssl-1.1.1q_linux\include;$(SolutionDir)thirdparty\mcpp-2.7.2\include;/root/usr/include;/root/projects/ice;/root/projects/ice/src;/root/projects/ice/IceInternal;/root/projects/ice/slice_generate;/root/projects/berkeleydb/include;/root/projects/bzip2/include;/root/projects/expat/include;/root/projects/iconv;/root/projects/iconv/include;/root/projects/mpp/include;/root/projects/openssl;/root/projects/openssl/include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>__linux;LIBICONV_PLUG;ICE_CONST_ICONV_INBUF;HAVE_CXX_STDHEADERS;__USE_BSD;DB_DLL</PreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>__u_char_defined;</UndefinePreprocessorDefinitions>
       <AdditionalOptions>-fPIC %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Lib>
-      <AdditionalOptions>-lpthread -l/root/lib/$(Configuration)/libberkeleydb.a %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>-pthread %(AdditionalOptions)</AdditionalOptions>
     </Lib>
-    <CustomBuildStep>
-      <Inputs>
-      </Inputs>
-    </CustomBuildStep>
+    <Link>
+      <AdditionalOptions>-ldl -pthread %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>/root/bin/$(Configuration)/berkeleydb.so;/root/bin/$(Configuration)/bzip2.so;/root/bin/$(Configuration)/expat.so;/root/bin/$(Configuration)/iconv.so;/root/bin/$(Configuration)/mcpp.so;/root/bin/$(Configuration)/openssl.so</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\Ice-3.5.1\base\slice_generate;$(SolutionDir)thirdparty\Ice-3.5.1\base\IceInternal;$(SolutionDir)thirdparty\bzip2-1.0.8\include;$(SolutionDir)thirdparty\berkeleydb-5.3.28\include;$(SolutionDir)thirdparty\expat-R_2_4_8\include;$(SolutionDir)thirdparty\openssl-1.1.1q_linux;$(SolutionDir)thirdparty\openssl-1.1.1q_linux\include;$(SolutionDir)thirdparty\mcpp-2.7.2\include;/root/usr/include;/root/projects/libice;/root/projects/libice/src;/root/projects/libice/IceInternal;/root/projects/libice/slice_generate;/root/projects/libberkeleydb/include;/root/projects/libbzip2/include;/root/projects/libexpat/include;/root/projects/libiconv;/root/projects/libiconv/include;/root/projects/libmpp/include;/root/projects/libopenssl;/root/projects/libopenssl/include</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>LIBICONV_PLUG;ICE_CONST_ICONV_INBUF;HAVE_CXX_STDHEADERS;__USE_BSD</PreprocessorDefinitions>
-      <UndefinePreprocessorDefinitions>__u_char_defined</UndefinePreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\Ice-3.5.1\base\slice_generate;$(SolutionDir)thirdparty\Ice-3.5.1\base\IceInternal;$(SolutionDir)thirdparty\bzip2-1.0.8\include;$(SolutionDir)thirdparty\berkeleydb-5.3.28_linux\include;$(SolutionDir)thirdparty\expat-R_2_4_8\include;$(SolutionDir)thirdparty\openssl-1.1.1q_linux;$(SolutionDir)thirdparty\openssl-1.1.1q_linux\include;$(SolutionDir)thirdparty\mcpp-2.7.2\include;/root/usr/include;/root/projects/ice;/root/projects/ice/src;/root/projects/ice/IceInternal;/root/projects/ice/slice_generate;/root/projects/berkeleydb/include;/root/projects/bzip2/include;/root/projects/expat/include;/root/projects/iconv;/root/projects/iconv/include;/root/projects/mpp/include;/root/projects/openssl;/root/projects/openssl/include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>__linux;LIBICONV_PLUG;ICE_CONST_ICONV_INBUF;HAVE_CXX_STDHEADERS;__USE_BSD;DB_DLL</PreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>__u_char_defined;</UndefinePreprocessorDefinitions>
       <AdditionalOptions>-fPIC %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Lib>
-      <AdditionalOptions>-pthread -l/root/lib/$(Configuration)/libberkeleydb.a %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>-pthread %(AdditionalOptions)</AdditionalOptions>
     </Lib>
-    <CustomBuildStep>
-      <Inputs>
-      </Inputs>
-    </CustomBuildStep>
+    <Link>
+      <AdditionalOptions>-ldl -pthread %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>/root/bin/$(Configuration)/berkeleydb.so;/root/bin/$(Configuration)/bzip2.so;/root/bin/$(Configuration)/expat.so;/root/bin/$(Configuration)/iconv.so;/root/bin/$(Configuration)/mcpp.so;/root/bin/$(Configuration)/openssl.so</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
