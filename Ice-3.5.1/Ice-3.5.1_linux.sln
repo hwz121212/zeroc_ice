@@ -43,6 +43,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_dll", "1_dll", "{2DE20A8B
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "icessl", "thirdparty\Ice-3.5.1\src\IceSSL\icessl_linux.vcxproj", "{B48CF3BD-AE15-4D41-A9B6-31EFADCDABB3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "icegridfreezedb", "thirdparty\Ice-3.5.1\src\IceGridFreezeDB\icegridfreezedb_linux.vcxproj", "{2BC149B1-169A-47F1-B2A1-816CBE026B2A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ice", "thirdparty\Ice-3.5.1\ice_linux.vcxproj", "{3E409FD3-0FA4-43F4-AD13-138DF1A600D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -105,6 +109,14 @@ Global
 		{B48CF3BD-AE15-4D41-A9B6-31EFADCDABB3}.Debug|x64.Build.0 = Debug|x64
 		{B48CF3BD-AE15-4D41-A9B6-31EFADCDABB3}.Release|x64.ActiveCfg = Release|x64
 		{B48CF3BD-AE15-4D41-A9B6-31EFADCDABB3}.Release|x64.Build.0 = Release|x64
+		{2BC149B1-169A-47F1-B2A1-816CBE026B2A}.Debug|x64.ActiveCfg = Debug|x64
+		{2BC149B1-169A-47F1-B2A1-816CBE026B2A}.Debug|x64.Build.0 = Debug|x64
+		{2BC149B1-169A-47F1-B2A1-816CBE026B2A}.Release|x64.ActiveCfg = Release|x64
+		{2BC149B1-169A-47F1-B2A1-816CBE026B2A}.Release|x64.Build.0 = Release|x64
+		{3E409FD3-0FA4-43F4-AD13-138DF1A600D4}.Debug|x64.ActiveCfg = Debug|x64
+		{3E409FD3-0FA4-43F4-AD13-138DF1A600D4}.Debug|x64.Build.0 = Debug|x64
+		{3E409FD3-0FA4-43F4-AD13-138DF1A600D4}.Release|x64.ActiveCfg = Release|x64
+		{3E409FD3-0FA4-43F4-AD13-138DF1A600D4}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,6 +140,8 @@ Global
 		{791642ED-9E59-4F42-927B-3562F869D9C1} = {19A8519D-B91C-4E9E-B9B2-786DF94756C5}
 		{2DE20A8B-AD6C-4BAB-9C50-B7486D87639F} = {8F2852EA-C968-4E5B-A7A9-CEB630B4BD98}
 		{B48CF3BD-AE15-4D41-A9B6-31EFADCDABB3} = {2DE20A8B-AD6C-4BAB-9C50-B7486D87639F}
+		{2BC149B1-169A-47F1-B2A1-816CBE026B2A} = {2DE20A8B-AD6C-4BAB-9C50-B7486D87639F}
+		{3E409FD3-0FA4-43F4-AD13-138DF1A600D4} = {2DE20A8B-AD6C-4BAB-9C50-B7486D87639F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5806D430-DEB4-4E2B-8838-C80B410D7661}
