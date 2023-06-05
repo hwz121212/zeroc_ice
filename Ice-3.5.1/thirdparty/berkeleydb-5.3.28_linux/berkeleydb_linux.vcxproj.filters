@@ -88,6 +88,18 @@
     <Filter Include="src\dbreg">
       <UniqueIdentifier>{89744aa7-bb9b-47a8-9812-6b8bdbd589ca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="lang">
+      <UniqueIdentifier>{fc95ad4d-4780-4c2b-8bb5-6caa3846b13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lang\cxx">
+      <UniqueIdentifier>{2b5fba18-1f7f-485b-860d-485507d43f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lang\dbm">
+      <UniqueIdentifier>{b8d00409-5038-46ea-bc79-2d508e17e8cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lang\hsearch">
+      <UniqueIdentifier>{db791e5b-1705-4e64-ae5f-ad3dfd27fcf0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\clib_port.h">
@@ -1120,6 +1132,51 @@
     </ClCompile>
     <ClCompile Include="src\dbreg\dbreg_util.c">
       <Filter>src\dbreg</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_channel.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_db.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_dbc.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_dbt.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_env.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_except.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_lock.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_logc.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_mpool.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_multi.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_seq.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_site.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_txn.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\dbm\dbm.c">
+      <Filter>lang\dbm</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\hsearch\hsearch.c">
+      <Filter>lang\hsearch</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

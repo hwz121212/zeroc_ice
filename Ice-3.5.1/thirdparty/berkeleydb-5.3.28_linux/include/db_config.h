@@ -85,6 +85,8 @@
 /* Define to 1 if building the DBM API. */
 /* #undef HAVE_DBM */
 
+#define HAVE_DBM
+
 /* Define to 1 if you have the `directio' function. */
 /* #undef HAVE_DIRECTIO */
 

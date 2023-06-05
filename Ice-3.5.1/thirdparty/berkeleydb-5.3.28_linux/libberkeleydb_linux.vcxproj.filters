@@ -2,94 +2,109 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="include">
-      <UniqueIdentifier>{b7f92312-15e8-40be-b940-a86dea694e30}</UniqueIdentifier>
+      <UniqueIdentifier>{e4e9511b-1cff-4615-a86d-bef0753b3e43}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\crypto">
-      <UniqueIdentifier>{c4d01afc-b3eb-4de6-b3a3-c49fe7561e55}</UniqueIdentifier>
+      <UniqueIdentifier>{2d0e99be-31cd-4873-8327-62163a0e32d2}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\crypto\rijndael">
-      <UniqueIdentifier>{2de2731b-f702-4267-8424-12f25242e92b}</UniqueIdentifier>
+      <UniqueIdentifier>{bd0965b3-72d4-4d7f-bbcd-663db2767b3d}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\dbinc">
-      <UniqueIdentifier>{02e8c55a-ee39-45a4-ae58-319183eca1cf}</UniqueIdentifier>
+      <UniqueIdentifier>{911d6ee7-49cb-4cc8-a9dc-80c188b47058}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\dbinc_auto">
-      <UniqueIdentifier>{9b777639-1977-465e-8d8b-61a5e1202e69}</UniqueIdentifier>
+      <UniqueIdentifier>{b5d68126-530d-4b15-8112-9e932f56093d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lang">
+      <UniqueIdentifier>{6fcefbdc-e943-4838-abf7-c71bf088d0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lang\cxx">
+      <UniqueIdentifier>{ea84d416-661d-41f3-9a3e-8c746dc29e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lang\dbm">
+      <UniqueIdentifier>{a36ca6ed-9802-4042-95f0-4d43dd146d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lang\hsearch">
+      <UniqueIdentifier>{27021074-640b-4fb3-8f0e-72667c237100}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{a067f73a-b420-45a4-9515-844eccc3f070}</UniqueIdentifier>
+      <UniqueIdentifier>{b7eb1994-8407-4a2d-b4ae-146393893f7c}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\os">
-      <UniqueIdentifier>{d560a23f-d43c-4d85-8a8a-c7f02272a594}</UniqueIdentifier>
+      <UniqueIdentifier>{8ead1688-38d3-451c-9166-a746fff730e1}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\crypto">
-      <UniqueIdentifier>{60cb0e2f-8543-4e66-b37a-f02e7b2de45a}</UniqueIdentifier>
+      <UniqueIdentifier>{312ab886-8255-4830-ab24-1aa022e64a38}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\crypto\mersenne">
-      <UniqueIdentifier>{277603db-c634-4c51-a200-96c6150640a9}</UniqueIdentifier>
+      <UniqueIdentifier>{6c807d8d-e074-46b0-bbb1-33d449ef5961}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\crypto\rijndael">
-      <UniqueIdentifier>{5526879c-ff6b-44ae-bbca-1f1e3e0d8250}</UniqueIdentifier>
+      <UniqueIdentifier>{241e05ac-7a42-4a0c-a0a1-8a5efc039306}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\db">
-      <UniqueIdentifier>{ced6ab51-2bf1-4e5b-b78b-cd235f66bd50}</UniqueIdentifier>
+      <UniqueIdentifier>{effd2c69-dc9d-4372-a8b1-b65662c78a30}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\btree">
-      <UniqueIdentifier>{54919ea2-c7da-4036-95d8-5daee2f1c413}</UniqueIdentifier>
+      <UniqueIdentifier>{cbb7a877-0218-49ad-bf7f-defa59f887a3}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\common">
-      <UniqueIdentifier>{5c1eadab-9cba-4849-9116-431553cf057a}</UniqueIdentifier>
+      <UniqueIdentifier>{4ec43407-db9c-4d89-af88-3e43d8dfc3e4}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\env">
-      <UniqueIdentifier>{83c86853-895a-4ff7-a4eb-f1e966dcd74d}</UniqueIdentifier>
+      <UniqueIdentifier>{01ee5f5b-61e9-42a1-bbea-d81ef37b1fff}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\fileops">
-      <UniqueIdentifier>{52dfd99e-05b0-44ba-93d3-279250838c0e}</UniqueIdentifier>
+      <UniqueIdentifier>{46902c4e-23da-4970-ab67-464da067e625}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\hash">
-      <UniqueIdentifier>{a9c239f8-2575-4620-8223-bdcb26fe2ff0}</UniqueIdentifier>
+      <UniqueIdentifier>{9304ec83-4192-4d3f-81dc-d13c120ee680}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\heap">
-      <UniqueIdentifier>{d8492eab-4f16-4783-99f2-44f8514cdfec}</UniqueIdentifier>
+      <UniqueIdentifier>{018cc923-bc7b-49ea-9f3f-bf28c5040105}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\hmac">
-      <UniqueIdentifier>{5a212a73-0d19-4577-a450-c192288d1adb}</UniqueIdentifier>
+      <UniqueIdentifier>{ef136db2-13e1-4117-afc6-728ce480bcaf}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\lock">
-      <UniqueIdentifier>{5c37dfa2-54bd-4a86-8b66-8601aabc2ccb}</UniqueIdentifier>
+      <UniqueIdentifier>{2d440178-703b-4d03-b930-f0fb7e073262}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\log">
-      <UniqueIdentifier>{91ede970-4ee6-44f4-8a45-7a9e3d39e91a}</UniqueIdentifier>
+      <UniqueIdentifier>{a08d736c-8257-46fe-80d2-939bf6d3ebc5}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\mp">
-      <UniqueIdentifier>{a077c55c-6026-42cc-9f06-efaa4dc25476}</UniqueIdentifier>
+      <UniqueIdentifier>{c37243d8-27c8-4126-92fc-7a7bad61b6d7}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\mutex">
-      <UniqueIdentifier>{a67db8a8-526c-4b7f-8665-60d891a8072f}</UniqueIdentifier>
+      <UniqueIdentifier>{e5c7c2b2-20e3-462f-b8f7-05238df66afa}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\qam">
-      <UniqueIdentifier>{fcb0e662-d3e9-49a5-926e-03c11c126091}</UniqueIdentifier>
+      <UniqueIdentifier>{97828499-6c77-4aac-b884-6eab2b94204f}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\rep">
-      <UniqueIdentifier>{6e1b3ffd-bda7-4a78-9165-739548b949ae}</UniqueIdentifier>
+      <UniqueIdentifier>{a8490717-af8a-4fc0-9e5c-e8619bd50769}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\repmgr">
-      <UniqueIdentifier>{7a84db4c-ad5f-43ff-957d-2ba264e13aef}</UniqueIdentifier>
+      <UniqueIdentifier>{de6cfa99-0e3e-444f-b909-7edce1b1ab29}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\txn">
-      <UniqueIdentifier>{fe6583e2-728e-4060-91e4-4d3665277765}</UniqueIdentifier>
+      <UniqueIdentifier>{e50c8df2-adae-4ca4-9a03-2c73bdee2071}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\xa">
-      <UniqueIdentifier>{94c63285-0014-4854-8564-464765caa749}</UniqueIdentifier>
+      <UniqueIdentifier>{9c42ba6f-a863-416b-8ac8-61be89affbad}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\sequence">
-      <UniqueIdentifier>{ace92869-a145-4fc6-a230-0dc5cb428cc1}</UniqueIdentifier>
+      <UniqueIdentifier>{ebe69b6e-dc3a-4b76-82ae-25c1584f73b3}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\dbreg">
-      <UniqueIdentifier>{66ed8f6e-4c49-46e9-84ed-ea26dabe160b}</UniqueIdentifier>
+      <UniqueIdentifier>{5a3720d1-3588-44be-af9b-b991dabdaffe}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\berkeleydb_define.h">
+      <Filter>include</Filter>
+    </ClInclude>
     <ClInclude Include="include\clib_port.h">
       <Filter>include</Filter>
     </ClInclude>
@@ -327,9 +342,6 @@
     <ClInclude Include="include\dbinc_auto\xa_ext.h">
       <Filter>include\dbinc_auto</Filter>
     </ClInclude>
-    <ClInclude Include="include\berkeleydb_define.h">
-      <Filter>include</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="include\dbinc\db.in">
@@ -370,6 +382,51 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="lang\cxx\cxx_channel.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_db.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_dbc.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_dbt.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_env.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_except.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_lock.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_logc.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_mpool.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_multi.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_seq.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_site.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\cxx\cxx_txn.cpp">
+      <Filter>lang\cxx</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\dbm\dbm.c">
+      <Filter>lang\dbm</Filter>
+    </ClCompile>
+    <ClCompile Include="lang\hsearch\hsearch.c">
+      <Filter>lang\hsearch</Filter>
+    </ClCompile>
     <ClCompile Include="src\os\os_abort.c">
       <Filter>src\os</Filter>
     </ClCompile>
