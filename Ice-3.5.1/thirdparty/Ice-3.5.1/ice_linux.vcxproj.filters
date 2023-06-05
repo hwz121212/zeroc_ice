@@ -1038,6 +1038,48 @@
     <ClCompile Include="base\IceInternal\IceGridSqlDB\SqlStringApplicationInfoDict.cpp">
       <Filter>base\IceInternal\IceGridSqlDB</Filter>
     </ClCompile>
+    <ClCompile Include="base\slice_generate\Glacier2\Instrumentation_Glacier2.cpp">
+      <Filter>base\slice_generate\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Glacier2\Blobject.cpp">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Glacier2\ClientBlobject.cpp">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Glacier2\CryptPermissionsVerifierI.cpp">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Glacier2\FilterI.cpp">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Glacier2\FilterManager.cpp">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Glacier2\Instance.cpp">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Glacier2\InstrumentationI.cpp">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Glacier2\ProxyVerifier.cpp">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Glacier2\RequestQueue.cpp">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Glacier2\RouterI.cpp">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Glacier2\RoutingTable.cpp">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Glacier2\ServerBlobject.cpp">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\Glacier2\SessionRouterI.cpp">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base\IceInternal\IceUtil\AbstractMutex.h">
@@ -2222,6 +2264,48 @@
     <ClInclude Include="base\IceInternal\IceGridSqlDB\SqlStringApplicationInfoDict.h">
       <Filter>base\IceInternal\IceGridSqlDB</Filter>
     </ClInclude>
+    <ClInclude Include="base\slice_generate\Glacier2\Instrumentation.h">
+      <Filter>base\slice_generate\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Glacier2\Blobject.h">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Glacier2\ClientBlobject.h">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Glacier2\CryptPermissionsVerifierI.h">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Glacier2\FilterI.h">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Glacier2\FilterManager.h">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Glacier2\Instance.h">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Glacier2\InstrumentationI.h">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Glacier2\ProxyVerifier.h">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Glacier2\RequestQueue.h">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Glacier2\RouterI.h">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Glacier2\RoutingTable.h">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Glacier2\ServerBlobject.h">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\Glacier2\SessionRouterI.h">
+      <Filter>base\IceInternal\Glacier2</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="base\slice_file\Ice\BuiltinSequences.ice">
@@ -2499,6 +2583,9 @@
     </None>
     <None Include="base\IceInternal\Freeze\Scanner.l">
       <Filter>base\IceInternal\Freeze</Filter>
+    </None>
+    <None Include="base\slice_file\Glacier2\Instrumentation.ice">
+      <Filter>base\slice_file\Glacier2</Filter>
     </None>
   </ItemGroup>
 </Project>
