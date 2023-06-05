@@ -106,6 +106,9 @@
     <Filter Include="base\IceInternal\IceGridSqlDB">
       <UniqueIdentifier>{b85cd610-f211-4841-a4dd-881a8fa0905b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="base\IceInternal\FreezeScript">
+      <UniqueIdentifier>{f03c1cbc-df3f-45bc-8cdc-1d8d9f256de4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="base\IceInternal\IceUtil\ArgVector.cpp">
@@ -1079,6 +1082,48 @@
     </ClCompile>
     <ClCompile Include="base\IceInternal\Glacier2\SessionRouterI.cpp">
       <Filter>base\IceInternal\Glacier2</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\AssignVisitor_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\Data_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\DumpDescriptors_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\Error_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\Exception_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\Functions_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\Grammar_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\Parser_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\Print_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\Scanner_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\TransformAnalyzer_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\Transformer_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\TransformVisitor_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\Util_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -2306,6 +2351,48 @@
     <ClInclude Include="base\IceInternal\Glacier2\SessionRouterI.h">
       <Filter>base\IceInternal\Glacier2</Filter>
     </ClInclude>
+    <ClInclude Include="base\IceInternal\FreezeScript\AssignVisitor.h">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\FreezeScript\Data.h">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\FreezeScript\DumpDescriptors.h">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\FreezeScript\Error.h">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\FreezeScript\Exception.h">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\FreezeScript\Functions.h">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\FreezeScript\Grammar.h">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\FreezeScript\GrammarUtil.h">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\FreezeScript\Parser.h">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\FreezeScript\Print.h">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\FreezeScript\TransformAnalyzer.h">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\FreezeScript\Transformer.h">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\FreezeScript\TransformVisitor.h">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\FreezeScript\Util.h">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="base\slice_file\Ice\BuiltinSequences.ice">
@@ -2586,6 +2673,12 @@
     </None>
     <None Include="base\slice_file\Glacier2\Instrumentation.ice">
       <Filter>base\slice_file\Glacier2</Filter>
+    </None>
+    <None Include="base\IceInternal\FreezeScript\Grammar.y">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </None>
+    <None Include="base\IceInternal\FreezeScript\Scanner.l">
+      <Filter>base\IceInternal\FreezeScript</Filter>
     </None>
   </ItemGroup>
 </Project>
