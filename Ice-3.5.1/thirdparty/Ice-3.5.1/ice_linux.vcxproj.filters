@@ -1125,6 +1125,9 @@
     <ClCompile Include="base\IceInternal\FreezeScript\Util_FreezeScript.cpp">
       <Filter>base\IceInternal\FreezeScript</Filter>
     </ClCompile>
+    <ClCompile Include="base\IceInternal\IceBox\ServiceManagerI.cpp">
+      <Filter>base\IceInternal\IceBox</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base\IceInternal\IceUtil\AbstractMutex.h">
@@ -2392,6 +2395,9 @@
     </ClInclude>
     <ClInclude Include="base\IceInternal\FreezeScript\Util.h">
       <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceBox\ServiceManagerI.h">
+      <Filter>base\IceInternal\IceBox</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

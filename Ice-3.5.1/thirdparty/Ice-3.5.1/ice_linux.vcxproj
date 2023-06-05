@@ -59,6 +59,7 @@
     <ClCompile Include="base\IceInternal\Glacier2\SessionHelper_Glacier2.cpp" />
     <ClCompile Include="base\IceInternal\Glacier2\SessionRouterI.cpp" />
     <ClCompile Include="base\IceInternal\IceBox\Exception_IceBox.cpp" />
+    <ClCompile Include="base\IceInternal\IceBox\ServiceManagerI.cpp" />
     <ClCompile Include="base\IceInternal\IceDB\FreezeTypes_IceDB.cpp" />
     <ClCompile Include="base\IceInternal\IceDB\IceDB_IceDB.cpp" />
     <ClCompile Include="base\IceInternal\IceDB\SqlTypes.cpp">
@@ -435,6 +436,7 @@
     <ClInclude Include="base\IceInternal\Glacier2\ServerBlobject.h" />
     <ClInclude Include="base\IceInternal\Glacier2\SessionHelper.h" />
     <ClInclude Include="base\IceInternal\Glacier2\SessionRouterI.h" />
+    <ClInclude Include="base\IceInternal\IceBox\ServiceManagerI.h" />
     <ClInclude Include="base\IceInternal\IceDB\FreezeTypes.h" />
     <ClInclude Include="base\IceInternal\IceDB\IceDB.h" />
     <ClInclude Include="base\IceInternal\IceDB\SqlTypes.h">

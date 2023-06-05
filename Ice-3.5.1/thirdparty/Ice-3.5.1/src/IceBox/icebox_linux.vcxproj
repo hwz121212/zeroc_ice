@@ -18,7 +18,7 @@
     <ClCompile Include="ServiceManagerI.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{841FA4DB-5893-4815-B47F-0CD7ED117764}</ProjectGuid>
+    <ProjectGuid>{BBE3F455-0B8A-4802-9402-FC6CAC8D2989}</ProjectGuid>
     <Keyword>Linux</Keyword>
     <RootNamespace>linux_test</RootNamespace>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
@@ -54,7 +54,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\Ice-3.5.1\base\slice_generate;$(SolutionDir)thirdparty\Ice-3.5.1\base\IceInternal;$(SolutionDir)thirdparty\bzip2-1.0.8\include;$(SolutionDir)thirdparty\berkeleydb-5.3.28_linux\include;$(SolutionDir)thirdparty\expat-R_2_4_8\include;$(SolutionDir)thirdparty\openssl-1.1.1q_linux;$(SolutionDir)thirdparty\openssl-1.1.1q_linux\include;$(SolutionDir)thirdparty\mcpp-2.7.2\include;/root/usr/include;/root/projects/ice;/root/projects/ice/src;/root/projects/ice/IceInternal;/root/projects/ice/slice_generate;/root/projects/berkeleydb/include;/root/projects/bzip2/include;/root/projects/expat/include;/root/projects/iconv;/root/projects/iconv/include;/root/projects/mpp/include;/root/projects/openssl;/root/projects/openssl/include;/root/projects/icestormservice35</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\Ice-3.5.1\base\slice_generate;$(SolutionDir)thirdparty\Ice-3.5.1\base\IceInternal;$(SolutionDir)thirdparty\bzip2-1.0.8\include;$(SolutionDir)thirdparty\berkeleydb-5.3.28_linux\include;$(SolutionDir)thirdparty\expat-R_2_4_8\include;$(SolutionDir)thirdparty\openssl-1.1.1q_linux;$(SolutionDir)thirdparty\openssl-1.1.1q_linux\include;$(SolutionDir)thirdparty\mcpp-2.7.2\include;/root/usr/include;/root/projects/ice;/root/projects/ice/src;/root/projects/ice/IceInternal;/root/projects/ice/slice_generate;/root/projects/berkeleydb/include;/root/projects/bzip2/include;/root/projects/expat/include;/root/projects/iconv;/root/projects/iconv/include;/root/projects/mpp/include;/root/projects/openssl;/root/projects/openssl/include;/root/projects/icebox</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>LIBICONV_PLUG;ICE_CONST_ICONV_INBUF;HAVE_CXX_STDHEADERS;__USE_BSD</PreprocessorDefinitions>
     </ClCompile>
     <Link>
@@ -66,7 +66,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\Ice-3.5.1\base\slice_generate;$(SolutionDir)thirdparty\Ice-3.5.1\base\IceInternal;$(SolutionDir)thirdparty\bzip2-1.0.8\include;$(SolutionDir)thirdparty\berkeleydb-5.3.28_linux\include;$(SolutionDir)thirdparty\expat-R_2_4_8\include;$(SolutionDir)thirdparty\openssl-1.1.1q_linux;$(SolutionDir)thirdparty\openssl-1.1.1q_linux\include;$(SolutionDir)thirdparty\mcpp-2.7.2\include;/root/usr/include;/root/projects/ice;/root/projects/ice/src;/root/projects/ice/IceInternal;/root/projects/ice/slice_generate;/root/projects/berkeleydb/include;/root/projects/bzip2/include;/root/projects/expat/include;/root/projects/iconv;/root/projects/iconv/include;/root/projects/mpp/include;/root/projects/openssl;/root/projects/openssl/include;/root/projects/icestormservice35</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\Ice-3.5.1\base\slice_generate;$(SolutionDir)thirdparty\Ice-3.5.1\base\IceInternal;$(SolutionDir)thirdparty\bzip2-1.0.8\include;$(SolutionDir)thirdparty\berkeleydb-5.3.28_linux\include;$(SolutionDir)thirdparty\expat-R_2_4_8\include;$(SolutionDir)thirdparty\openssl-1.1.1q_linux;$(SolutionDir)thirdparty\openssl-1.1.1q_linux\include;$(SolutionDir)thirdparty\mcpp-2.7.2\include;/root/usr/include;/root/projects/ice;/root/projects/ice/src;/root/projects/ice/IceInternal;/root/projects/ice/slice_generate;/root/projects/berkeleydb/include;/root/projects/bzip2/include;/root/projects/expat/include;/root/projects/iconv;/root/projects/iconv/include;/root/projects/mpp/include;/root/projects/openssl;/root/projects/openssl/include;/root/projects/icebox</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>LIBICONV_PLUG;ICE_CONST_ICONV_INBUF;HAVE_CXX_STDHEADERS;__USE_BSD</PreprocessorDefinitions>
     </ClCompile>
     <Link>
