@@ -65,7 +65,10 @@
     <ClCompile Include="base\IceInternal\IceGrid\FileCache_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\FileParserI_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\FileUserAccountMapperI_IceGrid.cpp" />
-    <ClCompile Include="base\IceInternal\IceGrid\Grammar_IceGrid.cpp" />
+    <ClCompile Include="base\IceInternal\IceGrid\Grammar_IceGrid.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="base\IceInternal\IceGrid\InternalRegistryI_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\LocatorI_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\LocatorRegistryI_IceGrid.cpp" />
@@ -75,7 +78,10 @@
     <ClCompile Include="base\IceInternal\IceGrid\NodeSessionI_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\NodeSessionManager_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\ObjectCache_IceGrid.cpp" />
-    <ClCompile Include="base\IceInternal\IceGrid\Parser_IceGrid.cpp" />
+    <ClCompile Include="base\IceInternal\IceGrid\Parser_IceGrid.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="base\IceInternal\IceGrid\PlatformInfo_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\QueryI_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\ReapThread_IceGrid.cpp" />
@@ -84,7 +90,10 @@
     <ClCompile Include="base\IceInternal\IceGrid\ReplicaCache_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\ReplicaSessionI_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\ReplicaSessionManager_IceGrid.cpp" />
-    <ClCompile Include="base\IceInternal\IceGrid\Scanner_IceGrid.cpp" />
+    <ClCompile Include="base\IceInternal\IceGrid\Scanner_IceGrid.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="base\IceInternal\IceGrid\ServerAdapterI_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\ServerCache_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\ServerI_IceGrid.cpp" />
@@ -108,13 +117,22 @@
     <ClCompile Include="base\IceInternal\IceSSL\TransceiverI_IceSSL.cpp" />
     <ClCompile Include="base\IceInternal\IceSSL\TrustManager_IceSSL.cpp" />
     <ClCompile Include="base\IceInternal\IceSSL\Util_IceSSL.cpp" />
-    <ClCompile Include="base\IceInternal\IceStorm\Grammar_IceStorm.cpp" />
+    <ClCompile Include="base\IceInternal\IceStorm\Grammar_IceStorm.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="base\IceInternal\IceStorm\Instance_IceStorm.cpp" />
     <ClCompile Include="base\IceInternal\IceStorm\InstrumentationI_IceStorm.cpp" />
     <ClCompile Include="base\IceInternal\IceStorm\NodeI_IceStorm.cpp" />
     <ClCompile Include="base\IceInternal\IceStorm\Observers_IceStorm.cpp" />
-    <ClCompile Include="base\IceInternal\IceStorm\Parser_IceStorm.cpp" />
-    <ClCompile Include="base\IceInternal\IceStorm\Scanner_IceStorm.cpp" />
+    <ClCompile Include="base\IceInternal\IceStorm\Parser_IceStorm.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceStorm\Scanner_IceStorm.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="base\IceInternal\IceStorm\Service_IceStorm.cpp" />
     <ClCompile Include="base\IceInternal\IceStorm\Subscriber_IceStorm.cpp" />
     <ClCompile Include="base\IceInternal\IceStorm\TopicI_IceStorm.cpp" />
