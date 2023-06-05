@@ -25,7 +25,7 @@ using namespace Ice;
 using namespace IceGrid;
 
 void
-yyerror_IceGrid(const char* s)
+yyerror(const char* s)
 {
     parser->invalidCommand(s);
 }

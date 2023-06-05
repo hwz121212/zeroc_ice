@@ -25,7 +25,7 @@ using namespace Ice;
 using namespace IceStorm;
 
 void
-yyerror_IceStorm(const char* s)
+yyerror(const char* s)
 {
     parser->error(s);
 }
