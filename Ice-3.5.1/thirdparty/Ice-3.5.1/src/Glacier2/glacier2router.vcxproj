@@ -93,37 +93,7 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Blobject.h" />
-    <ClInclude Include="ClientBlobject.h" />
-    <ClInclude Include="CryptPermissionsVerifierI.h" />
-    <ClInclude Include="FilterI.h" />
-    <ClInclude Include="FilterManager.h" />
-    <ClInclude Include="Instance.h" />
-    <ClInclude Include="Instrumentation.h" />
-    <ClInclude Include="InstrumentationI.h" />
-    <ClInclude Include="ProxyVerifier.h" />
-    <ClInclude Include="RequestQueue.h" />
-    <ClInclude Include="RouterI.h" />
-    <ClInclude Include="RoutingTable.h" />
-    <ClInclude Include="ServerBlobject.h" />
-    <ClInclude Include="SessionRouterI.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Blobject.cpp" />
-    <ClCompile Include="ClientBlobject.cpp" />
-    <ClCompile Include="CryptPermissionsVerifierI.cpp" />
-    <ClCompile Include="FilterI.cpp" />
-    <ClCompile Include="FilterManager.cpp" />
     <ClCompile Include="Glacier2Router.cpp" />
-    <ClCompile Include="Instance.cpp" />
-    <ClCompile Include="Instrumentation.cpp" />
-    <ClCompile Include="InstrumentationI.cpp" />
-    <ClCompile Include="ProxyVerifier.cpp" />
-    <ClCompile Include="RequestQueue.cpp" />
-    <ClCompile Include="RouterI.cpp" />
-    <ClCompile Include="RoutingTable.cpp" />
-    <ClCompile Include="ServerBlobject.cpp" />
-    <ClCompile Include="SessionRouterI.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

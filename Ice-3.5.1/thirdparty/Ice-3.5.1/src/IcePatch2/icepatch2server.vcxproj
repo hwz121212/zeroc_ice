@@ -93,10 +93,6 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="FileServerI.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="FileServerI.cpp" />
     <ClCompile Include="Server.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

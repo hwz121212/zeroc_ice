@@ -11,11 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FileServerI.cpp" />
     <ClCompile Include="Server.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="FileServerI.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{AB126D2B-E9DC-46D8-B9C1-491DBECB7E32}</ProjectGuid>

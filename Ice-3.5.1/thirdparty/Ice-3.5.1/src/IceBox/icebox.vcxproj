@@ -94,10 +94,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Service.cpp" />
-    <ClCompile Include="ServiceManagerI.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ServiceManagerI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
