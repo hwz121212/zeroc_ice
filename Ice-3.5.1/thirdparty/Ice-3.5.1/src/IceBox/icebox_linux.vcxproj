@@ -11,11 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ServiceManagerI.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="Service.cpp" />
-    <ClCompile Include="ServiceManagerI.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{BBE3F455-0B8A-4802-9402-FC6CAC8D2989}</ProjectGuid>
