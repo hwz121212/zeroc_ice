@@ -70,6 +70,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ice", "thirdparty\Ice-3.5.1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "icestormfreezedb", "thirdparty\Ice-3.5.1\src\IceStormFreezeDB\icestormfreezedb_linux.vcxproj", "{6E23AE98-74D9-44C7-B305-E502931E8690}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "icestormservice35", "thirdparty\Ice-3.5.1\src\IceStormService\icestormservice35_linux.vcxproj", "{841FA4DB-5893-4815-B47F-0CD7ED117764}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -144,6 +146,10 @@ Global
 		{6E23AE98-74D9-44C7-B305-E502931E8690}.Debug|x64.Build.0 = Debug|x64
 		{6E23AE98-74D9-44C7-B305-E502931E8690}.Release|x64.ActiveCfg = Release|x64
 		{6E23AE98-74D9-44C7-B305-E502931E8690}.Release|x64.Build.0 = Release|x64
+		{841FA4DB-5893-4815-B47F-0CD7ED117764}.Debug|x64.ActiveCfg = Debug|x64
+		{841FA4DB-5893-4815-B47F-0CD7ED117764}.Debug|x64.Build.0 = Debug|x64
+		{841FA4DB-5893-4815-B47F-0CD7ED117764}.Release|x64.ActiveCfg = Release|x64
+		{841FA4DB-5893-4815-B47F-0CD7ED117764}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -170,6 +176,7 @@ Global
 		{2BC149B1-169A-47F1-B2A1-816CBE026B2A} = {2DE20A8B-AD6C-4BAB-9C50-B7486D87639F}
 		{3E409FD3-0FA4-43F4-AD13-138DF1A600D4} = {2DE20A8B-AD6C-4BAB-9C50-B7486D87639F}
 		{6E23AE98-74D9-44C7-B305-E502931E8690} = {2DE20A8B-AD6C-4BAB-9C50-B7486D87639F}
+		{841FA4DB-5893-4815-B47F-0CD7ED117764} = {2DE20A8B-AD6C-4BAB-9C50-B7486D87639F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5806D430-DEB4-4E2B-8838-C80B410D7661}
