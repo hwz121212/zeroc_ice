@@ -11,34 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AssignVisitor.h" />
-    <ClInclude Include="Data.h" />
-    <ClInclude Include="DumpDescriptors.h" />
-    <ClInclude Include="Error.h" />
-    <ClInclude Include="Exception.h" />
-    <ClInclude Include="Functions.h" />
-    <ClInclude Include="Grammar.h" />
-    <ClInclude Include="GrammarUtil.h" />
-    <ClInclude Include="Parser.h" />
-    <ClInclude Include="Print.h" />
-    <ClInclude Include="TransformAnalyzer.h" />
-    <ClInclude Include="Transformer.h" />
-    <ClInclude Include="TransformVisitor.h" />
-    <ClInclude Include="Util.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="AssignVisitor.cpp" />
-    <ClCompile Include="Data.cpp" />
     <ClCompile Include="DumpDB.cpp" />
-    <ClCompile Include="DumpDescriptors.cpp" />
-    <ClCompile Include="Error.cpp" />
-    <ClCompile Include="Exception.cpp" />
-    <ClCompile Include="Functions.cpp" />
-    <ClCompile Include="Grammar.cpp" />
-    <ClCompile Include="Parser.cpp" />
-    <ClCompile Include="Print.cpp" />
-    <ClCompile Include="Scanner.cpp" />
-    <ClCompile Include="Util.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C4D4CE7E-AEC1-4D83-B163-215F386BFA3B}</ProjectGuid>
