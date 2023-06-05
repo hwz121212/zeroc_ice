@@ -11,12 +11,26 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="base\IceInternal\FreezeScript\AssignVisitor_FreezeScript.cpp" />
+    <ClCompile Include="base\IceInternal\FreezeScript\Data_FreezeScript.cpp" />
+    <ClCompile Include="base\IceInternal\FreezeScript\DumpDescriptors_FreezeScript.cpp" />
+    <ClCompile Include="base\IceInternal\FreezeScript\Error_FreezeScript.cpp" />
+    <ClCompile Include="base\IceInternal\FreezeScript\Exception_FreezeScript.cpp" />
+    <ClCompile Include="base\IceInternal\FreezeScript\Functions_FreezeScript.cpp" />
+    <ClCompile Include="base\IceInternal\FreezeScript\Grammar_FreezeScript.cpp" />
+    <ClCompile Include="base\IceInternal\FreezeScript\Parser_FreezeScript.cpp" />
+    <ClCompile Include="base\IceInternal\FreezeScript\Print_FreezeScript.cpp" />
+    <ClCompile Include="base\IceInternal\FreezeScript\Scanner_FreezeScript.cpp" />
+    <ClCompile Include="base\IceInternal\FreezeScript\TransformAnalyzer_FreezeScript.cpp" />
+    <ClCompile Include="base\IceInternal\FreezeScript\Transformer_FreezeScript.cpp" />
+    <ClCompile Include="base\IceInternal\FreezeScript\TransformVisitor_FreezeScript.cpp" />
+    <ClCompile Include="base\IceInternal\FreezeScript\Util_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\Freeze\BackgroundSaveEvictorI_Freeze.cpp" />
     <ClCompile Include="base\IceInternal\Freeze\ConnectionI_Freeze.cpp" />
-    <ClCompile Include="base\IceInternal\Freeze\EvictorI_Freeze.cpp" />
     <ClCompile Include="base\IceInternal\Freeze\EvictorIteratorI_Freeze.cpp" />
-    <ClCompile Include="base\IceInternal\Freeze\Index_Freeze.cpp" />
+    <ClCompile Include="base\IceInternal\Freeze\EvictorI_Freeze.cpp" />
     <ClCompile Include="base\IceInternal\Freeze\IndexI_Freeze.cpp" />
+    <ClCompile Include="base\IceInternal\Freeze\Index_Freeze.cpp" />
     <ClCompile Include="base\IceInternal\Freeze\MapDb_Freeze.cpp" />
     <ClCompile Include="base\IceInternal\Freeze\MapI_Freeze.cpp" />
     <ClCompile Include="base\IceInternal\Freeze\ObjectStore_Freeze.cpp" />
@@ -27,17 +41,51 @@
     <ClCompile Include="base\IceInternal\Freeze\TransactionI_Freeze.cpp" />
     <ClCompile Include="base\IceInternal\Freeze\Util_Freeze.cpp" />
     <ClCompile Include="base\IceInternal\Glacier2\Application_Glacier2.cpp" />
+    <ClCompile Include="base\IceInternal\Glacier2\Blobject.cpp" />
+    <ClCompile Include="base\IceInternal\Glacier2\ClientBlobject.cpp" />
+    <ClCompile Include="base\IceInternal\Glacier2\CryptPermissionsVerifierI.cpp" />
+    <ClCompile Include="base\IceInternal\Glacier2\FilterI.cpp" />
+    <ClCompile Include="base\IceInternal\Glacier2\FilterManager.cpp" />
+    <ClCompile Include="base\IceInternal\Glacier2\Instance.cpp" />
+    <ClCompile Include="base\IceInternal\Glacier2\InstrumentationI.cpp" />
+    <ClCompile Include="base\IceInternal\Glacier2\ProxyVerifier.cpp" />
+    <ClCompile Include="base\IceInternal\Glacier2\RequestQueue.cpp" />
+    <ClCompile Include="base\IceInternal\Glacier2\RouterI.cpp" />
+    <ClCompile Include="base\IceInternal\Glacier2\RoutingTable.cpp" />
+    <ClCompile Include="base\IceInternal\Glacier2\ServerBlobject.cpp" />
     <ClCompile Include="base\IceInternal\Glacier2\SessionHelper_Glacier2.cpp" />
+    <ClCompile Include="base\IceInternal\Glacier2\SessionRouterI.cpp" />
     <ClCompile Include="base\IceInternal\IceBox\Exception_IceBox.cpp" />
+    <ClCompile Include="base\IceInternal\IceBox\ServiceManagerI.cpp" />
     <ClCompile Include="base\IceInternal\IceDB\FreezeTypes_IceDB.cpp" />
     <ClCompile Include="base\IceInternal\IceDB\IceDB_IceDB.cpp" />
+    <ClCompile Include="base\IceInternal\IceDB\SqlTypes.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGridSqlDB\SqlDB.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGridSqlDB\SqlIdentityObjectInfoDict.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGridSqlDB\SqlStringAdapterInfoDict.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\IceGridSqlDB\SqlStringApplicationInfoDict.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="base\IceInternal\IceGrid\Activator_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\AdapterCache_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\AdminCallbackRouter_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\AdminI_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\AdminSessionI_IceGrid.cpp" />
-    <ClCompile Include="base\IceInternal\IceGrid\Allocatable_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\AllocatableObjectCache_IceGrid.cpp" />
+    <ClCompile Include="base\IceInternal\IceGrid\Allocatable_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\Database_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\DescriptorBuilder_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\DescriptorHelper_IceGrid.cpp" />
@@ -77,6 +125,7 @@
     <ClCompile Include="base\IceInternal\IceGrid\WaitQueue_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\WellKnownObjectsManager_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IcePatch2\ClientUtil_IcePatch2.cpp" />
+    <ClCompile Include="base\IceInternal\IcePatch2\FileServerI.cpp" />
     <ClCompile Include="base\IceInternal\IcePatch2\Util_IcePatch2.cpp" />
     <ClCompile Include="base\IceInternal\IceSSL\AcceptorI_IceSSL.cpp" />
     <ClCompile Include="base\IceInternal\IceSSL\Certificate_IceSSL.cpp" />
@@ -140,19 +189,18 @@
     <ClCompile Include="base\IceInternal\Ice\DefaultsAndOverrides_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\Direct_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\DispatchInterceptor_Ice.cpp" />
-    <ClCompile Include="base\IceInternal\Ice\DLLMain_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\DynamicLibrary_Ice.cpp" />
-    <ClCompile Include="base\IceInternal\Ice\EndpointFactory_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\EndpointFactoryManager_Ice.cpp" />
+    <ClCompile Include="base\IceInternal\Ice\EndpointFactory_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\EndpointI_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\EventHandler_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\Exception_Ice.cpp" />
-    <ClCompile Include="base\IceInternal\Ice\FactoryTable_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\FactoryTableInit_Ice.cpp" />
+    <ClCompile Include="base\IceInternal\Ice\FactoryTable_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\GC_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\ImplicitContextI_Ice.cpp" />
-    <ClCompile Include="base\IceInternal\Ice\Incoming_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\IncomingAsync_Ice.cpp" />
+    <ClCompile Include="base\IceInternal\Ice\Incoming_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\Initialize_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\Instance_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\InstrumentationI_Ice.cpp" />
@@ -163,24 +211,24 @@
     <ClCompile Include="base\IceInternal\Ice\MetricsAdminI_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\MetricsObserverI_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\Network_Ice.cpp" />
-    <ClCompile Include="base\IceInternal\Ice\Object_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\ObjectAdapterFactory_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\ObjectAdapterI_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\ObjectFactoryManager_Ice.cpp" />
+    <ClCompile Include="base\IceInternal\Ice\Object_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\ObserverHelper_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\OpaqueEndpointI_Ice.cpp" />
-    <ClCompile Include="base\IceInternal\Ice\Outgoing_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\OutgoingAsync_Ice.cpp" />
+    <ClCompile Include="base\IceInternal\Ice\Outgoing_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\PluginManagerI_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\PropertiesAdminI_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\PropertiesI_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\PropertyNames_Ice.cpp" />
-    <ClCompile Include="base\IceInternal\Ice\Protocol_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\ProtocolPluginFacade_Ice.cpp" />
-    <ClCompile Include="base\IceInternal\Ice\Proxy_Ice.cpp" />
+    <ClCompile Include="base\IceInternal\Ice\Protocol_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\ProxyFactory_Ice.cpp" />
-    <ClCompile Include="base\IceInternal\Ice\Reference_Ice.cpp" />
+    <ClCompile Include="base\IceInternal\Ice\Proxy_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\ReferenceFactory_Ice.cpp" />
+    <ClCompile Include="base\IceInternal\Ice\Reference_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\RequestHandler_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\RetryQueue_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\RouterInfo_Ice.cpp" />
@@ -189,9 +237,13 @@
     <ClCompile Include="base\IceInternal\Ice\Service_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\SliceChecksums_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\SlicedData_Ice.cpp" />
-    <ClCompile Include="base\IceInternal\Ice\Stream_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\StreamI_Ice.cpp" />
+    <ClCompile Include="base\IceInternal\Ice\Stream_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\StringConverter_Ice.cpp" />
+    <ClCompile Include="base\IceInternal\Ice\SysLoggerI.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="base\IceInternal\Ice\TcpAcceptor_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\TcpConnector_Ice.cpp" />
     <ClCompile Include="base\IceInternal\Ice\TcpEndpointI_Ice.cpp" />
@@ -233,6 +285,7 @@
     <ClCompile Include="base\slice_generate\Freeze\PingObject_Freeze.cpp" />
     <ClCompile Include="base\slice_generate\Freeze\TransactionalEvictor_Freeze.cpp" />
     <ClCompile Include="base\slice_generate\Freeze\Transaction_Freeze.cpp" />
+    <ClCompile Include="base\slice_generate\Glacier2\Instrumentation_Glacier2.cpp" />
     <ClCompile Include="base\slice_generate\Glacier2\Metrics_Glacier2.cpp" />
     <ClCompile Include="base\slice_generate\Glacier2\PermissionsVerifierF_Glacier2.cpp" />
     <ClCompile Include="base\slice_generate\Glacier2\PermissionsVerifier_Glacier2.cpp" />
@@ -318,6 +371,20 @@
     <ClCompile Include="base\slice_generate\Ice\Version_Ice.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="base\IceInternal\FreezeScript\AssignVisitor.h" />
+    <ClInclude Include="base\IceInternal\FreezeScript\Data.h" />
+    <ClInclude Include="base\IceInternal\FreezeScript\DumpDescriptors.h" />
+    <ClInclude Include="base\IceInternal\FreezeScript\Error.h" />
+    <ClInclude Include="base\IceInternal\FreezeScript\Exception.h" />
+    <ClInclude Include="base\IceInternal\FreezeScript\Functions.h" />
+    <ClInclude Include="base\IceInternal\FreezeScript\Grammar.h" />
+    <ClInclude Include="base\IceInternal\FreezeScript\GrammarUtil.h" />
+    <ClInclude Include="base\IceInternal\FreezeScript\Parser.h" />
+    <ClInclude Include="base\IceInternal\FreezeScript\Print.h" />
+    <ClInclude Include="base\IceInternal\FreezeScript\TransformAnalyzer.h" />
+    <ClInclude Include="base\IceInternal\FreezeScript\Transformer.h" />
+    <ClInclude Include="base\IceInternal\FreezeScript\TransformVisitor.h" />
+    <ClInclude Include="base\IceInternal\FreezeScript\Util.h" />
     <ClInclude Include="base\IceInternal\Freeze\BackgroundSaveEvictorI.h" />
     <ClInclude Include="base\IceInternal\Freeze\ConnectionI.h" />
     <ClInclude Include="base\IceInternal\Freeze\EvictorI.h" />
@@ -337,10 +404,44 @@
     <ClInclude Include="base\IceInternal\Freeze\TransactionI.h" />
     <ClInclude Include="base\IceInternal\Freeze\Util.h" />
     <ClInclude Include="base\IceInternal\Glacier2\Application.h" />
+    <ClInclude Include="base\IceInternal\Glacier2\Blobject.h" />
+    <ClInclude Include="base\IceInternal\Glacier2\ClientBlobject.h" />
+    <ClInclude Include="base\IceInternal\Glacier2\CryptPermissionsVerifierI.h" />
+    <ClInclude Include="base\IceInternal\Glacier2\FilterI.h" />
+    <ClInclude Include="base\IceInternal\Glacier2\FilterManager.h" />
     <ClInclude Include="base\IceInternal\Glacier2\Glacier2.h" />
+    <ClInclude Include="base\IceInternal\Glacier2\Instance.h" />
+    <ClInclude Include="base\IceInternal\Glacier2\InstrumentationI.h" />
+    <ClInclude Include="base\IceInternal\Glacier2\ProxyVerifier.h" />
+    <ClInclude Include="base\IceInternal\Glacier2\RequestQueue.h" />
+    <ClInclude Include="base\IceInternal\Glacier2\RouterI.h" />
+    <ClInclude Include="base\IceInternal\Glacier2\RoutingTable.h" />
+    <ClInclude Include="base\IceInternal\Glacier2\ServerBlobject.h" />
     <ClInclude Include="base\IceInternal\Glacier2\SessionHelper.h" />
+    <ClInclude Include="base\IceInternal\Glacier2\SessionRouterI.h" />
+    <ClInclude Include="base\IceInternal\IceBox\ServiceManagerI.h" />
     <ClInclude Include="base\IceInternal\IceDB\FreezeTypes.h" />
     <ClInclude Include="base\IceInternal\IceDB\IceDB.h" />
+    <ClInclude Include="base\IceInternal\IceDB\SqlTypes.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGridSqlDB\SqlDB.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGridSqlDB\SqlIdentityObjectInfoDict.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGridSqlDB\SqlStringAdapterInfoDict.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGridSqlDB\SqlStringApplicationInfoDict.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="base\IceInternal\IceGrid\Activator.h" />
     <ClInclude Include="base\IceInternal\IceGrid\AdapterCache.h" />
     <ClInclude Include="base\IceInternal\IceGrid\AdminCallbackRouter.h" />
@@ -389,6 +490,7 @@
     <ClInclude Include="base\IceInternal\IceGrid\WaitQueue.h" />
     <ClInclude Include="base\IceInternal\IceGrid\WellKnownObjectsManager.h" />
     <ClInclude Include="base\IceInternal\IcePatch2\ClientUtil.h" />
+    <ClInclude Include="base\IceInternal\IcePatch2\FileServerI.h" />
     <ClInclude Include="base\IceInternal\IcePatch2\Util.h" />
     <ClInclude Include="base\IceInternal\IceSSL\AcceptorI.h" />
     <ClInclude Include="base\IceInternal\IceSSL\ConnectorI.h" />
@@ -577,6 +679,10 @@
     <ClInclude Include="base\IceInternal\Ice\StreamHelpers.h" />
     <ClInclude Include="base\IceInternal\Ice\StreamI.h" />
     <ClInclude Include="base\IceInternal\Ice\StringConverter.h" />
+    <ClInclude Include="base\IceInternal\Ice\SysLoggerI.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="base\IceInternal\Ice\TcpAcceptor.h" />
     <ClInclude Include="base\IceInternal\Ice\TcpConnector.h" />
     <ClInclude Include="base\IceInternal\Ice\TcpEndpointI.h" />
@@ -597,7 +703,6 @@
     <ClInclude Include="base\IceInternal\Slice\CPlusPlusUtil.h" />
     <ClInclude Include="base\IceInternal\Slice\CsUtil.h" />
     <ClInclude Include="base\IceInternal\Slice\DotNetNames.h" />
-    <ClInclude Include="base\IceInternal\Slice\dummyinclude\unistd.h" />
     <ClInclude Include="base\IceInternal\Slice\FileTracker.h" />
     <ClInclude Include="base\IceInternal\Slice\Grammar.h" />
     <ClInclude Include="base\IceInternal\Slice\GrammarUtil.h" />
@@ -624,6 +729,7 @@
     <ClInclude Include="base\slice_generate\Freeze\PingObject.h" />
     <ClInclude Include="base\slice_generate\Freeze\Transaction.h" />
     <ClInclude Include="base\slice_generate\Freeze\TransactionalEvictor.h" />
+    <ClInclude Include="base\slice_generate\Glacier2\Instrumentation.h" />
     <ClInclude Include="base\slice_generate\Glacier2\Metrics.h" />
     <ClInclude Include="base\slice_generate\Glacier2\PermissionsVerifier.h" />
     <ClInclude Include="base\slice_generate\Glacier2\PermissionsVerifierF.h" />
@@ -709,7 +815,13 @@
     <ClInclude Include="base\slice_generate\Ice\Version.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="base\IceInternal\Ice\MSG00001.bin" />
+    <None Include="base\IceInternal\FreezeScript\Grammar.y" />
+    <None Include="base\IceInternal\FreezeScript\Scanner.l" />
+    <None Include="base\IceInternal\Freeze\Grammar.y" />
+    <None Include="base\IceInternal\Freeze\Scanner.l" />
+    <None Include="base\IceInternal\IceGrid\Grammar.y" />
+    <None Include="base\IceInternal\IceGrid\Scanner.l" />
+    <None Include="base\IceInternal\IceStorm\Grammar.y" />
     <None Include="base\slice_file\Freeze\BackgroundSaveEvictor.ice" />
     <None Include="base\slice_file\Freeze\CatalogData.ice" />
     <None Include="base\slice_file\Freeze\Connection.ice" />
@@ -722,6 +834,7 @@
     <None Include="base\slice_file\Freeze\PingObject.ice" />
     <None Include="base\slice_file\Freeze\Transaction.ice" />
     <None Include="base\slice_file\Freeze\TransactionalEvictor.ice" />
+    <None Include="base\slice_file\Glacier2\Instrumentation.ice" />
     <None Include="base\slice_file\Glacier2\Metrics.ice" />
     <None Include="base\slice_file\Glacier2\PermissionsVerifier.ice" />
     <None Include="base\slice_file\Glacier2\PermissionsVerifierF.ice" />
