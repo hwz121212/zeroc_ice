@@ -137,6 +137,7 @@
     <ClCompile Include="base\IceInternal\IceGrid\WaitQueue_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\WellKnownObjectsManager_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IcePatch2\ClientUtil_IcePatch2.cpp" />
+    <ClCompile Include="base\IceInternal\IcePatch2\FileServerI.cpp" />
     <ClCompile Include="base\IceInternal\IcePatch2\Util_IcePatch2.cpp" />
     <ClCompile Include="base\IceInternal\IceSSL\AcceptorI_IceSSL.cpp" />
     <ClCompile Include="base\IceInternal\IceSSL\Certificate_IceSSL.cpp" />
@@ -507,6 +508,7 @@
     <ClInclude Include="base\IceInternal\IceGrid\WaitQueue.h" />
     <ClInclude Include="base\IceInternal\IceGrid\WellKnownObjectsManager.h" />
     <ClInclude Include="base\IceInternal\IcePatch2\ClientUtil.h" />
+    <ClInclude Include="base\IceInternal\IcePatch2\FileServerI.h" />
     <ClInclude Include="base\IceInternal\IcePatch2\Util.h" />
     <ClInclude Include="base\IceInternal\IceSSL\AcceptorI.h" />
     <ClInclude Include="base\IceInternal\IceSSL\ConnectorI.h" />

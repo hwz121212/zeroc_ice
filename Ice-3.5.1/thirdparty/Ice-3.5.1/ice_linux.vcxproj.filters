@@ -1128,6 +1128,9 @@
     <ClCompile Include="base\IceInternal\IceBox\ServiceManagerI.cpp">
       <Filter>base\IceInternal\IceBox</Filter>
     </ClCompile>
+    <ClCompile Include="base\IceInternal\IcePatch2\FileServerI.cpp">
+      <Filter>base\IceInternal\IcePatch2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base\IceInternal\IceUtil\AbstractMutex.h">
@@ -2398,6 +2401,9 @@
     </ClInclude>
     <ClInclude Include="base\IceInternal\IceBox\ServiceManagerI.h">
       <Filter>base\IceInternal\IceBox</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IcePatch2\FileServerI.h">
+      <Filter>base\IceInternal\IcePatch2</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
