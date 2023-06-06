@@ -158,10 +158,8 @@
     <ClCompile Include="base\IceInternal\IceStorm\NodeI_IceStorm.cpp" />
     <ClCompile Include="base\IceInternal\IceStorm\Observers_IceStorm.cpp" />
     <ClCompile Include="base\IceInternal\IceStorm\Parser_IceStorm.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-      </ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="base\IceInternal\IceStorm\Scanner_IceStorm.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
