@@ -798,9 +798,6 @@
     <ClCompile Include="base\IceInternal\IceGrid\FileUserAccountMapperI_IceGrid.cpp">
       <Filter>base\IceInternal\IceGrid</Filter>
     </ClCompile>
-    <ClCompile Include="base\IceInternal\IceGrid\Grammar_IceGrid.cpp">
-      <Filter>base\IceInternal\IceGrid</Filter>
-    </ClCompile>
     <ClCompile Include="base\IceInternal\IceGrid\InternalRegistryI_IceGrid.cpp">
       <Filter>base\IceInternal\IceGrid</Filter>
     </ClCompile>
@@ -828,9 +825,6 @@
     <ClCompile Include="base\IceInternal\IceGrid\ObjectCache_IceGrid.cpp">
       <Filter>base\IceInternal\IceGrid</Filter>
     </ClCompile>
-    <ClCompile Include="base\IceInternal\IceGrid\Parser_IceGrid.cpp">
-      <Filter>base\IceInternal\IceGrid</Filter>
-    </ClCompile>
     <ClCompile Include="base\IceInternal\IceGrid\PlatformInfo_IceGrid.cpp">
       <Filter>base\IceInternal\IceGrid</Filter>
     </ClCompile>
@@ -853,9 +847,6 @@
       <Filter>base\IceInternal\IceGrid</Filter>
     </ClCompile>
     <ClCompile Include="base\IceInternal\IceGrid\ReplicaSessionManager_IceGrid.cpp">
-      <Filter>base\IceInternal\IceGrid</Filter>
-    </ClCompile>
-    <ClCompile Include="base\IceInternal\IceGrid\Scanner_IceGrid.cpp">
       <Filter>base\IceInternal\IceGrid</Filter>
     </ClCompile>
     <ClCompile Include="base\IceInternal\IceGrid\ServerAdapterI_IceGrid.cpp">
@@ -924,9 +915,6 @@
     <ClCompile Include="base\slice_generate\IceGrid\UserAccountMapper_IceGrid.cpp">
       <Filter>base\slice_generate\IceGrid</Filter>
     </ClCompile>
-    <ClCompile Include="base\IceInternal\IceStorm\Grammar_IceStorm.cpp">
-      <Filter>base\IceInternal\IceStorm</Filter>
-    </ClCompile>
     <ClCompile Include="base\IceInternal\IceStorm\Instance_IceStorm.cpp">
       <Filter>base\IceInternal\IceStorm</Filter>
     </ClCompile>
@@ -937,12 +925,6 @@
       <Filter>base\IceInternal\IceStorm</Filter>
     </ClCompile>
     <ClCompile Include="base\IceInternal\IceStorm\Observers_IceStorm.cpp">
-      <Filter>base\IceInternal\IceStorm</Filter>
-    </ClCompile>
-    <ClCompile Include="base\IceInternal\IceStorm\Parser_IceStorm.cpp">
-      <Filter>base\IceInternal\IceStorm</Filter>
-    </ClCompile>
-    <ClCompile Include="base\IceInternal\IceStorm\Scanner_IceStorm.cpp">
       <Filter>base\IceInternal\IceStorm</Filter>
     </ClCompile>
     <ClCompile Include="base\IceInternal\IceStorm\Service_IceStorm.cpp">
@@ -1087,9 +1069,6 @@
       <Filter>base\IceInternal\FreezeScript</Filter>
     </ClCompile>
     <ClCompile Include="base\IceInternal\FreezeScript\Data_FreezeScript.cpp">
-      <Filter>base\IceInternal\FreezeScript</Filter>
-    </ClCompile>
-    <ClCompile Include="base\IceInternal\FreezeScript\DumpDescriptors_FreezeScript.cpp">
       <Filter>base\IceInternal\FreezeScript</Filter>
     </ClCompile>
     <ClCompile Include="base\IceInternal\FreezeScript\Error_FreezeScript.cpp">
@@ -2069,9 +2048,6 @@
     <ClInclude Include="base\IceInternal\IceGrid\FileUserAccountMapperI.h">
       <Filter>base\IceInternal\IceGrid</Filter>
     </ClInclude>
-    <ClInclude Include="base\IceInternal\IceGrid\Grammar.h">
-      <Filter>base\IceInternal\IceGrid</Filter>
-    </ClInclude>
     <ClInclude Include="base\IceInternal\IceGrid\IceGrid.h">
       <Filter>base\IceInternal\IceGrid</Filter>
     </ClInclude>
@@ -2100,9 +2076,6 @@
       <Filter>base\IceInternal\IceGrid</Filter>
     </ClInclude>
     <ClInclude Include="base\IceInternal\IceGrid\ObjectCache.h">
-      <Filter>base\IceInternal\IceGrid</Filter>
-    </ClInclude>
-    <ClInclude Include="base\IceInternal\IceGrid\Parser.h">
       <Filter>base\IceInternal\IceGrid</Filter>
     </ClInclude>
     <ClInclude Include="base\IceInternal\IceGrid\PlatformInfo.h">
@@ -2198,9 +2171,6 @@
     <ClInclude Include="base\IceInternal\IceStorm\DB.h">
       <Filter>base\IceInternal\IceStorm</Filter>
     </ClInclude>
-    <ClInclude Include="base\IceInternal\IceStorm\Grammar.h">
-      <Filter>base\IceInternal\IceStorm</Filter>
-    </ClInclude>
     <ClInclude Include="base\IceInternal\IceStorm\Instance.h">
       <Filter>base\IceInternal\IceStorm</Filter>
     </ClInclude>
@@ -2211,9 +2181,6 @@
       <Filter>base\IceInternal\IceStorm</Filter>
     </ClInclude>
     <ClInclude Include="base\IceInternal\IceStorm\Observers.h">
-      <Filter>base\IceInternal\IceStorm</Filter>
-    </ClInclude>
-    <ClInclude Include="base\IceInternal\IceStorm\Parser.h">
       <Filter>base\IceInternal\IceStorm</Filter>
     </ClInclude>
     <ClInclude Include="base\IceInternal\IceStorm\Replica.h">
@@ -2361,9 +2328,6 @@
       <Filter>base\IceInternal\FreezeScript</Filter>
     </ClInclude>
     <ClInclude Include="base\IceInternal\FreezeScript\Data.h">
-      <Filter>base\IceInternal\FreezeScript</Filter>
-    </ClInclude>
-    <ClInclude Include="base\IceInternal\FreezeScript\DumpDescriptors.h">
       <Filter>base\IceInternal\FreezeScript</Filter>
     </ClInclude>
     <ClInclude Include="base\IceInternal\FreezeScript\Error.h">
@@ -2670,15 +2634,6 @@
     </None>
     <None Include="base\IceInternal\Freeze\Grammar.y">
       <Filter>base\IceInternal\Freeze</Filter>
-    </None>
-    <None Include="base\IceInternal\IceStorm\Grammar.y">
-      <Filter>base\IceInternal\IceStorm</Filter>
-    </None>
-    <None Include="base\IceInternal\IceGrid\Scanner.l">
-      <Filter>base\IceInternal\IceGrid</Filter>
-    </None>
-    <None Include="base\IceInternal\IceGrid\Grammar.y">
-      <Filter>base\IceInternal\IceGrid</Filter>
     </None>
     <None Include="base\IceInternal\Freeze\Scanner.l">
       <Filter>base\IceInternal\Freeze</Filter>

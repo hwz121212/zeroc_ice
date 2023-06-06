@@ -22,6 +22,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Grammar.y" />
+    <None Include="Scanner.l" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{96135113-19F7-49F6-9D44-827B3558BB7B}</ProjectGuid>
