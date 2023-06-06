@@ -2369,6 +2369,18 @@
     <ClInclude Include="base\IceInternal\IcePatch2\FileServerI.h">
       <Filter>base\IceInternal\IcePatch2</Filter>
     </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\Grammar.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceGrid\Parser.h">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\Grammar.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\IceStorm\Parser.h">
+      <Filter>base\IceInternal\IceStorm</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="base\slice_file\Ice\BuiltinSequences.ice">
@@ -2646,6 +2658,15 @@
     </None>
     <None Include="base\IceInternal\FreezeScript\Scanner.l">
       <Filter>base\IceInternal\FreezeScript</Filter>
+    </None>
+    <None Include="base\IceInternal\IceGrid\Scanner.l">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </None>
+    <None Include="base\IceInternal\IceGrid\Grammar.y">
+      <Filter>base\IceInternal\IceGrid</Filter>
+    </None>
+    <None Include="base\IceInternal\IceStorm\Grammar.y">
+      <Filter>base\IceInternal\IceStorm</Filter>
     </None>
   </ItemGroup>
 </Project>

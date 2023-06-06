@@ -447,6 +447,7 @@
     <ClInclude Include="base\IceInternal\IceGrid\FileCache.h" />
     <ClInclude Include="base\IceInternal\IceGrid\FileParserI.h" />
     <ClInclude Include="base\IceInternal\IceGrid\FileUserAccountMapperI.h" />
+    <ClInclude Include="base\IceInternal\IceGrid\Grammar.h" />
     <ClInclude Include="base\IceInternal\IceGrid\IceGrid.h" />
     <ClInclude Include="base\IceInternal\IceGrid\InternalRegistryI.h" />
     <ClInclude Include="base\IceInternal\IceGrid\LocatorI.h" />
@@ -457,6 +458,7 @@
     <ClInclude Include="base\IceInternal\IceGrid\NodeSessionI.h" />
     <ClInclude Include="base\IceInternal\IceGrid\NodeSessionManager.h" />
     <ClInclude Include="base\IceInternal\IceGrid\ObjectCache.h" />
+    <ClInclude Include="base\IceInternal\IceGrid\Parser.h" />
     <ClInclude Include="base\IceInternal\IceGrid\PlatformInfo.h" />
     <ClInclude Include="base\IceInternal\IceGrid\QueryI.h" />
     <ClInclude Include="base\IceInternal\IceGrid\ReapThread.h" />
@@ -494,10 +496,12 @@
     <ClInclude Include="base\IceInternal\IceSSL\Util.h" />
     <ClInclude Include="base\IceInternal\IceSSL\UtilF.h" />
     <ClInclude Include="base\IceInternal\IceStorm\DB.h" />
+    <ClInclude Include="base\IceInternal\IceStorm\Grammar.h" />
     <ClInclude Include="base\IceInternal\IceStorm\Instance.h" />
     <ClInclude Include="base\IceInternal\IceStorm\InstrumentationI.h" />
     <ClInclude Include="base\IceInternal\IceStorm\NodeI.h" />
     <ClInclude Include="base\IceInternal\IceStorm\Observers.h" />
+    <ClInclude Include="base\IceInternal\IceStorm\Parser.h" />
     <ClInclude Include="base\IceInternal\IceStorm\Replica.h" />
     <ClInclude Include="base\IceInternal\IceStorm\Service.h" />
     <ClInclude Include="base\IceInternal\IceStorm\Subscriber.h" />
@@ -801,6 +805,9 @@
     <None Include="base\IceInternal\FreezeScript\Scanner.l" />
     <None Include="base\IceInternal\Freeze\Grammar.y" />
     <None Include="base\IceInternal\Freeze\Scanner.l" />
+    <None Include="base\IceInternal\IceGrid\Grammar.y" />
+    <None Include="base\IceInternal\IceGrid\Scanner.l" />
+    <None Include="base\IceInternal\IceStorm\Grammar.y" />
     <None Include="base\slice_file\Freeze\BackgroundSaveEvictor.ice" />
     <None Include="base\slice_file\Freeze\CatalogData.ice" />
     <None Include="base\slice_file\Freeze\Connection.ice" />

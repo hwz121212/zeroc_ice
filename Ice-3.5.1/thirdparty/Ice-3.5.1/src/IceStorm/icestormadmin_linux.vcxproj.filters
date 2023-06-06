@@ -7,9 +7,6 @@
     <Filter Include="源文件">
       <UniqueIdentifier>{b49a2102-dd76-49ef-bcce-ede75cb7f129}</UniqueIdentifier>
     </Filter>
-    <Filter Include="other">
-      <UniqueIdentifier>{50aedcbe-ea91-4b29-b5c6-29c684704562}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Admin.cpp">
@@ -24,18 +21,5 @@
     <ClCompile Include="Scanner_IceStorm.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Grammar.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Parser.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Grammar.y">
-      <Filter>other</Filter>
-    </None>
   </ItemGroup>
 </Project>

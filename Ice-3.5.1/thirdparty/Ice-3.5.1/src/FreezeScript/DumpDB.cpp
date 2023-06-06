@@ -7,7 +7,7 @@
 //
 // **********************************************************************
 
-#include <FreezeScript/DumpDescriptors.h>
+#include <DumpDescriptors.h>
 #include <FreezeScript/Util.h>
 #include <FreezeScript/Exception.h>
 #include <Freeze/Initialize.h>
