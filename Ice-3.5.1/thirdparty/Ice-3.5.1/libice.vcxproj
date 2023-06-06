@@ -13,14 +13,11 @@
   <ItemGroup>
     <ClCompile Include="base\IceInternal\FreezeScript\AssignVisitor_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\Data_FreezeScript.cpp" />
-    <ClCompile Include="base\IceInternal\FreezeScript\DumpDescriptors_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\Error_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\Exception_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\Functions_FreezeScript.cpp" />
-    <ClCompile Include="base\IceInternal\FreezeScript\Grammar_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\Parser_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\Print_FreezeScript.cpp" />
-    <ClCompile Include="base\IceInternal\FreezeScript\Scanner_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\TransformAnalyzer_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\Transformer_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\TransformVisitor_FreezeScript.cpp" />
@@ -93,7 +90,6 @@
     <ClCompile Include="base\IceInternal\IceGrid\FileCache_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\FileParserI_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\FileUserAccountMapperI_IceGrid.cpp" />
-    <ClCompile Include="base\IceInternal\IceGrid\Grammar_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\InternalRegistryI_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\LocatorI_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\LocatorRegistryI_IceGrid.cpp" />
@@ -103,7 +99,6 @@
     <ClCompile Include="base\IceInternal\IceGrid\NodeSessionI_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\NodeSessionManager_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\ObjectCache_IceGrid.cpp" />
-    <ClCompile Include="base\IceInternal\IceGrid\Parser_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\PlatformInfo_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\QueryI_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\ReapThread_IceGrid.cpp" />
@@ -112,7 +107,6 @@
     <ClCompile Include="base\IceInternal\IceGrid\ReplicaCache_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\ReplicaSessionI_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\ReplicaSessionManager_IceGrid.cpp" />
-    <ClCompile Include="base\IceInternal\IceGrid\Scanner_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\ServerAdapterI_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\ServerCache_IceGrid.cpp" />
     <ClCompile Include="base\IceInternal\IceGrid\ServerI_IceGrid.cpp" />
@@ -137,13 +131,10 @@
     <ClCompile Include="base\IceInternal\IceSSL\TransceiverI_IceSSL.cpp" />
     <ClCompile Include="base\IceInternal\IceSSL\TrustManager_IceSSL.cpp" />
     <ClCompile Include="base\IceInternal\IceSSL\Util_IceSSL.cpp" />
-    <ClCompile Include="base\IceInternal\IceStorm\Grammar_IceStorm.cpp" />
     <ClCompile Include="base\IceInternal\IceStorm\Instance_IceStorm.cpp" />
     <ClCompile Include="base\IceInternal\IceStorm\InstrumentationI_IceStorm.cpp" />
     <ClCompile Include="base\IceInternal\IceStorm\NodeI_IceStorm.cpp" />
     <ClCompile Include="base\IceInternal\IceStorm\Observers_IceStorm.cpp" />
-    <ClCompile Include="base\IceInternal\IceStorm\Parser_IceStorm.cpp" />
-    <ClCompile Include="base\IceInternal\IceStorm\Scanner_IceStorm.cpp" />
     <ClCompile Include="base\IceInternal\IceStorm\Service_IceStorm.cpp" />
     <ClCompile Include="base\IceInternal\IceStorm\Subscriber_IceStorm.cpp" />
     <ClCompile Include="base\IceInternal\IceStorm\TopicI_IceStorm.cpp" />
@@ -373,11 +364,9 @@
   <ItemGroup>
     <ClInclude Include="base\IceInternal\FreezeScript\AssignVisitor.h" />
     <ClInclude Include="base\IceInternal\FreezeScript\Data.h" />
-    <ClInclude Include="base\IceInternal\FreezeScript\DumpDescriptors.h" />
     <ClInclude Include="base\IceInternal\FreezeScript\Error.h" />
     <ClInclude Include="base\IceInternal\FreezeScript\Exception.h" />
     <ClInclude Include="base\IceInternal\FreezeScript\Functions.h" />
-    <ClInclude Include="base\IceInternal\FreezeScript\Grammar.h" />
     <ClInclude Include="base\IceInternal\FreezeScript\GrammarUtil.h" />
     <ClInclude Include="base\IceInternal\FreezeScript\Parser.h" />
     <ClInclude Include="base\IceInternal\FreezeScript\Print.h" />
@@ -458,7 +447,6 @@
     <ClInclude Include="base\IceInternal\IceGrid\FileCache.h" />
     <ClInclude Include="base\IceInternal\IceGrid\FileParserI.h" />
     <ClInclude Include="base\IceInternal\IceGrid\FileUserAccountMapperI.h" />
-    <ClInclude Include="base\IceInternal\IceGrid\Grammar.h" />
     <ClInclude Include="base\IceInternal\IceGrid\IceGrid.h" />
     <ClInclude Include="base\IceInternal\IceGrid\InternalRegistryI.h" />
     <ClInclude Include="base\IceInternal\IceGrid\LocatorI.h" />
@@ -469,7 +457,6 @@
     <ClInclude Include="base\IceInternal\IceGrid\NodeSessionI.h" />
     <ClInclude Include="base\IceInternal\IceGrid\NodeSessionManager.h" />
     <ClInclude Include="base\IceInternal\IceGrid\ObjectCache.h" />
-    <ClInclude Include="base\IceInternal\IceGrid\Parser.h" />
     <ClInclude Include="base\IceInternal\IceGrid\PlatformInfo.h" />
     <ClInclude Include="base\IceInternal\IceGrid\QueryI.h" />
     <ClInclude Include="base\IceInternal\IceGrid\ReapThread.h" />
@@ -507,12 +494,10 @@
     <ClInclude Include="base\IceInternal\IceSSL\Util.h" />
     <ClInclude Include="base\IceInternal\IceSSL\UtilF.h" />
     <ClInclude Include="base\IceInternal\IceStorm\DB.h" />
-    <ClInclude Include="base\IceInternal\IceStorm\Grammar.h" />
     <ClInclude Include="base\IceInternal\IceStorm\Instance.h" />
     <ClInclude Include="base\IceInternal\IceStorm\InstrumentationI.h" />
     <ClInclude Include="base\IceInternal\IceStorm\NodeI.h" />
     <ClInclude Include="base\IceInternal\IceStorm\Observers.h" />
-    <ClInclude Include="base\IceInternal\IceStorm\Parser.h" />
     <ClInclude Include="base\IceInternal\IceStorm\Replica.h" />
     <ClInclude Include="base\IceInternal\IceStorm\Service.h" />
     <ClInclude Include="base\IceInternal\IceStorm\Subscriber.h" />
@@ -815,13 +800,8 @@
     <ClInclude Include="base\slice_generate\Ice\Version.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="base\IceInternal\FreezeScript\Grammar.y" />
-    <None Include="base\IceInternal\FreezeScript\Scanner.l" />
     <None Include="base\IceInternal\Freeze\Grammar.y" />
     <None Include="base\IceInternal\Freeze\Scanner.l" />
-    <None Include="base\IceInternal\IceGrid\Grammar.y" />
-    <None Include="base\IceInternal\IceGrid\Scanner.l" />
-    <None Include="base\IceInternal\IceStorm\Grammar.y" />
     <None Include="base\slice_file\Freeze\BackgroundSaveEvictor.ice" />
     <None Include="base\slice_file\Freeze\CatalogData.ice" />
     <None Include="base\slice_file\Freeze\Connection.ice" />
