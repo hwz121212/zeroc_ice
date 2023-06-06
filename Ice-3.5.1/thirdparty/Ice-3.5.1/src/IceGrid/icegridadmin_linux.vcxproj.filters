@@ -7,10 +7,35 @@
     <Filter Include="源文件">
       <UniqueIdentifier>{5e7be0a2-c146-498f-af5c-63df55b3ed01}</UniqueIdentifier>
     </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{9e061a7e-9a40-4484-84aa-25af391577c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Client.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Parser_IceGrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Grammar_IceGrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Scanner_IceGrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Grammar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Grammar.y">
+      <Filter>other</Filter>
+    </None>
   </ItemGroup>
 </Project>
