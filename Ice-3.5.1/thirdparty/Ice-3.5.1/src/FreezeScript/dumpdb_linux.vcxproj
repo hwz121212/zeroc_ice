@@ -12,6 +12,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DumpDB.cpp" />
+    <ClCompile Include="DumpDescriptors_FreezeScript.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DumpDescriptors.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C4D4CE7E-AEC1-4D83-B163-215F386BFA3B}</ProjectGuid>
