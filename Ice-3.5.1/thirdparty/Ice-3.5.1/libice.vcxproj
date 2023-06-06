@@ -13,11 +13,14 @@
   <ItemGroup>
     <ClCompile Include="base\IceInternal\FreezeScript\AssignVisitor_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\Data_FreezeScript.cpp" />
+    <ClCompile Include="base\IceInternal\FreezeScript\DumpDescriptors_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\Error_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\Exception_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\Functions_FreezeScript.cpp" />
+    <ClCompile Include="base\IceInternal\FreezeScript\Grammar_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\Parser_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\Print_FreezeScript.cpp" />
+    <ClCompile Include="base\IceInternal\FreezeScript\Scanner_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\TransformAnalyzer_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\Transformer_FreezeScript.cpp" />
     <ClCompile Include="base\IceInternal\FreezeScript\TransformVisitor_FreezeScript.cpp" />
@@ -364,9 +367,11 @@
   <ItemGroup>
     <ClInclude Include="base\IceInternal\FreezeScript\AssignVisitor.h" />
     <ClInclude Include="base\IceInternal\FreezeScript\Data.h" />
+    <ClInclude Include="base\IceInternal\FreezeScript\DumpDescriptors.h" />
     <ClInclude Include="base\IceInternal\FreezeScript\Error.h" />
     <ClInclude Include="base\IceInternal\FreezeScript\Exception.h" />
     <ClInclude Include="base\IceInternal\FreezeScript\Functions.h" />
+    <ClInclude Include="base\IceInternal\FreezeScript\Grammar.h" />
     <ClInclude Include="base\IceInternal\FreezeScript\GrammarUtil.h" />
     <ClInclude Include="base\IceInternal\FreezeScript\Parser.h" />
     <ClInclude Include="base\IceInternal\FreezeScript\Print.h" />
@@ -800,6 +805,8 @@
     <ClInclude Include="base\slice_generate\Ice\Version.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="base\IceInternal\FreezeScript\Grammar.y" />
+    <None Include="base\IceInternal\FreezeScript\Scanner.l" />
     <None Include="base\IceInternal\Freeze\Grammar.y" />
     <None Include="base\IceInternal\Freeze\Scanner.l" />
     <None Include="base\slice_file\Freeze\BackgroundSaveEvictor.ice" />

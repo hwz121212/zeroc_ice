@@ -18,5 +18,13 @@
     <ClCompile Include="DumpDB.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DumpDescriptors_FreezeScript.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DumpDescriptors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

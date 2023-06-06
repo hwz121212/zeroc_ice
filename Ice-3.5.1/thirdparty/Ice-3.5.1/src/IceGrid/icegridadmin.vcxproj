@@ -12,6 +12,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Client.cpp" />
+    <ClCompile Include="Grammar_IceGrid.cpp" />
+    <ClCompile Include="Parser_IceGrid.cpp" />
+    <ClCompile Include="Scanner_IceGrid.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Grammar.h" />
+    <ClInclude Include="Parser.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Grammar.y" />
+    <None Include="Scanner.l" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5A22ADA1-8C55-43B5-B3C8-56CBF6454F3C}</ProjectGuid>

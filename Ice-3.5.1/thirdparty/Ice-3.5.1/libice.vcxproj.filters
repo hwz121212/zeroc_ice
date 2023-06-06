@@ -801,9 +801,6 @@
     <ClCompile Include="base\IceInternal\FreezeScript\TransformAnalyzer_FreezeScript.cpp">
       <Filter>base\IceInternal\FreezeScript</Filter>
     </ClCompile>
-    <ClCompile Include="base\IceInternal\FreezeScript\Transformer_FreezeScript.cpp">
-      <Filter>base\IceInternal\FreezeScript</Filter>
-    </ClCompile>
     <ClCompile Include="base\IceInternal\FreezeScript\TransformVisitor_FreezeScript.cpp">
       <Filter>base\IceInternal\FreezeScript</Filter>
     </ClCompile>
@@ -1103,6 +1100,18 @@
     </ClCompile>
     <ClCompile Include="base\slice_generate\IceStormFreezeDB\V32FormatDB_IceStormFreezeDB.cpp">
       <Filter>base\slice_generate\IceStormFreezeDB</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\Transformer_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\DumpDescriptors_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\Grammar_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClCompile>
+    <ClCompile Include="base\IceInternal\FreezeScript\Scanner_FreezeScript.cpp">
+      <Filter>base\IceInternal\FreezeScript</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -2057,9 +2066,6 @@
     <ClInclude Include="base\IceInternal\FreezeScript\TransformAnalyzer.h">
       <Filter>base\IceInternal\FreezeScript</Filter>
     </ClInclude>
-    <ClInclude Include="base\IceInternal\FreezeScript\Transformer.h">
-      <Filter>base\IceInternal\FreezeScript</Filter>
-    </ClInclude>
     <ClInclude Include="base\IceInternal\FreezeScript\TransformVisitor.h">
       <Filter>base\IceInternal\FreezeScript</Filter>
     </ClInclude>
@@ -2360,6 +2366,15 @@
     <ClInclude Include="base\slice_generate\IceStormFreezeDB\V32FormatDB.h">
       <Filter>base\slice_generate\IceStormFreezeDB</Filter>
     </ClInclude>
+    <ClInclude Include="base\IceInternal\FreezeScript\Transformer.h">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\FreezeScript\DumpDescriptors.h">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IceInternal\FreezeScript\Grammar.h">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="base\IceInternal\Freeze\Grammar.y">
@@ -2631,6 +2646,12 @@
     </None>
     <None Include="base\slice_file\Ice\Version.ice">
       <Filter>base\slice_generate\Ice</Filter>
+    </None>
+    <None Include="base\IceInternal\FreezeScript\Grammar.y">
+      <Filter>base\IceInternal\FreezeScript</Filter>
+    </None>
+    <None Include="base\IceInternal\FreezeScript\Scanner.l">
+      <Filter>base\IceInternal\FreezeScript</Filter>
     </None>
   </ItemGroup>
 </Project>

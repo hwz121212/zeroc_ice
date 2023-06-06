@@ -94,6 +94,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DumpDB.cpp" />
+    <ClCompile Include="DumpDescriptors_FreezeScript.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DumpDescriptors.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -13,10 +13,35 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{fc7b6da9-ff08-48d3-ae16-b2c11643ab7d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Admin.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Grammar_IceStorm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser_IceStorm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Scanner_IceStorm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Grammar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Grammar.y">
+      <Filter>other</Filter>
+    </None>
   </ItemGroup>
 </Project>
