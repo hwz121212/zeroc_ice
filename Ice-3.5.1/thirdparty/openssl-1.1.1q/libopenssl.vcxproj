@@ -1381,10 +1381,6 @@
     <ClInclude Include="crypto\md4\md4_local.h" />
     <ClInclude Include="e_os.h" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="libopenssl.def" />
-    <None Include="ms\ssleay32.def" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

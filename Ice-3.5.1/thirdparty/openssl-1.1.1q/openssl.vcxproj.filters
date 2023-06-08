@@ -2456,9 +2456,6 @@
     <ClInclude Include="e_os.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ms\ssleay32.def">
-      <Filter>ssl</Filter>
-    </None>
     <None Include="openssl.def" />
   </ItemGroup>
 </Project>
