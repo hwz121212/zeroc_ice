@@ -52,9 +52,6 @@
     <Filter Include="base\slice_file">
       <UniqueIdentifier>{123c765b-6184-434a-80d7-b4355f6b87f5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="base\slice_file\Ice">
-      <UniqueIdentifier>{ec9a30fa-adfe-4512-86e9-1fa54b0e2e26}</UniqueIdentifier>
-    </Filter>
     <Filter Include="base\slice_file\IceBox">
       <UniqueIdentifier>{0722aee5-8219-4c3d-8a04-4d94f5151c45}</UniqueIdentifier>
     </Filter>
@@ -78,9 +75,6 @@
     </Filter>
     <Filter Include="base\slice_generate">
       <UniqueIdentifier>{9d6aaaeb-bfcd-47dc-bed1-6440873815e0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="base\slice_generate\Ice">
-      <UniqueIdentifier>{433ab41c-a580-495a-857a-088d02acb771}</UniqueIdentifier>
     </Filter>
     <Filter Include="base\slice_generate\IceBox">
       <UniqueIdentifier>{582040c9-9274-4c20-8e67-fbea77b294b9}</UniqueIdentifier>
@@ -108,6 +102,12 @@
     </Filter>
     <Filter Include="base\slice_generate\IceStormFreezeDB">
       <UniqueIdentifier>{f8d81dab-33bc-40f7-8544-923bf0585f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_generate\Ice">
+      <UniqueIdentifier>{ec9a30fa-adfe-4512-86e9-1fa54b0e2e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\slice_file\Ice">
+      <UniqueIdentifier>{433ab41c-a580-495a-857a-088d02acb771}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -808,124 +808,124 @@
       <Filter>base\IceInternal\FreezeScript</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\BuiltinSequences_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\CommunicatorF_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\Communicator_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\ConnectionF_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\Connection_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\Current_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\EndpointF_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\EndpointTypes_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\Endpoint_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\FacetMap_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\Identity_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\ImplicitContextF_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\ImplicitContext_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\InstrumentationF_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\Instrumentation_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\LocalException_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\LocatorF_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\Locator_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\LoggerF_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\Logger_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\Metrics_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\ObjectAdapterF_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\ObjectAdapter_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\ObjectFactoryF_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\ObjectFactory_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\PluginF_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\Plugin_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\ProcessF_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\Process_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\PropertiesAdmin_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\PropertiesF_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\Properties_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\RouterF_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\Router_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\ServantLocatorF_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\ServantLocator_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\SliceChecksumDict_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\StatsF_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\Stats_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\Ice\Version_Ice.cpp">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClCompile>
     <ClCompile Include="base\slice_generate\IceBox\IceBox_IceBox.cpp">
       <Filter>base\slice_generate\IceBox</Filter>
@@ -2073,124 +2073,124 @@
       <Filter>base\IceInternal\FreezeScript</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\BuiltinSequences.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\Communicator.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\CommunicatorF.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\Connection.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\ConnectionF.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\Current.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\Endpoint.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\EndpointF.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\EndpointTypes.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\FacetMap.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\Identity.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\ImplicitContext.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\ImplicitContextF.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\Instrumentation.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\InstrumentationF.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\LocalException.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\Locator.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\LocatorF.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\Logger.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\LoggerF.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\Metrics.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\ObjectAdapter.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\ObjectAdapterF.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\ObjectFactory.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\ObjectFactoryF.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\Plugin.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\PluginF.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\Process.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\ProcessF.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\Properties.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\PropertiesAdmin.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\PropertiesF.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\Router.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\RouterF.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\ServantLocator.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\ServantLocatorF.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\SliceChecksumDict.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\Stats.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\StatsF.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\Ice\Version.h">
-      <Filter>base\slice_file\Ice</Filter>
+      <Filter>base\slice_generate\Ice</Filter>
     </ClInclude>
     <ClInclude Include="base\slice_generate\IceBox\IceBox.h">
       <Filter>base\slice_generate\IceBox</Filter>
@@ -2528,124 +2528,124 @@
       <Filter>base\slice_file\IceStorm</Filter>
     </None>
     <None Include="base\slice_file\Ice\BuiltinSequences.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\Communicator.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\CommunicatorF.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\Connection.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\ConnectionF.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\Current.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\Endpoint.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\EndpointF.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\EndpointTypes.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\FacetMap.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\Identity.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\ImplicitContext.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\ImplicitContextF.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\Instrumentation.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\InstrumentationF.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\LocalException.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\Locator.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\LocatorF.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\Logger.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\LoggerF.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\Metrics.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\ObjectAdapter.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\ObjectAdapterF.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\ObjectFactory.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\ObjectFactoryF.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\Plugin.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\PluginF.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\Process.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\ProcessF.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\Properties.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\PropertiesAdmin.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\PropertiesF.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\Router.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\RouterF.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\ServantLocator.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\ServantLocatorF.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\SliceChecksumDict.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\Stats.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\StatsF.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\slice_file\Ice\Version.ice">
-      <Filter>base\slice_generate\Ice</Filter>
+      <Filter>base\slice_file\Ice</Filter>
     </None>
     <None Include="base\IceInternal\FreezeScript\Grammar.y">
       <Filter>base\IceInternal\FreezeScript</Filter>
